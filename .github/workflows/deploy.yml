@@ -48,12 +48,13 @@ jobs:
       - name: Build
         run: npm run build
 
-      # enablement: true turns Pages on via the API when it is not yet
-      # configured, so the first deploy does not require a manual settings
-      # change. It is a no-op once Pages is already enabled.
+      # Left at the default (enablement: false) on purpose. Passing true asks
+      # the action to create the Pages site via the API, which the default
+      # GITHUB_TOKEN cannot do — creating a Pages site needs admin rights, and
+      # the attempt fails with the far less helpful "Resource not accessible by
+      # integration". The default surfaces the actionable message instead:
+      # enable Pages under Settings → Pages → Source: GitHub Actions.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
