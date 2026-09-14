@@ -2,14 +2,275 @@
  "sourceId": "opensource",
  "label": "Open-source AI projects & Hugging Face Hub",
  "status": "ok",
- "fetchedAt": "2026-09-14T14:56:43.001Z",
- "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "fetchedAt": "2026-09-14T15:05:57.757Z",
+ "lastSuccess": "2026-09-14T15:05:57.757Z",
  "attribution": {
   "name": "GitHub API & Hugging Face Hub API",
   "url": "https://huggingface.co/docs/hub/api"
  },
  "data": {
-  "repos": [],
+  "repos": [
+   {
+    "fullName": "tensorflow/tensorflow",
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "stars": 200074,
+    "forks": 76333,
+    "openIssues": 3147,
+    "language": "C++",
+    "pushedAt": "2026-09-14T15:02:15Z",
+    "category": "Framework"
+   },
+   {
+    "fullName": "ollama/ollama",
+    "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "stars": 180907,
+    "forks": 17852,
+    "openIssues": 3995,
+    "language": "Go",
+    "pushedAt": "2026-09-14T03:35:49Z",
+    "category": "Inference"
+   },
+   {
+    "fullName": "huggingface/transformers",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "stars": 165847,
+    "forks": 34571,
+    "openIssues": 2430,
+    "language": "Python",
+    "pushedAt": "2026-09-14T15:05:19Z",
+    "category": "Framework"
+   },
+   {
+    "fullName": "AUTOMATIC1111/stable-diffusion-webui",
+    "description": "Stable Diffusion web UI",
+    "stars": 164937,
+    "forks": 30557,
+    "openIssues": 2506,
+    "language": "Python",
+    "pushedAt": "2026-03-02T07:00:53Z",
+    "category": "Applications"
+   },
+   {
+    "fullName": "open-webui/open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "stars": 151995,
+    "forks": 22234,
+    "openIssues": 283,
+    "language": "Python",
+    "pushedAt": "2026-09-14T03:34:36Z",
+    "category": "Applications"
+   },
+   {
+    "fullName": "langchain-ai/langchain",
+    "description": "The agent engineering platform.",
+    "stars": 146298,
+    "forks": 24447,
+    "openIssues": 494,
+    "language": "Python",
+    "pushedAt": "2026-09-14T13:57:34Z",
+    "category": "Agents & orchestration"
+   },
+   {
+    "fullName": "Comfy-Org/ComfyUI",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "stars": 133073,
+    "forks": 15712,
+    "openIssues": 4872,
+    "language": "Python",
+    "pushedAt": "2026-09-14T12:53:53Z",
+    "category": "Applications"
+   },
+   {
+    "fullName": "ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "stars": 128192,
+    "forks": 23170,
+    "openIssues": 2468,
+    "language": "C++",
+    "pushedAt": "2026-09-14T14:27:49Z",
+    "category": "Inference"
+   },
+   {
+    "fullName": "browser-use/browser-use",
+    "description": "Agents that use the browser.",
+    "stars": 114588,
+    "forks": 12594,
+    "openIssues": 410,
+    "language": "Python",
+    "pushedAt": "2026-09-13T20:04:16Z",
+    "category": "Agents & orchestration"
+   },
+   {
+    "fullName": "pytorch/pytorch",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "stars": 102996,
+    "forks": 29224,
+    "openIssues": 17615,
+    "language": "Python",
+    "pushedAt": "2026-09-14T15:03:15Z",
+    "category": "Framework"
+   },
+   {
+    "fullName": "vllm-project/vllm",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "stars": 91727,
+    "forks": 22183,
+    "openIssues": 7937,
+    "language": "Python",
+    "pushedAt": "2026-09-14T14:27:17Z",
+    "category": "Inference"
+   },
+   {
+    "fullName": "modelcontextprotocol/servers",
+    "description": "Model Context Protocol Servers",
+    "stars": 90315,
+    "forks": 11631,
+    "openIssues": 521,
+    "language": "TypeScript",
+    "pushedAt": "2026-09-03T01:42:26Z",
+    "category": "Agents & orchestration"
+   },
+   {
+    "fullName": "unslothai/unsloth",
+    "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+    "stars": 76147,
+    "forks": 6939,
+    "openIssues": 1356,
+    "language": "Python",
+    "pushedAt": "2026-09-14T14:53:57Z",
+    "category": "Training & tuning"
+   },
+   {
+    "fullName": "hiyouga/LlamaFactory",
+    "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+    "stars": 74767,
+    "forks": 9156,
+    "openIssues": 1151,
+    "language": "Python",
+    "pushedAt": "2026-09-14T08:09:48Z",
+    "category": "Training & tuning"
+   },
+   {
+    "fullName": "run-llama/llama_index",
+    "description": "LlamaIndex is the document processing platform for AI",
+    "stars": 52157,
+    "forks": 8135,
+    "openIssues": 767,
+    "language": "Python",
+    "pushedAt": "2026-09-11T18:09:01Z",
+    "category": "Agents & orchestration"
+   },
+   {
+    "fullName": "milvus-io/milvus",
+    "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+    "stars": 46103,
+    "forks": 4254,
+    "openIssues": 1414,
+    "language": "Go",
+    "pushedAt": "2026-09-14T14:56:26Z",
+    "category": "Vector & retrieval"
+   },
+   {
+    "fullName": "ray-project/ray",
+    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+    "stars": 43798,
+    "forks": 8034,
+    "openIssues": 3616,
+    "language": "Python",
+    "pushedAt": "2026-09-14T09:04:28Z",
+    "category": "Infrastructure"
+   },
+   {
+    "fullName": "jax-ml/jax",
+    "description": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more",
+    "stars": 36299,
+    "forks": 3778,
+    "openIssues": 2555,
+    "language": "Python",
+    "pushedAt": "2026-09-14T14:13:08Z",
+    "category": "Framework"
+   },
+   {
+    "fullName": "sgl-project/sglang",
+    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+    "stars": 35946,
+    "forks": 8839,
+    "openIssues": 5297,
+    "language": "Python",
+    "pushedAt": "2026-09-14T14:39:42Z",
+    "category": "Inference"
+   },
+   {
+    "fullName": "qdrant/qdrant",
+    "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+    "stars": 34544,
+    "forks": 2673,
+    "openIssues": 722,
+    "language": "Rust",
+    "pushedAt": "2026-09-14T14:59:23Z",
+    "category": "Vector & retrieval"
+   },
+   {
+    "fullName": "huggingface/diffusers",
+    "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+    "stars": 34510,
+    "forks": 7325,
+    "openIssues": 1415,
+    "language": "Python",
+    "pushedAt": "2026-09-14T05:58:04Z",
+    "category": "Media generation"
+   },
+   {
+    "fullName": "chroma-core/chroma",
+    "description": "Search infrastructure for AI",
+    "stars": 29296,
+    "forks": 2507,
+    "openIssues": 861,
+    "language": "Rust",
+    "pushedAt": "2026-09-12T17:45:29Z",
+    "category": "Vector & retrieval"
+   },
+   {
+    "fullName": "mlflow/mlflow",
+    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+    "stars": 27949,
+    "forks": 6301,
+    "openIssues": 2096,
+    "language": "Python",
+    "pushedAt": "2026-09-14T10:40:55Z",
+    "category": "Infrastructure"
+   },
+   {
+    "fullName": "openai/evals",
+    "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+    "stars": 19449,
+    "forks": 3084,
+    "openIssues": 339,
+    "language": "Python",
+    "pushedAt": "2026-04-14T15:29:57Z",
+    "category": "Evaluation"
+   },
+   {
+    "fullName": "EleutherAI/lm-evaluation-harness",
+    "description": "A framework for few-shot evaluation of language models.",
+    "stars": 13977,
+    "forks": 3565,
+    "openIssues": 974,
+    "language": "Python",
+    "pushedAt": "2026-09-14T10:51:06Z",
+    "category": "Evaluation"
+   },
+   {
+    "fullName": "axolotl-ai-cloud/axolotl",
+    "description": "Go ahead and axolotl questions",
+    "stars": 12468,
+    "forks": 1434,
+    "openIssues": 252,
+    "language": "Python",
+    "pushedAt": "2026-09-14T08:14:59Z",
+    "category": "Training & tuning"
+   }
+  ],
   "hub": {
    "topDownloaded": [
     {
@@ -117,13 +378,13 @@
     {
      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
      "author": "deepseek-ai",
-     "likes": 2373,
+     "likes": 2375,
      "downloads": 288414
     },
     {
      "id": "Edge0/Edge0-35B-A3B-preview",
      "author": "Edge0",
-     "likes": 1612,
+     "likes": 1619,
      "downloads": 8109
     },
     {
@@ -141,7 +402,7 @@
     {
      "id": "Qwen/Qwen3.8-27B",
      "author": "Qwen",
-     "likes": 15092,
+     "likes": 15093,
      "downloads": 7703400
     },
     {
@@ -171,7 +432,7 @@
     {
      "id": "Lightricks/LTX-2.5",
      "author": "Lightricks",
-     "likes": 3827,
+     "likes": 3829,
      "downloads": 1559653
     },
     {
@@ -183,7 +444,7 @@
     {
      "id": "unsloth/Qwen3.8-27B-GGUF",
      "author": "unsloth",
-     "likes": 4068,
+     "likes": 4070,
      "downloads": 10077938
     },
     {

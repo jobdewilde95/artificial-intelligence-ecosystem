@@ -2,8 +2,8 @@
  "sourceId": "openrouter",
  "label": "Served model catalogue & inference pricing",
  "status": "ok",
- "fetchedAt": "2026-09-14T14:56:43.001Z",
- "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "fetchedAt": "2026-09-14T15:05:57.757Z",
+ "lastSuccess": "2026-09-14T15:05:57.757Z",
  "attribution": {
   "name": "OpenRouter",
   "url": "https://openrouter.ai/docs/api-reference/list-available-models"
@@ -2178,8 +2178,8 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
     "contextLength": 1048576,
-    "promptUsdPerMTok": 0.08553999999999999,
-    "completionUsdPerMTok": 0.17107999999999998,
+    "promptUsdPerMTok": 0.08399999999999999,
+    "completionUsdPerMTok": 0.16799999999999998,
     "modalities": [
      "text"
     ],

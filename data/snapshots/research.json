@@ -2,8 +2,8 @@
  "sourceId": "research",
  "label": "AI research publication volume",
  "status": "ok",
- "fetchedAt": "2026-09-14T14:56:43.001Z",
- "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "fetchedAt": "2026-09-14T15:05:57.757Z",
+ "lastSuccess": "2026-09-14T15:05:57.757Z",
  "attribution": {
   "name": "Crossref REST API & arXiv",
   "url": "https://api.crossref.org"
@@ -56,10 +56,10 @@
    },
    {
     "year": 2026,
-    "count": 689657
+    "count": 689741
    }
   ],
-  "totalMatching": 9330430,
+  "totalMatching": 9330514,
   "recent": [
    {
     "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",

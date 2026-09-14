@@ -2,8 +2,8 @@
  "sourceId": "discourse",
  "label": "Developer discourse (Hacker News)",
  "status": "ok",
- "fetchedAt": "2026-09-14T14:56:43.001Z",
- "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "fetchedAt": "2026-09-14T15:05:57.757Z",
+ "lastSuccess": "2026-09-14T15:05:57.757Z",
  "attribution": {
   "name": "Hacker News API",
   "url": "https://github.com/HackerNews/API"
@@ -30,13 +30,13 @@
    },
    {
     "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
-    "score": 149,
+    "score": 155,
     "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
     "date": "2026-09-14"
    },
    {
     "title": "Open-source AI and open models reading list",
-    "score": 139,
+    "score": 138,
     "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
     "date": "2026-09-14"
    },
@@ -60,7 +60,7 @@
    },
    {
     "title": "Big AI sets out its terms for regulatory capture",
-    "score": 78,
+    "score": 79,
     "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
     "date": "2026-09-14"
    },
@@ -71,9 +71,21 @@
     "date": "2026-09-14"
    },
    {
+    "title": "The AI job market in 2026",
+    "score": 24,
+    "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
+    "date": "2026-09-14"
+   },
+   {
     "title": "D-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
     "score": 12,
     "url": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "RubyGems Open Source Supply Chain Security and OpenAI",
+    "score": 8,
+    "url": "https://rietta.com/blog/rubygems-supply-chain-openai/",
     "date": "2026-09-14"
    },
    {
@@ -83,27 +95,15 @@
     "date": "2026-09-14"
    },
    {
-    "title": "The AI job market in 2026",
+    "title": "Do the AI Studio test NOW to prove Google doesn't delete chats",
     "score": 7,
-    "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
+    "url": "https://lemmy.world/post/51905600",
     "date": "2026-09-14"
    },
    {
     "title": "Show HN: I built Otis, a minimal AI agent that runs local models out of the box",
     "score": 6,
     "url": "https://triangllabs.ai/otis",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "RubyGems Open Source Supply Chain Security and OpenAI",
-    "score": 5,
-    "url": "https://rietta.com/blog/rubygems-supply-chain-openai/",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "Do the AI Studio test NOW to prove Google doesn't delete chats",
-    "score": 5,
-    "url": "https://lemmy.world/post/51905600",
     "date": "2026-09-14"
    },
    {

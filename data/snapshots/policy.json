@@ -2,8 +2,8 @@
  "sourceId": "policy",
  "label": "US Federal Register AI actions",
  "status": "ok",
- "fetchedAt": "2026-09-14T14:56:43.001Z",
- "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "fetchedAt": "2026-09-14T15:05:57.757Z",
+ "lastSuccess": "2026-09-14T15:05:57.757Z",
  "attribution": {
   "name": "Federal Register API",
   "url": "https://www.federalregister.gov/developers/documentation/api/v1"
