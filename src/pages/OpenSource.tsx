@@ -146,7 +146,12 @@ export default function OpenSource({ data }: { data: Dataset }) {
             plot={({ c }) => ({
               marginLeft: 52, marginBottom: 34,
               x: { label: null, tickFormat: 'd' },
-              y: { label: 'Share with open weights', percent: true, domain: [0, 1], ...axes(c).grid },
+              y: {
+                label: 'Share with open weights',
+                domain: [0, 1],
+                tickFormat: (d: number) => `${Math.round(d * 100)}%`,
+                ...axes(c).grid,
+              },
               marks: [
                 Plot.gridY({ stroke: c.grid, strokeOpacity: 1, strokeWidth: 1 }),
                 Plot.areaY(openByYear, { x: 'year', y: 'openShare', fill: c.series[1], fillOpacity: 0.1, curve: 'monotone-x' }),
