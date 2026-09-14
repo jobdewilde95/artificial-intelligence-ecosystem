@@ -1,0 +1,139 @@
+# Major AI funding events. amountUsdM in millions USD; valuationUsdB in billions
+# USD post-money where reported. Only rounds confirmed by the company or by
+# consistent primary reporting are listed.
+
+- date: 2019-07-22
+  company: OpenAI
+  amountUsdM: 1000
+  round: Strategic investment
+  valuationUsdB: null
+  investors: Microsoft
+  url: https://openai.com/index/microsoft-invests-in-and-partners-with-openai/
+
+- date: 2023-01-23
+  company: OpenAI
+  amountUsdM: 10000
+  round: Multiyear strategic investment
+  valuationUsdB: null
+  investors: Microsoft
+  url: https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/
+
+- date: 2023-09-25
+  company: Anthropic
+  amountUsdM: 4000
+  round: Strategic investment
+  valuationUsdB: null
+  investors: Amazon
+  url: https://www.anthropic.com/news/anthropic-amazon
+
+- date: 2023-10-27
+  company: Anthropic
+  amountUsdM: 2000
+  round: Strategic investment
+  valuationUsdB: null
+  investors: Google
+  url: https://www.anthropic.com/news/anthropic-google-cloud
+
+- date: 2023-12-11
+  company: Mistral AI
+  amountUsdM: 415
+  round: Series A
+  valuationUsdB: 2
+  investors: Andreessen Horowitz, Lightspeed, Salesforce, General Catalyst
+  url: https://mistral.ai/news/a-new-old-kind-of-ai-company
+
+- date: 2024-05-26
+  company: xAI
+  amountUsdM: 6000
+  round: Series B
+  valuationUsdB: 24
+  investors: Valor, a16z, Sequoia, Fidelity, Prince Alwaleed Bin Talal
+  url: https://x.ai/news/series-b
+
+- date: 2024-06-11
+  company: Mistral AI
+  amountUsdM: 640
+  round: Series B
+  valuationUsdB: 6
+  investors: General Catalyst, Lightspeed, Nvidia, Samsung, Salesforce
+  url: https://mistral.ai/news/mistral-ai-raises-600-million-series-b
+
+- date: 2024-09-04
+  company: Safe Superintelligence
+  amountUsdM: 1000
+  round: Seed
+  valuationUsdB: 5
+  investors: Sequoia, Andreessen Horowitz, DST Global, SV Angel
+  url: https://ssi.inc/
+
+- date: 2024-10-02
+  company: OpenAI
+  amountUsdM: 6600
+  round: Series unspecified
+  valuationUsdB: 157
+  investors: Thrive Capital, Microsoft, Nvidia, SoftBank, Khosla Ventures
+  url: https://openai.com/index/scale-the-benefits-of-ai/
+
+- date: 2024-12-17
+  company: Databricks
+  amountUsdM: 10000
+  round: Series J
+  valuationUsdB: 62
+  investors: Thrive Capital, a16z, DST Global, GIC, Insight Partners
+  url: https://www.databricks.com/company/newsroom/press-releases/databricks-closes-10b-series-j-investment-62b-valuation
+
+- date: 2024-12-23
+  company: xAI
+  amountUsdM: 6000
+  round: Series C
+  valuationUsdB: 45
+  investors: Valor, Nvidia, AMD, Fidelity, Qatar Investment Authority
+  url: https://x.ai/news/series-c
+
+- date: 2025-03-03
+  company: Anthropic
+  amountUsdM: 3500
+  round: Series E
+  valuationUsdB: 61.5
+  investors: Lightspeed, Bessemer, Cisco Investments, D1, General Catalyst, Jane Street
+  url: https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation
+
+- date: 2025-03-31
+  company: OpenAI
+  amountUsdM: 40000
+  round: Series unspecified
+  valuationUsdB: 300
+  investors: SoftBank Group (lead), Microsoft, Coatue, Altimeter, Thrive
+  url: https://openai.com/index/march-funding-updates/
+
+- date: 2025-06-12
+  company: Scale AI
+  amountUsdM: 14300
+  round: Strategic investment for 49% stake
+  valuationUsdB: 29
+  investors: Meta
+  url: https://scale.com/blog/scale-meta-partnership
+
+- date: 2025-07-15
+  company: Thinking Machines Lab
+  amountUsdM: 2000
+  round: Seed
+  valuationUsdB: 12
+  investors: Andreessen Horowitz (lead), Nvidia, Accel, ServiceNow, Cisco
+  url: https://thinkingmachines.ai/
+
+- date: 2025-09-02
+  company: Anthropic
+  amountUsdM: 13000
+  round: Series F
+  valuationUsdB: 183
+  investors: ICONIQ, Fidelity, Lightspeed (co-leads), Coatue, GIC, Qatar Investment Authority
+  url: https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation
+
+- date: 2025-09-09
+  company: Mistral AI
+  amountUsdM: 2000
+  round: Series C
+  valuationUsdB: 13.7
+  investors: ASML (lead), DST Global, a16z, Bpifrance, General Catalyst, Nvidia
+  url: https://mistral.ai/news/mistral-ai-raises-1-7-b-a-new-milestone-in-its-growth

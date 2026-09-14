@@ -1,0 +1,837 @@
+{
+ "sourceId": "curated",
+ "label": "Hand-curated context",
+ "status": "ok",
+ "fetchedAt": "2026-09-14T14:56:43.001Z",
+ "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "attribution": {
+  "name": "Maintained in data/curated/*.yaml",
+  "url": ""
+ },
+ "data": {
+  "labs": [
+   {
+    "id": "openai",
+    "name": "OpenAI",
+    "country": "United States",
+    "founded": 2015,
+    "category": "frontier",
+    "notes": "GPT model family and ChatGPT; restructured to a capped-profit model under a nonprofit parent in 2019.",
+    "url": "https://openai.com"
+   },
+   {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "country": "United States",
+    "founded": 2021,
+    "category": "frontier",
+    "notes": "Claude model family; originated the Responsible Scaling Policy and the Model Context Protocol.",
+    "url": "https://anthropic.com"
+   },
+   {
+    "id": "google-deepmind",
+    "name": "Google DeepMind",
+    "country": "United Kingdom",
+    "founded": 2010,
+    "category": "frontier",
+    "notes": "Formed in 2023 by merging DeepMind with Google Brain; Gemini model family, AlphaFold.",
+    "url": "https://deepmind.google"
+   },
+   {
+    "id": "meta-ai",
+    "name": "Meta AI (FAIR)",
+    "country": "United States",
+    "founded": 2013,
+    "category": "open",
+    "notes": "Llama family; the single largest driver of open-weight model adoption.",
+    "url": "https://ai.meta.com"
+   },
+   {
+    "id": "xai",
+    "name": "xAI",
+    "country": "United States",
+    "founded": 2023,
+    "category": "frontier",
+    "notes": "Grok model family; operates the Colossus cluster in Memphis, Tennessee.",
+    "url": "https://x.ai"
+   },
+   {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "country": "France",
+    "founded": 2023,
+    "category": "open",
+    "notes": "Europe's leading independent lab; mixes open-weight and commercial releases.",
+    "url": "https://mistral.ai"
+   },
+   {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "country": "China",
+    "founded": 2023,
+    "category": "open",
+    "notes": "R1 and V3 releases demonstrated frontier-adjacent capability at markedly lower reported training cost.",
+    "url": "https://deepseek.com"
+   },
+   {
+    "id": "alibaba-qwen",
+    "name": "Alibaba (Qwen)",
+    "country": "China",
+    "founded": 1999,
+    "category": "open",
+    "notes": "Qwen family is among the most-downloaded and most-finetuned open-weight model lines.",
+    "url": "https://qwenlm.github.io"
+   },
+   {
+    "id": "moonshot",
+    "name": "Moonshot AI",
+    "country": "China",
+    "founded": 2023,
+    "category": "frontier",
+    "notes": "Kimi model family, noted for long-context and agentic releases.",
+    "url": "https://moonshot.cn"
+   },
+   {
+    "id": "zhipu",
+    "name": "Zhipu AI (Z.ai)",
+    "country": "China",
+    "founded": 2019,
+    "category": "open",
+    "notes": "GLM model family; spun out of Tsinghua University.",
+    "url": "https://z.ai"
+   },
+   {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "country": "China",
+    "founded": 2012,
+    "category": "bigtech",
+    "notes": "Doubao model family and large-scale consumer AI deployment.",
+    "url": "https://www.bytedance.com"
+   },
+   {
+    "id": "baidu",
+    "name": "Baidu",
+    "country": "China",
+    "founded": 2000,
+    "category": "bigtech",
+    "notes": "ERNIE model family; among the earliest large-scale Chinese LLM efforts.",
+    "url": "https://research.baidu.com"
+   },
+   {
+    "id": "tencent",
+    "name": "Tencent",
+    "country": "China",
+    "founded": 1998,
+    "category": "bigtech",
+    "notes": "Hunyuan model family, including open-weight video and 3D generation releases.",
+    "url": "https://hunyuan.tencent.com"
+   },
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "country": "United States",
+    "founded": 1975,
+    "category": "bigtech",
+    "notes": "Principal OpenAI partner and Azure AI host; Phi small-model family and Copilot product line.",
+    "url": "https://www.microsoft.com/ai"
+   },
+   {
+    "id": "amazon",
+    "name": "Amazon / AWS",
+    "country": "United States",
+    "founded": 1994,
+    "category": "bigtech",
+    "notes": "Major Anthropic investor; Bedrock model marketplace, Nova models, and Trainium accelerators.",
+    "url": "https://aws.amazon.com/ai"
+   },
+   {
+    "id": "apple",
+    "name": "Apple",
+    "country": "United States",
+    "founded": 1976,
+    "category": "bigtech",
+    "notes": "On-device foundation models under Apple Intelligence; a distinctly edge-first strategy.",
+    "url": "https://machinelearning.apple.com"
+   },
+   {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "country": "United States",
+    "founded": 1993,
+    "category": "chips",
+    "notes": "Supplies the dominant share of AI training accelerators; CUDA remains the default software substrate.",
+    "url": "https://www.nvidia.com"
+   },
+   {
+    "id": "amd",
+    "name": "AMD",
+    "country": "United States",
+    "founded": 1969,
+    "category": "chips",
+    "notes": "Instinct MI accelerator line and the ROCm software stack; the principal merchant-silicon alternative.",
+    "url": "https://www.amd.com"
+   },
+   {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "country": "United States",
+    "founded": 1961,
+    "category": "chips",
+    "notes": "Co-designs custom AI accelerators (including Google TPUs) and supplies AI networking silicon.",
+    "url": "https://www.broadcom.com"
+   },
+   {
+    "id": "tsmc",
+    "name": "TSMC",
+    "country": "Taiwan",
+    "founded": 1987,
+    "category": "chips",
+    "notes": "Fabricates essentially all leading-edge AI accelerators; the ecosystem's tightest physical bottleneck.",
+    "url": "https://www.tsmc.com"
+   },
+   {
+    "id": "asml",
+    "name": "ASML",
+    "country": "Netherlands",
+    "founded": 1984,
+    "category": "chips",
+    "notes": "Sole supplier of EUV lithography; a central instrument of semiconductor export control.",
+    "url": "https://www.asml.com"
+   },
+   {
+    "id": "cerebras",
+    "name": "Cerebras Systems",
+    "country": "United States",
+    "founded": 2016,
+    "category": "chips",
+    "notes": "Wafer-scale engine architecture; competes on high-throughput inference.",
+    "url": "https://cerebras.ai"
+   },
+   {
+    "id": "groq",
+    "name": "Groq",
+    "country": "United States",
+    "founded": 2016,
+    "category": "chips",
+    "notes": "LPU inference accelerators built for low-latency token generation.",
+    "url": "https://groq.com"
+   },
+   {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "country": "United States",
+    "founded": 2017,
+    "category": "infra",
+    "notes": "GPU-specialised cloud provider; listed publicly in 2025 as a pure-play AI infrastructure company.",
+    "url": "https://coreweave.com"
+   },
+   {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "country": "United States",
+    "founded": 2016,
+    "category": "open",
+    "notes": "Operates the Hub, the de facto public registry for open models and datasets.",
+    "url": "https://huggingface.co"
+   },
+   {
+    "id": "ai2",
+    "name": "Allen Institute for AI (Ai2)",
+    "country": "United States",
+    "founded": 2014,
+    "category": "research",
+    "notes": "OLMo and Molmo lines; among the few genuinely open efforts publishing data and training recipes.",
+    "url": "https://allenai.org"
+   },
+   {
+    "id": "eleutherai",
+    "name": "EleutherAI",
+    "country": "United States",
+    "founded": 2020,
+    "category": "open",
+    "notes": "Grassroots collective behind GPT-NeoX, the Pile, and the LM Evaluation Harness.",
+    "url": "https://www.eleuther.ai"
+   },
+   {
+    "id": "ssi",
+    "name": "Safe Superintelligence (SSI)",
+    "country": "United States",
+    "founded": 2024,
+    "category": "frontier",
+    "notes": "Founded by Ilya Sutskever; single-product research lab with no interim commercial releases.",
+    "url": "https://ssi.inc"
+   },
+   {
+    "id": "thinking-machines",
+    "name": "Thinking Machines Lab",
+    "country": "United States",
+    "founded": 2025,
+    "category": "frontier",
+    "notes": "Founded by Mira Murati with a cohort of former OpenAI researchers.",
+    "url": "https://thinkingmachines.ai"
+   },
+   {
+    "id": "cohere",
+    "name": "Cohere",
+    "country": "Canada",
+    "founded": 2019,
+    "category": "frontier",
+    "notes": "Enterprise-focused models with an emphasis on retrieval and private deployment.",
+    "url": "https://cohere.com"
+   },
+   {
+    "id": "ai21",
+    "name": "AI21 Labs",
+    "country": "Israel",
+    "founded": 2017,
+    "category": "frontier",
+    "notes": "Jurassic and Jamba families; early work on hybrid state-space/transformer architectures.",
+    "url": "https://www.ai21.com"
+   },
+   {
+    "id": "blackforest",
+    "name": "Black Forest Labs",
+    "country": "Germany",
+    "founded": 2024,
+    "category": "open",
+    "notes": "FLUX image models, from the team behind the original Stable Diffusion work.",
+    "url": "https://blackforestlabs.ai"
+   }
+  ],
+  "policyMilestones": [
+   {
+    "date": "2016-10-12",
+    "jurisdiction": "United States",
+    "title": "National AI Research and Development Strategic Plan",
+    "kind": "executive",
+    "status": "superseded",
+    "summary": "First US federal strategic framework for AI R&D investment, published under the Obama administration.",
+    "url": "https://www.nitrd.gov/pubs/national_ai_rd_strategic_plan.pdf"
+   },
+   {
+    "date": "2017-07-20",
+    "jurisdiction": "China",
+    "title": "New Generation Artificial Intelligence Development Plan",
+    "kind": "executive",
+    "status": "in-force",
+    "summary": "State Council plan setting the goal of global AI leadership by 2030, with staged capability targets.",
+    "url": "https://www.newamerica.org/cybersecurity-initiative/digichina/blog/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/"
+   },
+   {
+    "date": "2018-05-25",
+    "jurisdiction": "European Union",
+    "title": "GDPR enters into application",
+    "kind": "regulation",
+    "status": "in-force",
+    "summary": "Article 22 establishes rights around solely automated decision-making, the first broad legal constraint on algorithmic decisions.",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   },
+   {
+    "date": "2019-05-22",
+    "jurisdiction": "International (OECD)",
+    "title": "OECD AI Principles",
+    "kind": "agreement",
+    "status": "in-force",
+    "summary": "First intergovernmental AI standard; later adopted by the G20 and used as the reference definition of an \"AI system\".",
+    "url": "https://oecd.ai/en/ai-principles"
+   },
+   {
+    "date": "2021-04-21",
+    "jurisdiction": "European Union",
+    "title": "EU AI Act proposed by the European Commission",
+    "kind": "law",
+    "status": "superseded",
+    "summary": "Initial legislative proposal introducing the risk-tiered regulatory approach.",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206"
+   },
+   {
+    "date": "2022-10-04",
+    "jurisdiction": "United States",
+    "title": "Blueprint for an AI Bill of Rights",
+    "kind": "executive",
+    "status": "superseded",
+    "summary": "Non-binding OSTP framework of five principles for automated systems affecting the public.",
+    "url": "https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/"
+   },
+   {
+    "date": "2022-10-07",
+    "jurisdiction": "United States",
+    "title": "BIS advanced computing and semiconductor export controls",
+    "kind": "export-control",
+    "status": "in-force",
+    "summary": "First broad restriction on exporting advanced AI accelerators and semiconductor tooling to China.",
+    "url": "https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor"
+   },
+   {
+    "date": "2023-05-19",
+    "jurisdiction": "International (G7)",
+    "title": "Hiroshima AI Process launched",
+    "kind": "agreement",
+    "status": "in-force",
+    "summary": "G7 process that produced international guiding principles and a code of conduct for advanced AI developers.",
+    "url": "https://www.mofa.go.jp/ecm/ec/page5e_000076.html"
+   },
+   {
+    "date": "2023-07-21",
+    "jurisdiction": "United States",
+    "title": "Voluntary AI commitments from leading developers",
+    "kind": "agreement",
+    "status": "in-force",
+    "summary": "Seven companies committed to pre-deployment safety testing, information sharing, and provenance measures; later extended to more signatories.",
+    "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/"
+   },
+   {
+    "date": "2023-10-17",
+    "jurisdiction": "United States",
+    "title": "BIS export control update closing performance thresholds",
+    "kind": "export-control",
+    "status": "in-force",
+    "summary": "Revised the interconnect-bandwidth loophole and added performance-density criteria covering export-tuned accelerators.",
+    "url": "https://www.federalregister.gov/documents/2023/10/25/2023-23055/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and"
+   },
+   {
+    "date": "2023-10-30",
+    "jurisdiction": "United States",
+    "title": "Executive Order 14110 on Safe, Secure, and Trustworthy AI",
+    "kind": "executive",
+    "status": "superseded",
+    "summary": "Most comprehensive US federal AI action to date; introduced compute-threshold reporting for frontier training runs. Revoked January 2025.",
+    "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence"
+   },
+   {
+    "date": "2023-11-01",
+    "jurisdiction": "International",
+    "title": "Bletchley Declaration at the UK AI Safety Summit",
+    "kind": "agreement",
+    "status": "in-force",
+    "summary": "28 countries and the EU signed the first international statement on frontier AI risk; the UK AI Safety Institute was announced alongside it.",
+    "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration"
+   },
+   {
+    "date": "2023-12-09",
+    "jurisdiction": "European Union",
+    "title": "Political agreement reached on the EU AI Act",
+    "kind": "law",
+    "status": "superseded",
+    "summary": "Trilogue agreement between Parliament and Council, adding general-purpose AI model obligations to the original risk-tier structure.",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai"
+   },
+   {
+    "date": "2024-03-13",
+    "jurisdiction": "European Union",
+    "title": "European Parliament adopts the AI Act",
+    "kind": "law",
+    "status": "superseded",
+    "summary": "Plenary vote adopting the world's first comprehensive horizontal AI law.",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law"
+   },
+   {
+    "date": "2024-05-17",
+    "jurisdiction": "International (Council of Europe)",
+    "title": "Framework Convention on AI, Human Rights, Democracy and the Rule of Law",
+    "kind": "agreement",
+    "status": "in-force",
+    "summary": "First legally binding international AI treaty, opened for signature in September 2024.",
+    "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence"
+   },
+   {
+    "date": "2024-05-21",
+    "jurisdiction": "International",
+    "title": "Seoul Frontier AI Safety Commitments",
+    "kind": "agreement",
+    "status": "in-force",
+    "summary": "16 leading developers committed to publishing safety frameworks with defined risk thresholds.",
+    "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024"
+   },
+   {
+    "date": "2024-05-17",
+    "jurisdiction": "United States (Colorado)",
+    "title": "Colorado AI Act (SB 24-205) signed",
+    "kind": "law",
+    "status": "phasing-in",
+    "summary": "First comprehensive US state AI law, imposing duties of care around algorithmic discrimination in consequential decisions.",
+    "url": "https://leg.colorado.gov/bills/sb24-205"
+   },
+   {
+    "date": "2024-08-01",
+    "jurisdiction": "European Union",
+    "title": "EU AI Act enters into force",
+    "kind": "law",
+    "status": "phasing-in",
+    "summary": "Starts the staged compliance clock; obligations phase in over the following 24-36 months.",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "date": "2024-09-29",
+    "jurisdiction": "United States (California)",
+    "title": "SB 1047 vetoed",
+    "kind": "law",
+    "status": "superseded",
+    "summary": "Governor Newsom vetoed the frontier model safety bill, arguing it regulated by compute threshold rather than deployment risk.",
+    "url": "https://www.gov.ca.gov/wp-content/uploads/2024/09/SB-1047-Veto-Message.pdf"
+   },
+   {
+    "date": "2025-01-23",
+    "jurisdiction": "United States",
+    "title": "Executive Order on Removing Barriers to American Leadership in AI",
+    "kind": "executive",
+    "status": "in-force",
+    "summary": "Revoked EO 14110 and reoriented federal policy toward accelerating AI development and reducing regulatory burden.",
+    "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence"
+   },
+   {
+    "date": "2025-02-02",
+    "jurisdiction": "European Union",
+    "title": "AI Act prohibitions and AI literacy obligations apply",
+    "kind": "law",
+    "status": "in-force",
+    "summary": "First compliance milestone — bans on unacceptable-risk practices such as social scoring and untargeted facial-image scraping take effect.",
+    "url": "https://artificialintelligenceact.eu/implementation-timeline/"
+   },
+   {
+    "date": "2025-02-10",
+    "jurisdiction": "International",
+    "title": "Paris AI Action Summit",
+    "kind": "agreement",
+    "status": "in-force",
+    "summary": "Third summit in the series, pivoting emphasis from frontier safety toward innovation, energy, and public-interest AI.",
+    "url": "https://www.elysee.fr/en/sommet-pour-l-action-sur-l-ia"
+   },
+   {
+    "date": "2025-08-02",
+    "jurisdiction": "European Union",
+    "title": "AI Act general-purpose AI model obligations apply",
+    "kind": "law",
+    "status": "in-force",
+    "summary": "Transparency, copyright-policy, and systemic-risk duties begin for GPAI model providers, supported by a voluntary Code of Practice.",
+    "url": "https://artificialintelligenceact.eu/implementation-timeline/"
+   },
+   {
+    "date": "2026-08-02",
+    "jurisdiction": "European Union",
+    "title": "AI Act high-risk system obligations apply",
+    "kind": "law",
+    "status": "phasing-in",
+    "summary": "Annex III high-risk obligations — risk management, data governance, human oversight, conformity assessment — become enforceable.",
+    "url": "https://artificialintelligenceact.eu/implementation-timeline/"
+   }
+  ],
+  "funding": [
+   {
+    "date": "2019-07-22",
+    "company": "OpenAI",
+    "amountUsdM": 1000,
+    "round": "Strategic investment",
+    "valuationUsdB": null,
+    "investors": "Microsoft",
+    "url": "https://openai.com/index/microsoft-invests-in-and-partners-with-openai/"
+   },
+   {
+    "date": "2023-01-23",
+    "company": "OpenAI",
+    "amountUsdM": 10000,
+    "round": "Multiyear strategic investment",
+    "valuationUsdB": null,
+    "investors": "Microsoft",
+    "url": "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/"
+   },
+   {
+    "date": "2023-09-25",
+    "company": "Anthropic",
+    "amountUsdM": 4000,
+    "round": "Strategic investment",
+    "valuationUsdB": null,
+    "investors": "Amazon",
+    "url": "https://www.anthropic.com/news/anthropic-amazon"
+   },
+   {
+    "date": "2023-10-27",
+    "company": "Anthropic",
+    "amountUsdM": 2000,
+    "round": "Strategic investment",
+    "valuationUsdB": null,
+    "investors": "Google",
+    "url": "https://www.anthropic.com/news/anthropic-google-cloud"
+   },
+   {
+    "date": "2023-12-11",
+    "company": "Mistral AI",
+    "amountUsdM": 415,
+    "round": "Series A",
+    "valuationUsdB": 2,
+    "investors": "Andreessen Horowitz, Lightspeed, Salesforce, General Catalyst",
+    "url": "https://mistral.ai/news/a-new-old-kind-of-ai-company"
+   },
+   {
+    "date": "2024-05-26",
+    "company": "xAI",
+    "amountUsdM": 6000,
+    "round": "Series B",
+    "valuationUsdB": 24,
+    "investors": "Valor, a16z, Sequoia, Fidelity, Prince Alwaleed Bin Talal",
+    "url": "https://x.ai/news/series-b"
+   },
+   {
+    "date": "2024-06-11",
+    "company": "Mistral AI",
+    "amountUsdM": 640,
+    "round": "Series B",
+    "valuationUsdB": 6,
+    "investors": "General Catalyst, Lightspeed, Nvidia, Samsung, Salesforce",
+    "url": "https://mistral.ai/news/mistral-ai-raises-600-million-series-b"
+   },
+   {
+    "date": "2024-09-04",
+    "company": "Safe Superintelligence",
+    "amountUsdM": 1000,
+    "round": "Seed",
+    "valuationUsdB": 5,
+    "investors": "Sequoia, Andreessen Horowitz, DST Global, SV Angel",
+    "url": "https://ssi.inc/"
+   },
+   {
+    "date": "2024-10-02",
+    "company": "OpenAI",
+    "amountUsdM": 6600,
+    "round": "Series unspecified",
+    "valuationUsdB": 157,
+    "investors": "Thrive Capital, Microsoft, Nvidia, SoftBank, Khosla Ventures",
+    "url": "https://openai.com/index/scale-the-benefits-of-ai/"
+   },
+   {
+    "date": "2024-12-17",
+    "company": "Databricks",
+    "amountUsdM": 10000,
+    "round": "Series J",
+    "valuationUsdB": 62,
+    "investors": "Thrive Capital, a16z, DST Global, GIC, Insight Partners",
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-closes-10b-series-j-investment-62b-valuation"
+   },
+   {
+    "date": "2024-12-23",
+    "company": "xAI",
+    "amountUsdM": 6000,
+    "round": "Series C",
+    "valuationUsdB": 45,
+    "investors": "Valor, Nvidia, AMD, Fidelity, Qatar Investment Authority",
+    "url": "https://x.ai/news/series-c"
+   },
+   {
+    "date": "2025-03-03",
+    "company": "Anthropic",
+    "amountUsdM": 3500,
+    "round": "Series E",
+    "valuationUsdB": 61.5,
+    "investors": "Lightspeed, Bessemer, Cisco Investments, D1, General Catalyst, Jane Street",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
+   },
+   {
+    "date": "2025-03-31",
+    "company": "OpenAI",
+    "amountUsdM": 40000,
+    "round": "Series unspecified",
+    "valuationUsdB": 300,
+    "investors": "SoftBank Group (lead), Microsoft, Coatue, Altimeter, Thrive",
+    "url": "https://openai.com/index/march-funding-updates/"
+   },
+   {
+    "date": "2025-06-12",
+    "company": "Scale AI",
+    "amountUsdM": 14300,
+    "round": "Strategic investment for 49% stake",
+    "valuationUsdB": 29,
+    "investors": "Meta",
+    "url": "https://scale.com/blog/scale-meta-partnership"
+   },
+   {
+    "date": "2025-07-15",
+    "company": "Thinking Machines Lab",
+    "amountUsdM": 2000,
+    "round": "Seed",
+    "valuationUsdB": 12,
+    "investors": "Andreessen Horowitz (lead), Nvidia, Accel, ServiceNow, Cisco",
+    "url": "https://thinkingmachines.ai/"
+   },
+   {
+    "date": "2025-09-02",
+    "company": "Anthropic",
+    "amountUsdM": 13000,
+    "round": "Series F",
+    "valuationUsdB": 183,
+    "investors": "ICONIQ, Fidelity, Lightspeed (co-leads), Coatue, GIC, Qatar Investment Authority",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+   },
+   {
+    "date": "2025-09-09",
+    "company": "Mistral AI",
+    "amountUsdM": 2000,
+    "round": "Series C",
+    "valuationUsdB": 13.7,
+    "investors": "ASML (lead), DST Global, a16z, Bpifrance, General Catalyst, Nvidia",
+    "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-a-new-milestone-in-its-growth"
+   }
+  ],
+  "safetyEvents": [
+   {
+    "date": "2023-03-22",
+    "title": "'Pause Giant AI Experiments' open letter",
+    "category": "commitment",
+    "severity": "informational",
+    "summary": "Future of Life Institute letter calling for a six-month moratorium on training runs beyond GPT-4; gathered tens of thousands of signatures and pushed frontier risk into mainstream debate.",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+   },
+   {
+    "date": "2023-05-30",
+    "title": "Statement on AI Risk",
+    "category": "commitment",
+    "severity": "informational",
+    "summary": "One-sentence statement placing extinction risk from AI alongside pandemics and nuclear war, signed by leaders of the major labs and prominent researchers.",
+    "url": "https://www.safe.ai/work/statement-on-ai-risk"
+   },
+   {
+    "date": "2023-09-19",
+    "title": "Anthropic publishes its Responsible Scaling Policy",
+    "category": "framework",
+    "severity": "informational",
+    "summary": "Introduced AI Safety Levels (ASL) tying deployment and security commitments to demonstrated model capability — the template most frontier safety frameworks followed.",
+    "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy"
+   },
+   {
+    "date": "2023-12-18",
+    "title": "OpenAI publishes the Preparedness Framework",
+    "category": "framework",
+    "severity": "informational",
+    "summary": "Tracked-category risk scorecards with defined thresholds gating deployment and further development.",
+    "url": "https://openai.com/index/preparedness/"
+   },
+   {
+    "date": "2024-01-22",
+    "title": "AI-generated robocall impersonating President Biden",
+    "category": "incident",
+    "severity": "high",
+    "summary": "Voice-cloned robocall urged New Hampshire primary voters to stay home; led to an FCC ruling that AI-generated voices in robocalls are illegal and to criminal charges.",
+    "url": "https://www.fcc.gov/document/fcc-makes-ai-generated-voices-robocalls-illegal"
+   },
+   {
+    "date": "2024-02-04",
+    "title": "Deepfake video conference fraud in Hong Kong",
+    "category": "incident",
+    "severity": "high",
+    "summary": "A finance employee transferred roughly US$25M after a video call in which every other participant was a deepfake of a colleague.",
+    "url": "https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html"
+   },
+   {
+    "date": "2024-05-21",
+    "title": "Frontier AI Safety Commitments (Seoul)",
+    "category": "commitment",
+    "severity": "informational",
+    "summary": "16 developers agreed to publish safety frameworks defining intolerable risk thresholds and the mitigations gating them.",
+    "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024"
+   },
+   {
+    "date": "2024-05-21",
+    "title": "Scaling Monosemanticity — interpretability of a production model",
+    "category": "research",
+    "severity": "informational",
+    "summary": "Sparse autoencoders extracted millions of interpretable features from Claude 3 Sonnet, the first such result at production scale.",
+    "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/"
+   },
+   {
+    "date": "2024-05-17",
+    "title": "OpenAI's Superalignment team dissolves",
+    "category": "incident",
+    "severity": "medium",
+    "summary": "The team dedicated to superintelligence alignment was disbanded following the departure of both co-leads, prompting scrutiny of lab safety-resourcing commitments.",
+    "url": "https://www.bbc.com/news/articles/c3g3g1g1g1o"
+   },
+   {
+    "date": "2024-10-23",
+    "title": "Wrongful death lawsuit filed against Character.AI",
+    "category": "incident",
+    "severity": "high",
+    "summary": "Suit alleging a companion chatbot contributed to a teenager's death; catalysed regulatory attention to minors' use of AI companions.",
+    "url": "https://www.npr.org/2024/10/23/nx-s1-5169668/character-ai-lawsuit-teen-death"
+   },
+   {
+    "date": "2025-01-29",
+    "title": "International AI Safety Report",
+    "category": "evaluation",
+    "severity": "informational",
+    "summary": "First full report from the expert panel chaired by Yoshua Bengio, backed by 30 countries — the closest thing to an IPCC-style scientific consensus assessment for AI.",
+    "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2025"
+   },
+   {
+    "date": "2025-02-04",
+    "title": "Google DeepMind Frontier Safety Framework v2",
+    "category": "framework",
+    "severity": "informational",
+    "summary": "Revised critical capability levels covering misuse, misalignment and deceptive alignment, with security-level mitigations attached to each.",
+    "url": "https://deepmind.google/discover/blog/updating-the-frontier-safety-framework/"
+   },
+   {
+    "date": "2025-03-27",
+    "title": "Circuit tracing — attribution graphs in a production model",
+    "category": "research",
+    "severity": "informational",
+    "summary": "Method for tracing computation through a deployed model, revealing multi-step reasoning, planning ahead in poetry, and unfaithful chain-of-thought.",
+    "url": "https://www.anthropic.com/research/tracing-thoughts-language-model"
+   },
+   {
+    "date": "2025-05-22",
+    "title": "Anthropic activates ASL-3 protections for Claude Opus 4",
+    "category": "framework",
+    "severity": "medium",
+    "summary": "First time a frontier developer deployed a model under its own elevated safety standard, citing CBRN uplift risk that could not be conclusively ruled out.",
+    "url": "https://www.anthropic.com/news/activating-asl3-protections"
+   }
+  ],
+  "adoption": [
+   {
+    "label": "Organisations using AI in at least one business function",
+    "value": 78,
+    "unit": "%",
+    "asOf": "2025-03-01",
+    "source": "McKinsey — The State of AI, 2025",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+    "note": "Self-reported by surveyed executives; up from 55% in the 2023 survey."
+   },
+   {
+    "label": "US firms using AI to produce goods or services",
+    "value": 9.2,
+    "unit": "%",
+    "asOf": "2025-06-01",
+    "source": "US Census Bureau — Business Trends and Outlook Survey",
+    "url": "https://www.census.gov/hfp/btos/data",
+    "note": "A far lower figure than executive surveys, because it samples all firms rather than large enterprises."
+   },
+   {
+    "label": "Developers using or planning to use AI coding tools",
+    "value": 76,
+    "unit": "%",
+    "asOf": "2024-07-01",
+    "source": "Stack Overflow Developer Survey 2024",
+    "url": "https://survey.stackoverflow.co/2024/ai",
+    "note": "62% reported actively using them; trust in output accuracy was markedly lower."
+   },
+   {
+    "label": "ChatGPT weekly active users",
+    "value": 800,
+    "unit": "millions",
+    "asOf": "2025-10-06",
+    "source": "OpenAI DevDay 2025",
+    "url": "https://openai.com/devday/",
+    "note": "Grew from roughly 100M weekly users in November 2023."
+   },
+   {
+    "label": "Share of US adults who have used a generative AI chatbot",
+    "value": 34,
+    "unit": "%",
+    "asOf": "2025-06-01",
+    "source": "Pew Research Center",
+    "url": "https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/",
+    "note": "Roughly double the 2023 share; usage skews strongly toward younger and higher-income adults."
+   }
+  ]
+ }
+}

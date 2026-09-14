@@ -1,0 +1,92 @@
+name: Refresh data
+
+on:
+  schedule:
+    # 06:00 UTC daily. Collectors are individually time-budgeted, so a slow or
+    # rate-limited upstream degrades to stale data rather than hanging the run.
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Refresh a single source by id (blank = all)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run collectors
+        env:
+          # Lifts the anonymous GitHub API limit and is what makes the
+          # open-source collector able to read public repo statistics.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            npm run refresh -- --only="${{ inputs.only }}"
+          else
+            npm run refresh
+          fi
+
+      - name: Validate collected data
+        run: npm run validate
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if git diff --staged --quiet; then
+            echo 'No data changes.'
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore(data): scheduled refresh $(date -u +%Y-%m-%d)"
+            # The branch can move under a long run; rebase rather than fail.
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Summary
+        run: |
+          {
+            echo '## Data refresh'
+            echo ''
+            echo '| Source | Status | Records | Last success |'
+            echo '| --- | --- | ---: | --- |'
+            node -e "
+              const h = require('./data/snapshots/sources.json');
+              for (const s of h) {
+                console.log('| ' + s.label + ' | ' + s.status + ' | ' + s.recordCount + ' | ' + (s.lastSuccess ?? 'never') + ' |');
+              }
+            "
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  # Called explicitly because the commit above cannot trigger deploy.yml itself.
+  deploy:
+    needs: collect
+    if: needs.collect.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

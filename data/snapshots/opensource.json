@@ -1,0 +1,314 @@
+{
+ "sourceId": "opensource",
+ "label": "Open-source AI projects & Hugging Face Hub",
+ "status": "ok",
+ "fetchedAt": "2026-09-14T14:56:43.001Z",
+ "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "attribution": {
+  "name": "GitHub API & Hugging Face Hub API",
+  "url": "https://huggingface.co/docs/hub/api"
+ },
+ "data": {
+  "repos": [],
+  "hub": {
+   "topDownloaded": [
+    {
+     "id": "sentence-transformers/all-MiniLM-L6-v2",
+     "downloads": 252806720,
+     "likes": 5959
+    },
+    {
+     "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+     "downloads": 87484661,
+     "likes": 338
+    },
+    {
+     "id": "BAAI/bge-small-en-v1.5",
+     "downloads": 63865672,
+     "likes": 582
+    },
+    {
+     "id": "google/electra-base-discriminator",
+     "downloads": 58989649,
+     "likes": 179
+    },
+    {
+     "id": "google-bert/bert-base-uncased",
+     "downloads": 46435111,
+     "likes": 3337
+    },
+    {
+     "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+     "downloads": 45436675,
+     "likes": 1395
+    },
+    {
+     "id": "BAAI/bge-m3",
+     "downloads": 37522521,
+     "likes": 3556
+    },
+    {
+     "id": "google-t5/t5-small",
+     "downloads": 24567648,
+     "likes": 627
+    },
+    {
+     "id": "sentence-transformers/all-mpnet-base-v2",
+     "downloads": 23483303,
+     "likes": 1374
+    },
+    {
+     "id": "amazon/chronos-2",
+     "downloads": 22620722,
+     "likes": 473
+    },
+    {
+     "id": "FacebookAI/xlm-roberta-base",
+     "downloads": 22006202,
+     "likes": 918
+    },
+    {
+     "id": "openai/clip-vit-base-patch32",
+     "downloads": 21349787,
+     "likes": 1528
+    },
+    {
+     "id": "Qwen/Qwen3-0.6B",
+     "downloads": 20218001,
+     "likes": 1629
+    },
+    {
+     "id": "Comfy-Org/MiniMax-H3",
+     "downloads": 19450489,
+     "likes": 1836
+    },
+    {
+     "id": "BAAI/bge-reranker-v2-m3",
+     "downloads": 18013116,
+     "likes": 1193
+    },
+    {
+     "id": "Qwen/Qwen3-VL-8B-Instruct",
+     "downloads": 17436747,
+     "likes": 1117
+    },
+    {
+     "id": "timm/mobilenetv3_small_100.lamb_in1k",
+     "downloads": 17193883,
+     "likes": 121
+    },
+    {
+     "id": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+     "downloads": 16343134,
+     "likes": 86
+    },
+    {
+     "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+     "downloads": 16100742,
+     "likes": 42
+    },
+    {
+     "id": "Comfy-Org/stable-diffusion-v1-5-archive",
+     "downloads": 15935025,
+     "likes": 156
+    }
+   ],
+   "topTrending": [
+    {
+     "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+     "author": "deepseek-ai",
+     "likes": 2373,
+     "downloads": 288414
+    },
+    {
+     "id": "Edge0/Edge0-35B-A3B-preview",
+     "author": "Edge0",
+     "likes": 1612,
+     "downloads": 8109
+    },
+    {
+     "id": "openbmb/MiniCPM5-2B",
+     "author": "openbmb",
+     "likes": 1377,
+     "downloads": 206774
+    },
+    {
+     "id": "nex-agi/Nex-N2.5-mini",
+     "author": "nex-agi",
+     "likes": 776,
+     "downloads": 4543
+    },
+    {
+     "id": "Qwen/Qwen3.8-27B",
+     "author": "Qwen",
+     "likes": 15092,
+     "downloads": 7703400
+    },
+    {
+     "id": "nex-agi/Nex-N2.5-Pro",
+     "author": "nex-agi",
+     "likes": 630,
+     "downloads": 30489
+    },
+    {
+     "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+     "author": "ISTA-DASLab",
+     "likes": 1005,
+     "downloads": 819784
+    },
+    {
+     "id": "XHToken/Spark-X2.5-4B",
+     "author": "XHToken",
+     "likes": 1167,
+     "downloads": 24084
+    },
+    {
+     "id": "m-a-p/YuE2-3B",
+     "author": "m-a-p",
+     "likes": 447,
+     "downloads": 5186
+    },
+    {
+     "id": "Lightricks/LTX-2.5",
+     "author": "Lightricks",
+     "likes": 3827,
+     "downloads": 1559653
+    },
+    {
+     "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+     "author": "DavidAU",
+     "likes": 663,
+     "downloads": 875703
+    },
+    {
+     "id": "unsloth/Qwen3.8-27B-GGUF",
+     "author": "unsloth",
+     "likes": 4068,
+     "downloads": 10077938
+    },
+    {
+     "id": "WarmBloodAban/Minimax-h3_Singularity",
+     "author": "WarmBloodAban",
+     "likes": 388,
+     "downloads": 141057
+    },
+    {
+     "id": "sentence-transformers/all-MiniLM-L6-v2",
+     "author": "sentence-transformers",
+     "likes": 5959,
+     "downloads": 252806720
+    },
+    {
+     "id": "MiniMaxAI/MiniMax-H3",
+     "author": "MiniMaxAI",
+     "likes": 5273,
+     "downloads": 4827156
+    },
+    {
+     "id": "google/timesfm-3.0-pytorch",
+     "author": "google",
+     "likes": 788,
+     "downloads": 826017
+    },
+    {
+     "id": "tencent/AuK",
+     "author": "tencent",
+     "likes": 212,
+     "downloads": 1928
+    },
+    {
+     "id": "openai-community/gpt2",
+     "author": "openai-community",
+     "likes": 4073,
+     "downloads": 15182177
+    },
+    {
+     "id": "openbmb/MiniCPM5-2B-GGUF",
+     "author": "openbmb",
+     "likes": 223,
+     "downloads": 108471
+    },
+    {
+     "id": "google-bert/bert-base-uncased",
+     "author": "google-bert",
+     "likes": 3337,
+     "downloads": 46435111
+    }
+   ],
+   "trendingAuthors": [
+    {
+     "author": "openbmb",
+     "count": 2
+    },
+    {
+     "author": "nex-agi",
+     "count": 2
+    },
+    {
+     "author": "deepseek-ai",
+     "count": 1
+    },
+    {
+     "author": "Edge0",
+     "count": 1
+    },
+    {
+     "author": "Qwen",
+     "count": 1
+    },
+    {
+     "author": "ISTA-DASLab",
+     "count": 1
+    },
+    {
+     "author": "XHToken",
+     "count": 1
+    },
+    {
+     "author": "m-a-p",
+     "count": 1
+    },
+    {
+     "author": "Lightricks",
+     "count": 1
+    },
+    {
+     "author": "DavidAU",
+     "count": 1
+    },
+    {
+     "author": "unsloth",
+     "count": 1
+    },
+    {
+     "author": "WarmBloodAban",
+     "count": 1
+    },
+    {
+     "author": "sentence-transformers",
+     "count": 1
+    },
+    {
+     "author": "MiniMaxAI",
+     "count": 1
+    },
+    {
+     "author": "google",
+     "count": 1
+    },
+    {
+     "author": "tencent",
+     "count": 1
+    },
+    {
+     "author": "openai-community",
+     "count": 1
+    },
+    {
+     "author": "google-bert",
+     "count": 1
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1501 @@
+{
+ "sourceId": "policy",
+ "label": "US Federal Register AI actions",
+ "status": "ok",
+ "fetchedAt": "2026-09-14T14:56:43.001Z",
+ "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "attribution": {
+  "name": "Federal Register API",
+  "url": "https://www.federalregister.gov/developers/documentation/api/v1"
+ },
+ "data": {
+  "documents": [
+   {
+    "title": "Request for Information (RFI) on Modernizing the National Vulnerability Database in the Age of Artificial Intelligence",
+    "date": "2026-08-12",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16371/request-for-information-rfi-on-modernizing-the-national-vulnerability-database-in-the-age-of",
+    "relevance": 0.63
+   },
+   {
+    "title": "Proposed Information Collection; ATUS Artificial Intelligence (AI) Questions",
+    "date": "2026-07-10",
+    "type": "Notice",
+    "agencies": [
+     "Labor Department",
+     "Labor Statistics Bureau"
+    ],
+    "url": "https://www.federalregister.gov/documents/2026/07/10/2026-13928/proposed-information-collection-atus-artificial-intelligence-ai-questions",
+    "relevance": 0.57
+   },
+   {
+    "title": "Policy Statement Concerning the Suppression of Accuracy in Artificial Intelligence Systems",
+    "date": "2026-07-07",
+    "type": "Notice",
+    "agencies": [
+     "Federal Trade Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems",
+    "relevance": 0.63
+   },
+   {
+    "title": "Promoting Advanced Artificial Intelligence Innovation and Security",
+    "date": "2026-06-05",
+    "type": "Presidential Document",
+    "agencies": [
+     "Executive Office of the President"
+    ],
+    "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security",
+    "relevance": 0.65
+   },
+   {
+    "title": "NIST Artificial Intelligence Consortium",
+    "date": "2026-05-29",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2026/05/29/2026-10779/nist-artificial-intelligence-consortium",
+    "relevance": 0.63
+   },
+   {
+    "title": "Final Priority and Definitions-Secretary's Supplemental Priority and Definitions on Advancing Artificial Intelligence in Education",
+    "date": "2026-04-13",
+    "type": "Rule",
+    "agencies": [
+     "Education Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2026/04/13/2026-07087/final-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing",
+    "relevance": 0.45
+   },
+   {
+    "title": "Request for Information Regarding Security Considerations for Artificial Intelligence Agents",
+    "date": "2026-01-08",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2026/01/08/2026-00206/request-for-information-regarding-security-considerations-for-artificial-intelligence-agents",
+    "relevance": 0.75
+   },
+   {
+    "title": "Request for Information: Accelerating the Adoption and Use of Artificial Intelligence as Part of Clinical Care",
+    "date": "2025-12-23",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Office of the Secretary"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23641/request-for-information-accelerating-the-adoption-and-use-of-artificial-intelligence-as-part-of",
+    "relevance": 0.45
+   },
+   {
+    "title": "Ensuring a National Policy Framework for Artificial Intelligence",
+    "date": "2025-12-16",
+    "type": "Presidential Document",
+    "agencies": [
+     "Executive Office of the President"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+    "relevance": 0.65
+   },
+   {
+    "title": "Request for Information (RFI) on Partnerships for Transformational Artificial Intelligence Models",
+    "date": "2025-12-05",
+    "type": "Notice",
+    "agencies": [
+     "Energy Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/12/05/2025-22127/request-for-information-rfi-on-partnerships-for-transformational-artificial-intelligence-models",
+    "relevance": 0.69
+   },
+   {
+    "title": "Unlocking Cures for Pediatric Cancer With Artificial Intelligence",
+    "date": "2025-10-07",
+    "type": "Presidential Document",
+    "agencies": [
+     "Executive Office of the President"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/10/07/2025-19495/unlocking-cures-for-pediatric-cancer-with-artificial-intelligence",
+    "relevance": 0.65
+   },
+   {
+    "title": "Notice of Request for Information; Regulatory Reform on Artificial Intelligence",
+    "date": "2025-09-26",
+    "type": "Notice",
+    "agencies": [
+     "Science and Technology Policy Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/09/26/2025-18737/notice-of-request-for-information-regulatory-reform-on-artificial-intelligence",
+    "relevance": 0.57
+   },
+   {
+    "title": "Accelerating Speed to Power/Winning the Artificial Intelligence Race: Federal Action To Rapidly Expand Grid Capacity and Enable Electricity Demand Growth",
+    "date": "2025-09-18",
+    "type": "Notice",
+    "agencies": [
+     "Energy Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/09/18/2025-18058/accelerating-speed-to-powerwinning-the-artificial-intelligence-race-federal-action-to-rapidly-expand",
+    "relevance": 0.57
+   },
+   {
+    "title": "Digital Health Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-Generative Artificial Intelligence-Enabled Digital Mental Health Medical Devices",
+    "date": "2025-09-12",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/09/12/2025-17651/digital-health-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request-for",
+    "relevance": 0.45
+   },
+   {
+    "title": "Proposed Priority and Definitions-Secretary's Supplemental Priority and Definitions on Advancing Artificial Intelligence in Education",
+    "date": "2025-07-21",
+    "type": "Proposed Rule",
+    "agencies": [
+     "Education Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/07/21/2025-13650/proposed-priority-and-definitions-secretarys-supplemental-priority-and-definitions-on-advancing",
+    "relevance": 0.45
+   },
+   {
+    "title": "Request for Information on the Development of a 2025 National Artificial Intelligence (AI) Research and Development (R&D) Strategic Plan",
+    "date": "2025-04-29",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/04/29/2025-07332/request-for-information-on-the-development-of-a-2025-national-artificial-intelligence-ai-research",
+    "relevance": 0.63
+   },
+   {
+    "title": "Advancing Artificial Intelligence Education for American Youth",
+    "date": "2025-04-28",
+    "type": "Presidential Document",
+    "agencies": [
+     "Executive Office of the President"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/04/28/2025-07368/advancing-artificial-intelligence-education-for-american-youth",
+    "relevance": 0.65
+   },
+   {
+    "title": "Request for Information on Artificial Intelligence Infrastructure on DOE Lands",
+    "date": "2025-04-07",
+    "type": "Notice",
+    "agencies": [
+     "Energy Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/04/07/2025-05936/request-for-information-on-artificial-intelligence-infrastructure-on-doe-lands",
+    "relevance": 0.57
+   },
+   {
+    "title": "Request for Information on the Development of an Artificial Intelligence (AI) Action Plan",
+    "date": "2025-02-06",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/02/06/2025-02305/request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan",
+    "relevance": 0.63
+   },
+   {
+    "title": "Removing Barriers to American Leadership in Artificial Intelligence",
+    "date": "2025-01-31",
+    "type": "Presidential Document",
+    "agencies": [
+     "Executive Office of the President"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+    "relevance": 0.65
+   },
+   {
+    "title": "Advancing United States Leadership in Artificial Intelligence Infrastructure",
+    "date": "2025-01-17",
+    "type": "Presidential Document",
+    "agencies": [
+     "Executive Office of the President"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/01/17/2025-01395/advancing-united-states-leadership-in-artificial-intelligence-infrastructure",
+    "relevance": 0.65
+   },
+   {
+    "title": "Request for Comments on AISI's Draft Document: Managing Misuse Risk for Dual-Use Foundation Models, Pursuant to Executive Order 14110 (Section 4.1(a)(ii) and Section4.1(a)(ii)(A)",
+    "date": "2025-01-15",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00698/request-for-comments-on-aisis-draft-document-managing-misuse-risk-for-dual-use-foundation-models",
+    "relevance": 0.75
+   },
+   {
+    "title": "Public Briefing on Framework for Artificial Intelligence Diffusion",
+    "date": "2025-01-15",
+    "type": "Rule",
+    "agencies": [
+     "Commerce Department",
+     "Industry and Security Bureau"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00637/public-briefing-on-framework-for-artificial-intelligence-diffusion",
+    "relevance": 0.57
+   },
+   {
+    "title": "Framework for Artificial Intelligence Diffusion",
+    "date": "2025-01-15",
+    "type": "Rule",
+    "agencies": [
+     "Commerce Department",
+     "Industry and Security Bureau"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion",
+    "relevance": 0.69
+   },
+   {
+    "title": "Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management and Marketing Submission Recommendations; Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
+    "date": "2025-01-07",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/01/07/2024-31543/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing",
+    "relevance": 0.57
+   },
+   {
+    "title": "Considerations for the Use of Artificial Intelligence To Support Regulatory Decision-Making for Drug and Biological Products; Draft Guidance for Industry; Availability; Comment Request",
+    "date": "2025-01-07",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2025/01/07/2024-31542/considerations-for-the-use-of-artificial-intelligence-to-support-regulatory-decision-making-for-drug",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-12-19",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/12/19/2024-30263/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions; Guidance for Industry and Food and Drug Administration Staff; Availability",
+    "date": "2024-12-04",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/12/04/2024-28361/marketing-submission-recommendations-for-a-predetermined-change-control-plan-for-artificial",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-11-25",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/11/25/2024-27461/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-11-04",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/11/04/2024-25571/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Meeting on the Artificial Intelligence in Healthcare Safety Program",
+    "date": "2024-10-31",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Agency for Healthcare Research and Quality"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/10/31/2024-25140/meeting-on-the-artificial-intelligence-in-healthcare-safety-program",
+    "relevance": 0.57
+   },
+   {
+    "title": "Government Owned Inventions Available for Licensing/Collaboration: Using Artificial Intelligence To Diagnose Uveitis",
+    "date": "2024-10-30",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "National Institutes of Health"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/10/30/2024-25162/government-owned-inventions-available-for-licensingcollaboration-using-artificial-intelligence-to",
+    "relevance": 0.45
+   },
+   {
+    "title": "Safety Considerations for Chemical and/or Biological AI Models",
+    "date": "2024-10-04",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/10/04/2024-22974/safety-considerations-for-chemical-andor-biological-ai-models",
+    "relevance": 0.75
+   },
+   {
+    "title": "Artificial Intelligence-Powered Autonomous Experimentation (AI/AE) for Sustainable Semiconductor Materials",
+    "date": "2024-10-02",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/10/02/2024-22664/artificial-intelligence-powered-autonomous-experimentation-aiae-for-sustainable-semiconductor",
+    "relevance": 0.67
+   },
+   {
+    "title": "Artificial Intelligence in Campaign Ads",
+    "date": "2024-09-26",
+    "type": "Proposed Rule",
+    "agencies": [
+     "Federal Election Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/09/26/2024-21979/artificial-intelligence-in-campaign-ads",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-09-23",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/09/23/2024-21635/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "2024 Guidance Update on Patent Subject Matter Eligibility, Including on Artificial Intelligence",
+    "date": "2024-09-17",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/09/17/2024-21085/2024-guidance-update-on-patent-subject-matter-eligibility-including-on-artificial-intelligence",
+    "relevance": 0.63
+   },
+   {
+    "title": "Digital Health Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-Total Product Lifecycle Considerations for Generative Artificial Intelligence-Enabled Medical Devices",
+    "date": "2024-09-17",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/09/17/2024-21074/digital-health-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request-for",
+    "relevance": 0.57
+   },
+   {
+    "title": "Establishment of Reporting Requirements for the Development of Advanced Artificial Intelligence Models and Computing Clusters",
+    "date": "2024-09-11",
+    "type": "Proposed Rule",
+    "agencies": [
+     "Commerce Department",
+     "Industry and Security Bureau"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/09/11/2024-20529/establishment-of-reporting-requirements-for-the-development-of-advanced-artificial-intelligence",
+    "relevance": 0.57
+   },
+   {
+    "title": "Implications of Artificial Intelligence Technologies on Protecting Consumers From Unwanted Robocalls and Robotexts",
+    "date": "2024-09-10",
+    "type": "Proposed Rule",
+    "agencies": [
+     "Federal Communications Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/09/10/2024-19028/implications-of-artificial-intelligence-technologies-on-protecting-consumers-from-unwanted-robocalls",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-08-20",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/08/20/2024-18596/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Request for Comments on the U.S. Artificial Intelligence Safety Institute's Draft Document: Managing Misuse Risk for Dual-Use Foundation Models",
+    "date": "2024-08-08",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/08/08/2024-17614/request-for-comments-on-the-us-artificial-intelligence-safety-institutes-draft-document-managing",
+    "relevance": 0.9
+   },
+   {
+    "title": "Disclosure and Transparency of Artificial Intelligence-Generated Content in Political Advertisements",
+    "date": "2024-08-05",
+    "type": "Proposed Rule",
+    "agencies": [
+     "Federal Communications Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/08/05/2024-16977/disclosure-and-transparency-of-artificial-intelligence-generated-content-in-political-advertisements",
+    "relevance": 0.63
+   },
+   {
+    "title": "2024 Guidance Update on Patent Subject Matter Eligibility, Including on Artificial Intelligence",
+    "date": "2024-07-17",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/07/17/2024-15377/2024-guidance-update-on-patent-subject-matter-eligibility-including-on-artificial-intelligence",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-07-16",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/07/16/2024-15528/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Workshop To Consider Artificial Intelligence in Drug and Biological Product Development; Public Workshop",
+    "date": "2024-07-10",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/07/10/2024-15125/workshop-to-consider-artificial-intelligence-in-drug-and-biological-product-development-public",
+    "relevance": 0.57
+   },
+   {
+    "title": "Opportunities and Challenges of Artificial Intelligence (AI) in Transportation; Request for Information; Extension of Comment Period",
+    "date": "2024-07-01",
+    "type": "Notice",
+    "agencies": [
+     "Transportation Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/07/01/2024-14436/opportunities-and-challenges-of-artificial-intelligence-ai-in-transportation-request-for-information",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-07-01",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/07/01/2024-14430/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Cooperative Research and Development Agreement: Payload Incorporated With Computer Vision and Machine Learning",
+    "date": "2024-06-26",
+    "type": "Notice",
+    "agencies": [
+     "Homeland Security Department",
+     "Coast Guard"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/06/26/2024-13926/cooperative-research-and-development-agreement-payload-incorporated-with-computer-vision-and-machine",
+    "relevance": 0.49
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-06-24",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/06/24/2024-13783/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Request for Information on Uses, Opportunities, and Risks of Artificial Intelligence in the Financial Services Sector",
+    "date": "2024-06-12",
+    "type": "Notice",
+    "agencies": [
+     "Treasury Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/06/12/2024-12336/request-for-information-on-uses-opportunities-and-risks-of-artificial-intelligence-in-the-financial",
+    "relevance": 0.57
+   },
+   {
+    "title": "Notice of a PCLOB Public Forum Examining the Role of Artificial Intelligence in Counterterrorism and Request for Public Comment",
+    "date": "2024-05-23",
+    "type": "Notice",
+    "agencies": [
+     "Privacy and Civil Liberties Oversight Board"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/05/23/2024-11317/notice-of-a-pclob-public-forum-examining-the-role-of-artificial-intelligence-in-counterterrorism-and",
+    "relevance": 0.57
+   },
+   {
+    "title": "Defense Industrial Base Adoption of Artificial Intelligence for Defense Applications; Notice of Availability",
+    "date": "2024-05-22",
+    "type": "Notice",
+    "agencies": [
+     "Defense Department",
+     "Office of the Secretary"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/05/22/2024-11195/defense-industrial-base-adoption-of-artificial-intelligence-for-defense-applications-notice-of",
+    "relevance": 0.57
+   },
+   {
+    "title": "Request for Comments on Draft Documents Responsive to NIST's Assignments Under Executive Order 14110 (Sections 4.1, 4.5, and 11)",
+    "date": "2024-05-07",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/05/07/2024-09824/request-for-comments-on-draft-documents-responsive-to-nists-assignments-under-executive-order-14110",
+    "relevance": 0.36
+   },
+   {
+    "title": "Opportunities and Challenges of Artificial Intelligence (AI) in Transportation; Request for Information",
+    "date": "2024-05-03",
+    "type": "Notice",
+    "agencies": [
+     "Transportation Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/05/03/2024-09645/opportunities-and-challenges-of-artificial-intelligence-ai-in-transportation-request-for-information",
+    "relevance": 0.57
+   },
+   {
+    "title": "Request for Comments Regarding the Impact of the Proliferation of Artificial Intelligence on Prior Art, the Knowledge of a Person Having Ordinary Skill in the Art, and Determinations of Patentability Made in View of the Foregoing",
+    "date": "2024-04-30",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/04/30/2024-08969/request-for-comments-regarding-the-impact-of-the-proliferation-of-artificial-intelligence-on-prior",
+    "relevance": 0.63
+   },
+   {
+    "title": "Establishment of the Artificial Intelligence Safety and Security Board",
+    "date": "2024-04-29",
+    "type": "Notice",
+    "agencies": [
+     "Homeland Security Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/04/29/2024-09132/establishment-of-the-artificial-intelligence-safety-and-security-board",
+    "relevance": 0.57
+   },
+   {
+    "title": "Request for Input From the Public on Section 7.1(b) of Executive Order 14110, “Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence”",
+    "date": "2024-04-25",
+    "type": "Notice",
+    "agencies": [
+     "Justice Department",
+     "National Institute of Justice"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/04/25/2024-08818/request-for-input-from-the-public-on-section-71b-of-executive-order-14110-safe-secure-and",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-04-16",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/04/16/2024-07924/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Guidance on Use of Artificial Intelligence-Based Tools in Practice Before the United States Patent and Trademark Office",
+    "date": "2024-04-11",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/04/11/2024-07629/guidance-on-use-of-artificial-intelligence-based-tools-in-practice-before-the-united-states-patent",
+    "relevance": 0.75
+   },
+   {
+    "title": "Request for Information: Responsible Procurement of Artificial Intelligence in Government",
+    "date": "2024-03-29",
+    "type": "Notice",
+    "agencies": [
+     "Management and Budget Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/03/29/2024-06547/request-for-information-responsible-procurement-of-artificial-intelligence-in-government",
+    "relevance": 0.69
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-03-25",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/03/25/2024-06173/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee; Law Enforcement Subcommittee",
+    "date": "2024-03-25",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/03/25/2024-06168/national-artificial-intelligence-advisory-committee-law-enforcement-subcommittee",
+    "relevance": 0.63
+   },
+   {
+    "title": "USPTO AI/ET Partnership: Public Symposium on Artificial Intelligence and Intellectual Property",
+    "date": "2024-03-08",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/03/08/2024-04971/uspto-aiet-partnership-public-symposium-on-artificial-intelligence-and-intellectual-property",
+    "relevance": 0.63
+   },
+   {
+    "title": "Notice of Request for Information (RFI) Related to DOE's Responsibilities on Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
+    "date": "2024-03-01",
+    "type": "Notice",
+    "agencies": [
+     "Energy Department"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/03/01/2024-04367/notice-of-request-for-information-rfi-related-to-does-responsibilities-on-safe-secure-and",
+    "relevance": 0.57
+   },
+   {
+    "title": "Dual Use Foundation Artificial Intelligence Models With Widely Available Model Weights",
+    "date": "2024-02-26",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Telecommunications and Information Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/02/26/2024-03763/dual-use-foundation-artificial-intelligence-models-with-widely-available-model-weights",
+    "relevance": 0.75
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-02-21",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/02/21/2024-03481/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Inventorship Guidance for AI-Assisted Inventions",
+    "date": "2024-02-13",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
+    "relevance": 0.36
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2024-02-02",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/02/02/2024-02086/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee; Law Enforcement Subcommittee",
+    "date": "2024-01-08",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2024/01/08/2024-00116/national-artificial-intelligence-advisory-committee-law-enforcement-subcommittee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Request for Information (RFI) Related to NIST's Assignments Under Sections 4.1, 4.5 and 11 of the Executive Order Concerning Artificial Intelligence (Sections 4.1, 4.5, and 11)",
+    "date": "2023-12-21",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/12/21/2023-28232/request-for-information-rfi-related-to-nists-assignments-under-sections-41-45-and-11-of-the",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-11-24",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/11/24/2023-25954/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Artificial Intelligence and Copyright",
+    "date": "2023-11-15",
+    "type": "Notice",
+    "agencies": [
+     "Library of Congress",
+     "Copyright Office, Library of Congress"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/11/15/2023-25128/artificial-intelligence-and-copyright",
+    "relevance": 0.63
+   },
+   {
+    "title": "Request for Comments on Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence Draft Memorandum",
+    "date": "2023-11-03",
+    "type": "Notice",
+    "agencies": [
+     "Management and Budget Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/11/03/2023-24269/request-for-comments-on-advancing-governance-innovation-and-risk-management-for-agency-use-of",
+    "relevance": 0.57
+   },
+   {
+    "title": "Artificial Intelligence Safety Institute Consortium",
+    "date": "2023-11-02",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/11/02/2023-24216/artificial-intelligence-safety-institute-consortium",
+    "relevance": 0.81
+   },
+   {
+    "title": "Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
+    "date": "2023-11-01",
+    "type": "Presidential Document",
+    "agencies": [
+     "Executive Office of the President"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+    "relevance": 0.65
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-11-01",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24045/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-10-03",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/10/03/2023-21808/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Discussion Paper: Artificial Intelligence in Drug Manufacturing, Notice; Request for Information and Comments; Reopening of the Comment Period",
+    "date": "2023-09-27",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/09/27/2023-20902/discussion-paper-artificial-intelligence-in-drug-manufacturing-notice-request-for-information-and",
+    "relevance": 0.45
+   },
+   {
+    "title": "Artificial Intelligence and Copyright",
+    "date": "2023-09-21",
+    "type": "Notice",
+    "agencies": [
+     "Library of Congress",
+     "Copyright Office, Library of Congress"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/09/21/2023-20480/artificial-intelligence-and-copyright",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee Law Enforcement Subcommittee",
+    "date": "2023-09-12",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/09/12/2023-19656/national-artificial-intelligence-advisory-committee-law-enforcement-subcommittee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-09-12",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/09/12/2023-19640/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Artificial Intelligence and Copyright",
+    "date": "2023-08-30",
+    "type": "Notice",
+    "agencies": [
+     "Library of Congress",
+     "Copyright Office, Library of Congress"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/08/30/2023-18624/artificial-intelligence-and-copyright",
+    "relevance": 0.75
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-08-29",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/08/29/2023-18542/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee Law Enforcement Subcommittee",
+    "date": "2023-08-29",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/08/29/2023-18541/national-artificial-intelligence-advisory-committee-law-enforcement-subcommittee",
+    "relevance": 0.63
+   },
+   {
+    "title": "USPTO AI/ET Partnership: Public Meeting on Artificial Intelligence Tools and Data",
+    "date": "2023-08-22",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/08/22/2023-18044/uspto-aiet-partnership-public-meeting-on-artificial-intelligence-tools-and-data",
+    "relevance": 0.63
+   },
+   {
+    "title": "Artificial Intelligence in Campaign Ads",
+    "date": "2023-08-16",
+    "type": "Proposed Rule",
+    "agencies": [
+     "Federal Election Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/08/16/2023-17547/artificial-intelligence-in-campaign-ads",
+    "relevance": 0.57
+   },
+   {
+    "title": "Open Commission Meeting Thursday, August 3, 2023",
+    "date": "2023-08-03",
+    "type": "Notice",
+    "agencies": [
+     "Federal Communications Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/08/03/2023-16497/open-commission-meeting-thursday-august-3-2023",
+    "relevance": 0.3
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-07-19",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/07/19/2023-14965/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-07-03",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/07/03/2023-14025/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-06-07",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/06/07/2023-12164/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "NUREG: Artificial Intelligence Strategic Plan: Fiscal Years 2023-2027",
+    "date": "2023-05-31",
+    "type": "Notice",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/05/31/2023-11245/nureg-artificial-intelligence-strategic-plan-fiscal-years-2023-2027",
+    "relevance": 0.57
+   },
+   {
+    "title": "Request for Information; National Priorities for Artificial Intelligence",
+    "date": "2023-05-26",
+    "type": "Notice",
+    "agencies": [
+     "Science and Technology Policy Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/05/26/2023-11346/request-for-information-national-priorities-for-artificial-intelligence",
+    "relevance": 0.57
+   },
+   {
+    "title": "Notice of Workshop on U.S. Leadership in Software Engineering & Artificial Intelligence Engineering: Critical Needs & Priorities",
+    "date": "2023-05-24",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/05/24/2023-11076/notice-of-workshop-on-us-leadership-in-software-engineering-and-artificial-intelligence-engineering",
+    "relevance": 0.51
+   },
+   {
+    "title": "Using Artificial Intelligence and Machine Learning in the Development of Drug and Biological Products; Availability",
+    "date": "2023-05-11",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/05/11/2023-09985/using-artificial-intelligence-and-machine-learning-in-the-development-of-drug-and-biological",
+    "relevance": 0.84
+   },
+   {
+    "title": "Existence and Use of Large Datasets To Address Research Questions for Characterization and Autonomous Tuning of Semiconductor Quantum Dot Devices",
+    "date": "2023-04-13",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/04/13/2023-07814/existence-and-use-of-large-datasets-to-address-research-questions-for-characterization-and",
+    "relevance": 0.34
+   },
+   {
+    "title": "AI Accountability Policy Request for Comment",
+    "date": "2023-04-13",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Telecommunications and Information Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/04/13/2023-07776/ai-accountability-policy-request-for-comment",
+    "relevance": 0.3
+   },
+   {
+    "title": "Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence/Machine Learning-Enabled Device Software Functions; Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
+    "date": "2023-04-03",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/04/03/2023-06786/marketing-submission-recommendations-for-a-predetermined-change-control-plan-for-artificial",
+    "relevance": 0.84
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-03-27",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/03/27/2023-06271/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "Copyright Registration Guidance: Works Containing Material Generated by Artificial Intelligence",
+    "date": "2023-03-16",
+    "type": "Rule",
+    "agencies": [
+     "Library of Congress",
+     "Copyright Office, Library of Congress"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence",
+    "relevance": 0.63
+   },
+   {
+    "title": "Discussion Paper: Artificial Intelligence in Drug Manufacturing, Notice; Request for Information and Comments",
+    "date": "2023-03-01",
+    "type": "Notice",
+    "agencies": [
+     "Health and Human Services Department",
+     "Food and Drug Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/03/01/2023-04206/discussion-paper-artificial-intelligence-in-drug-manufacturing-notice-request-for-information-and",
+    "relevance": 0.57
+   },
+   {
+    "title": "Request for Comments Regarding Artificial Intelligence and Inventorship",
+    "date": "2023-02-14",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/02/14/2023-03066/request-for-comments-regarding-artificial-intelligence-and-inventorship",
+    "relevance": 0.63
+   },
+   {
+    "title": "Public Meeting on Innovation Driven by Artificial Intelligence",
+    "date": "2023-01-26",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/01/26/2023-01645/public-meeting-on-innovation-driven-by-artificial-intelligence",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2023-01-06",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2023/01/06/2023-00026/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2022-12-19",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/12/19/2022-27401/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "Cooperative Research and Development Agreement-Artificial Intelligence (AI) Detection With Coast Guard Optical Sensors",
+    "date": "2022-11-02",
+    "type": "Notice",
+    "agencies": [
+     "Homeland Security Department",
+     "Coast Guard"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/11/02/2022-23811/cooperative-research-and-development-agreement-artificial-intelligence-ai-detection-with-coast-guard",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2022-11-01",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/11/01/2022-23733/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2022-09-26",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/09/26/2022-20801/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2022-09-22",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/09/22/2022-20478/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "Request for Comments on Artificial Intelligence Export Competitiveness",
+    "date": "2022-08-16",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "International Trade Administration"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/08/16/2022-17576/request-for-comments-on-artificial-intelligence-export-competitiveness",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2022-08-11",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/08/11/2022-17227/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "NRC's Fiscal Years 2023-2027 Artificial Intelligence Strategic Plan",
+    "date": "2022-07-05",
+    "type": "Notice",
+    "agencies": [
+     "Nuclear Regulatory Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/07/05/2022-14239/nrcs-fiscal-years-2023-2027-artificial-intelligence-strategic-plan",
+    "relevance": 0.57
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2022-06-15",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/06/15/2022-12851/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "Events for the Artificial Intelligence and Emerging Technologies Partnership",
+    "date": "2022-06-07",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "Patent and Trademark Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/06/07/2022-12139/events-for-the-artificial-intelligence-and-emerging-technologies-partnership",
+    "relevance": 0.63
+   },
+   {
+    "title": "Request for Information (RFI) on Implementing Initial Findings and Recommendations of the National Artificial Intelligence Research Resource Task Force",
+    "date": "2022-05-25",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation",
+     "Science and Technology Policy Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/05/25/2022-11223/request-for-information-rfi-on-implementing-initial-findings-and-recommendations-of-the-national",
+    "relevance": 0.63
+   },
+   {
+    "title": "Public Listening Session on Implementing Initial Findings and Recommendations of the National Artificial Intelligence Research Resource Task Force",
+    "date": "2022-05-25",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation",
+     "Science and Technology Policy Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/05/25/2022-11222/public-listening-session-on-implementing-initial-findings-and-recommendations-of-the-national",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Advisory Committee",
+    "date": "2022-04-19",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/04/19/2022-08319/national-artificial-intelligence-advisory-committee",
+    "relevance": 0.75
+   },
+   {
+    "title": "Notice of the Networking and Information Technology Research and Development Program 30th Anniversary Symposium",
+    "date": "2022-04-08",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/04/08/2022-07500/notice-of-the-networking-and-information-technology-research-and-development-program-30th",
+    "relevance": 0.3
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2022-03-21",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/03/21/2022-05879/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2022-02-28",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/02/28/2022-04101/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "Request for Information to the Update of the National Artificial Intelligence Research and Development Strategic Plan",
+    "date": "2022-02-02",
+    "type": "Notice",
+    "agencies": [
+     "Science and Technology Policy Office"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/02/02/2022-02161/request-for-information-to-the-update-of-the-national-artificial-intelligence-research-and",
+    "relevance": 0.69
+   },
+   {
+    "title": "CPSC Artificial Intelligence and Machine Learning Test and Evaluation Forum",
+    "date": "2022-01-28",
+    "type": "Notice",
+    "agencies": [
+     "Consumer Product Safety Commission"
+    ],
+    "url": "https://www.federalregister.gov/documents/2022/01/28/2022-01721/cpsc-artificial-intelligence-and-machine-learning-test-and-evaluation-forum",
+    "relevance": 0.84
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2021-11-26",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2021/11/26/2021-25779/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   },
+   {
+    "title": "Call for Nominations To Serve on the National Artificial Intelligence Advisory Committee and Call for Nominations To Serve on the Subcommittee on Artificial Intelligence and Law Enforcement",
+    "date": "2021-09-08",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2021/09/08/2021-19287/call-for-nominations-to-serve-on-the-national-artificial-intelligence-advisory-committee-and-call",
+    "relevance": 0.63
+   },
+   {
+    "title": "Artificial Intelligence Risk Management Framework",
+    "date": "2021-08-24",
+    "type": "Notice",
+    "agencies": [
+     "Commerce Department",
+     "National Institute of Standards and Technology"
+    ],
+    "url": "https://www.federalregister.gov/documents/2021/08/24/2021-18108/artificial-intelligence-risk-management-framework",
+    "relevance": 0.63
+   },
+   {
+    "title": "Request for Information (RFI) on an Implementation Plan for a National Artificial Intelligence Research Resource",
+    "date": "2021-08-18",
+    "type": "Notice",
+    "agencies": [
+     "Science and Technology Policy Office",
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2021/08/18/2021-17737/request-for-information-rfi-on-an-implementation-plan-for-a-national-artificial-intelligence",
+    "relevance": 0.63
+   },
+   {
+    "title": "National Artificial Intelligence Research Resource Task Force; Notice of Meeting",
+    "date": "2021-08-10",
+    "type": "Notice",
+    "agencies": [
+     "National Science Foundation"
+    ],
+    "url": "https://www.federalregister.gov/documents/2021/08/10/2021-16981/national-artificial-intelligence-research-resource-task-force-notice-of-meeting",
+    "relevance": 0.51
+   }
+  ],
+  "byYear": [
+   {
+    "year": 2021,
+    "count": 5
+   },
+   {
+    "year": 2022,
+    "count": 18
+   },
+   {
+    "year": 2023,
+    "count": 34
+   },
+   {
+    "year": 2024,
+    "count": 44
+   },
+   {
+    "year": 2025,
+    "count": 19
+   },
+   {
+    "year": 2026,
+    "count": 7
+   }
+  ],
+  "byYearMentions": [
+   {
+    "year": 2021,
+    "count": 39
+   },
+   {
+    "year": 2022,
+    "count": 99
+   },
+   {
+    "year": 2023,
+    "count": 170
+   },
+   {
+    "year": 2024,
+    "count": 287
+   },
+   {
+    "year": 2025,
+    "count": 174
+   },
+   {
+    "year": 2026,
+    "count": 231
+   }
+  ],
+  "byType": [
+   {
+    "type": "Notice",
+    "count": 110
+   },
+   {
+    "type": "Presidential Document",
+    "count": 7
+   },
+   {
+    "type": "Proposed Rule",
+    "count": 6
+   },
+   {
+    "type": "Rule",
+    "count": 4
+   }
+  ],
+  "byAgency": [
+   {
+    "agency": "Commerce Department",
+    "count": 57
+   },
+   {
+    "agency": "National Institute of Standards and Technology",
+    "count": 41
+   },
+   {
+    "agency": "National Science Foundation",
+    "count": 16
+   },
+   {
+    "agency": "Health and Human Services Department",
+    "count": 13
+   },
+   {
+    "agency": "Food and Drug Administration",
+    "count": 10
+   },
+   {
+    "agency": "Patent and Trademark Office",
+    "count": 10
+   },
+   {
+    "agency": "Executive Office of the President",
+    "count": 7
+   },
+   {
+    "agency": "Science and Technology Policy Office",
+    "count": 6
+   },
+   {
+    "agency": "Energy Department",
+    "count": 4
+   },
+   {
+    "agency": "Library of Congress",
+    "count": 4
+   },
+   {
+    "agency": "Copyright Office, Library of Congress",
+    "count": 4
+   },
+   {
+    "agency": "Industry and Security Bureau",
+    "count": 3
+   },
+   {
+    "agency": "Federal Communications Commission",
+    "count": 3
+   },
+   {
+    "agency": "Homeland Security Department",
+    "count": 3
+   },
+   {
+    "agency": "Education Department",
+    "count": 2
+   }
+  ],
+  "totalMatching": 1297,
+  "corpusEarliestDate": "2021-08-10"
+ }
+}

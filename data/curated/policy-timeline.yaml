@@ -1,0 +1,195 @@
+# Global AI governance milestones.
+# kind: law | regulation | executive | agreement | export-control | standard
+# status: in-force | phasing-in | proposed | superseded
+
+- date: 2016-10-12
+  jurisdiction: United States
+  title: National AI Research and Development Strategic Plan
+  kind: executive
+  status: superseded
+  summary: First US federal strategic framework for AI R&D investment, published under the Obama administration.
+  url: https://www.nitrd.gov/pubs/national_ai_rd_strategic_plan.pdf
+
+- date: 2017-07-20
+  jurisdiction: China
+  title: New Generation Artificial Intelligence Development Plan
+  kind: executive
+  status: in-force
+  summary: State Council plan setting the goal of global AI leadership by 2030, with staged capability targets.
+  url: https://www.newamerica.org/cybersecurity-initiative/digichina/blog/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/
+
+- date: 2018-05-25
+  jurisdiction: European Union
+  title: GDPR enters into application
+  kind: regulation
+  status: in-force
+  summary: Article 22 establishes rights around solely automated decision-making, the first broad legal constraint on algorithmic decisions.
+  url: https://eur-lex.europa.eu/eli/reg/2016/679/oj
+
+- date: 2019-05-22
+  jurisdiction: International (OECD)
+  title: OECD AI Principles
+  kind: agreement
+  status: in-force
+  summary: First intergovernmental AI standard; later adopted by the G20 and used as the reference definition of an "AI system".
+  url: https://oecd.ai/en/ai-principles
+
+- date: 2021-04-21
+  jurisdiction: European Union
+  title: EU AI Act proposed by the European Commission
+  kind: law
+  status: superseded
+  summary: Initial legislative proposal introducing the risk-tiered regulatory approach.
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206
+
+- date: 2022-10-04
+  jurisdiction: United States
+  title: Blueprint for an AI Bill of Rights
+  kind: executive
+  status: superseded
+  summary: Non-binding OSTP framework of five principles for automated systems affecting the public.
+  url: https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/
+
+- date: 2022-10-07
+  jurisdiction: United States
+  title: BIS advanced computing and semiconductor export controls
+  kind: export-control
+  status: in-force
+  summary: First broad restriction on exporting advanced AI accelerators and semiconductor tooling to China.
+  url: https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor
+
+- date: 2023-05-19
+  jurisdiction: International (G7)
+  title: Hiroshima AI Process launched
+  kind: agreement
+  status: in-force
+  summary: G7 process that produced international guiding principles and a code of conduct for advanced AI developers.
+  url: https://www.mofa.go.jp/ecm/ec/page5e_000076.html
+
+- date: 2023-07-21
+  jurisdiction: United States
+  title: Voluntary AI commitments from leading developers
+  kind: agreement
+  status: in-force
+  summary: Seven companies committed to pre-deployment safety testing, information sharing, and provenance measures; later extended to more signatories.
+  url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/
+
+- date: 2023-10-17
+  jurisdiction: United States
+  title: BIS export control update closing performance thresholds
+  kind: export-control
+  status: in-force
+  summary: Revised the interconnect-bandwidth loophole and added performance-density criteria covering export-tuned accelerators.
+  url: https://www.federalregister.gov/documents/2023/10/25/2023-23055/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and
+
+- date: 2023-10-30
+  jurisdiction: United States
+  title: Executive Order 14110 on Safe, Secure, and Trustworthy AI
+  kind: executive
+  status: superseded
+  summary: Most comprehensive US federal AI action to date; introduced compute-threshold reporting for frontier training runs. Revoked January 2025.
+  url: https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence
+
+- date: 2023-11-01
+  jurisdiction: International
+  title: Bletchley Declaration at the UK AI Safety Summit
+  kind: agreement
+  status: in-force
+  summary: 28 countries and the EU signed the first international statement on frontier AI risk; the UK AI Safety Institute was announced alongside it.
+  url: https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration
+
+- date: 2023-12-09
+  jurisdiction: European Union
+  title: Political agreement reached on the EU AI Act
+  kind: law
+  status: superseded
+  summary: Trilogue agreement between Parliament and Council, adding general-purpose AI model obligations to the original risk-tier structure.
+  url: https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai
+
+- date: 2024-03-13
+  jurisdiction: European Union
+  title: European Parliament adopts the AI Act
+  kind: law
+  status: superseded
+  summary: Plenary vote adopting the world's first comprehensive horizontal AI law.
+  url: https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law
+
+- date: 2024-05-17
+  jurisdiction: International (Council of Europe)
+  title: Framework Convention on AI, Human Rights, Democracy and the Rule of Law
+  kind: agreement
+  status: in-force
+  summary: First legally binding international AI treaty, opened for signature in September 2024.
+  url: https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence
+
+- date: 2024-05-21
+  jurisdiction: International
+  title: Seoul Frontier AI Safety Commitments
+  kind: agreement
+  status: in-force
+  summary: 16 leading developers committed to publishing safety frameworks with defined risk thresholds.
+  url: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024
+
+- date: 2024-05-17
+  jurisdiction: United States (Colorado)
+  title: Colorado AI Act (SB 24-205) signed
+  kind: law
+  status: phasing-in
+  summary: First comprehensive US state AI law, imposing duties of care around algorithmic discrimination in consequential decisions.
+  url: https://leg.colorado.gov/bills/sb24-205
+
+- date: 2024-08-01
+  jurisdiction: European Union
+  title: EU AI Act enters into force
+  kind: law
+  status: phasing-in
+  summary: Starts the staged compliance clock; obligations phase in over the following 24-36 months.
+  url: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+
+- date: 2024-09-29
+  jurisdiction: United States (California)
+  title: SB 1047 vetoed
+  kind: law
+  status: superseded
+  summary: Governor Newsom vetoed the frontier model safety bill, arguing it regulated by compute threshold rather than deployment risk.
+  url: https://www.gov.ca.gov/wp-content/uploads/2024/09/SB-1047-Veto-Message.pdf
+
+- date: 2025-01-23
+  jurisdiction: United States
+  title: Executive Order on Removing Barriers to American Leadership in AI
+  kind: executive
+  status: in-force
+  summary: Revoked EO 14110 and reoriented federal policy toward accelerating AI development and reducing regulatory burden.
+  url: https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence
+
+- date: 2025-02-02
+  jurisdiction: European Union
+  title: AI Act prohibitions and AI literacy obligations apply
+  kind: law
+  status: in-force
+  summary: First compliance milestone — bans on unacceptable-risk practices such as social scoring and untargeted facial-image scraping take effect.
+  url: https://artificialintelligenceact.eu/implementation-timeline/
+
+- date: 2025-02-10
+  jurisdiction: International
+  title: Paris AI Action Summit
+  kind: agreement
+  status: in-force
+  summary: Third summit in the series, pivoting emphasis from frontier safety toward innovation, energy, and public-interest AI.
+  url: https://www.elysee.fr/en/sommet-pour-l-action-sur-l-ia
+
+- date: 2025-08-02
+  jurisdiction: European Union
+  title: AI Act general-purpose AI model obligations apply
+  kind: law
+  status: in-force
+  summary: Transparency, copyright-policy, and systemic-risk duties begin for GPAI model providers, supported by a voluntary Code of Practice.
+  url: https://artificialintelligenceact.eu/implementation-timeline/
+
+- date: 2026-08-02
+  jurisdiction: European Union
+  title: AI Act high-risk system obligations apply
+  kind: law
+  status: phasing-in
+  summary: Annex III high-risk obligations — risk management, data governance, human oversight, conformity assessment — become enforceable.
+  url: https://artificialintelligenceact.eu/implementation-timeline/

@@ -1,0 +1,131 @@
+{
+ "sourceId": "discourse",
+ "label": "Developer discourse (Hacker News)",
+ "status": "ok",
+ "fetchedAt": "2026-09-14T14:56:43.001Z",
+ "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "attribution": {
+  "name": "Hacker News API",
+  "url": "https://github.com/HackerNews/API"
+ },
+ "data": {
+  "topStories": [
+   {
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "score": 634,
+    "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "date": "2026-09-13"
+   },
+   {
+    "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+    "score": 397,
+    "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+    "date": "2026-09-13"
+   },
+   {
+    "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+    "score": 314,
+    "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+    "date": "2026-09-13"
+   },
+   {
+    "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+    "score": 149,
+    "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Open-source AI and open models reading list",
+    "score": 139,
+    "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+    "score": 101,
+    "url": "https://github.com/anuj0456/OpenArch",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
+    "score": 90,
+    "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+    "score": 80,
+    "url": "https://github.com/callbacked/kinesis",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Big AI sets out its terms for regulatory capture",
+    "score": 78,
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Who gets to define the rules for AI?",
+    "score": 46,
+    "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "D-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
+    "score": 12,
+    "url": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Intelligence per Watt: Measuring Intelligence Efficiency of Local AI",
+    "score": 8,
+    "url": "https://arxiv.org/abs/2511.07885",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "The AI job market in 2026",
+    "score": 7,
+    "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Show HN: I built Otis, a minimal AI agent that runs local models out of the box",
+    "score": 6,
+    "url": "https://triangllabs.ai/otis",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "RubyGems Open Source Supply Chain Security and OpenAI",
+    "score": 5,
+    "url": "https://rietta.com/blog/rubygems-supply-chain-openai/",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Do the AI Studio test NOW to prove Google doesn't delete chats",
+    "score": 5,
+    "url": "https://lemmy.world/post/51905600",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Ask HN: Are 80s high school hobby programmers overwhelmingly pro-AI?",
+    "score": 5,
+    "url": null,
+    "date": "2026-09-14"
+   },
+   {
+    "title": "A list of 1,325 AI assisted repositories, mined from GitHub",
+    "score": 4,
+    "url": "https://github.com/ActuallyTaylor/strata/blob/main/paper/data/large/datasets/ai-assisted-repositories.csv",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Show HN: Authorize MCP tool calls without giving agents the credentials",
+    "score": 3,
+    "url": "https://github.com/keydrisLabs/mcp-auth-keydris-template",
+    "date": "2026-09-14"
+   }
+  ],
+  "aiShareOfFrontPage": 0.1919191919191919,
+  "sampled": 99
+ }
+}

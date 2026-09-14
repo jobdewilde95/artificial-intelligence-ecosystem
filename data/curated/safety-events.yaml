@@ -1,0 +1,101 @@
+# Safety, evaluation and governance events.
+# category: incident | evaluation | commitment | framework | research
+# severity: low | medium | high | informational
+
+- date: 2023-03-22
+  title: "'Pause Giant AI Experiments' open letter"
+  category: commitment
+  severity: informational
+  summary: Future of Life Institute letter calling for a six-month moratorium on training runs beyond GPT-4; gathered tens of thousands of signatures and pushed frontier risk into mainstream debate.
+  url: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+
+- date: 2023-05-30
+  title: Statement on AI Risk
+  category: commitment
+  severity: informational
+  summary: One-sentence statement placing extinction risk from AI alongside pandemics and nuclear war, signed by leaders of the major labs and prominent researchers.
+  url: https://www.safe.ai/work/statement-on-ai-risk
+
+- date: 2023-09-19
+  title: Anthropic publishes its Responsible Scaling Policy
+  category: framework
+  severity: informational
+  summary: Introduced AI Safety Levels (ASL) tying deployment and security commitments to demonstrated model capability — the template most frontier safety frameworks followed.
+  url: https://www.anthropic.com/news/anthropics-responsible-scaling-policy
+
+- date: 2023-12-18
+  title: OpenAI publishes the Preparedness Framework
+  category: framework
+  severity: informational
+  summary: Tracked-category risk scorecards with defined thresholds gating deployment and further development.
+  url: https://openai.com/index/preparedness/
+
+- date: 2024-01-22
+  title: AI-generated robocall impersonating President Biden
+  category: incident
+  severity: high
+  summary: Voice-cloned robocall urged New Hampshire primary voters to stay home; led to an FCC ruling that AI-generated voices in robocalls are illegal and to criminal charges.
+  url: https://www.fcc.gov/document/fcc-makes-ai-generated-voices-robocalls-illegal
+
+- date: 2024-02-04
+  title: Deepfake video conference fraud in Hong Kong
+  category: incident
+  severity: high
+  summary: A finance employee transferred roughly US$25M after a video call in which every other participant was a deepfake of a colleague.
+  url: https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html
+
+- date: 2024-05-21
+  title: Frontier AI Safety Commitments (Seoul)
+  category: commitment
+  severity: informational
+  summary: 16 developers agreed to publish safety frameworks defining intolerable risk thresholds and the mitigations gating them.
+  url: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024
+
+- date: 2024-05-21
+  title: Scaling Monosemanticity — interpretability of a production model
+  category: research
+  severity: informational
+  summary: Sparse autoencoders extracted millions of interpretable features from Claude 3 Sonnet, the first such result at production scale.
+  url: https://transformer-circuits.pub/2024/scaling-monosemanticity/
+
+- date: 2024-05-17
+  title: OpenAI's Superalignment team dissolves
+  category: incident
+  severity: medium
+  summary: The team dedicated to superintelligence alignment was disbanded following the departure of both co-leads, prompting scrutiny of lab safety-resourcing commitments.
+  url: https://www.bbc.com/news/articles/c3g3g1g1g1o
+
+- date: 2024-10-23
+  title: Wrongful death lawsuit filed against Character.AI
+  category: incident
+  severity: high
+  summary: Suit alleging a companion chatbot contributed to a teenager's death; catalysed regulatory attention to minors' use of AI companions.
+  url: https://www.npr.org/2024/10/23/nx-s1-5169668/character-ai-lawsuit-teen-death
+
+- date: 2025-01-29
+  title: International AI Safety Report
+  category: evaluation
+  severity: informational
+  summary: First full report from the expert panel chaired by Yoshua Bengio, backed by 30 countries — the closest thing to an IPCC-style scientific consensus assessment for AI.
+  url: https://www.gov.uk/government/publications/international-ai-safety-report-2025
+
+- date: 2025-02-04
+  title: Google DeepMind Frontier Safety Framework v2
+  category: framework
+  severity: informational
+  summary: Revised critical capability levels covering misuse, misalignment and deceptive alignment, with security-level mitigations attached to each.
+  url: https://deepmind.google/discover/blog/updating-the-frontier-safety-framework/
+
+- date: 2025-03-27
+  title: Circuit tracing — attribution graphs in a production model
+  category: research
+  severity: informational
+  summary: Method for tracing computation through a deployed model, revealing multi-step reasoning, planning ahead in poetry, and unfaithful chain-of-thought.
+  url: https://www.anthropic.com/research/tracing-thoughts-language-model
+
+- date: 2025-05-22
+  title: Anthropic activates ASL-3 protections for Claude Opus 4
+  category: framework
+  severity: medium
+  summary: First time a frontier developer deployed a model under its own elevated safety standard, citing CBRN uplift risk that could not be conclusively ruled out.
+  url: https://www.anthropic.com/news/activating-asl3-protections

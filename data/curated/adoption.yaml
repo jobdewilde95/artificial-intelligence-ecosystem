@@ -1,0 +1,43 @@
+# Adoption and impact indicators. Each is a point-in-time reading with a
+# primary source — deliberately sparse, since reliable AI adoption statistics
+# are scarce and frequently over-claimed.
+
+- label: Organisations using AI in at least one business function
+  value: 78
+  unit: "%"
+  asOf: 2025-03-01
+  source: McKinsey — The State of AI, 2025
+  url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+  note: Self-reported by surveyed executives; up from 55% in the 2023 survey.
+
+- label: US firms using AI to produce goods or services
+  value: 9.2
+  unit: "%"
+  asOf: 2025-06-01
+  source: US Census Bureau — Business Trends and Outlook Survey
+  url: https://www.census.gov/hfp/btos/data
+  note: A far lower figure than executive surveys, because it samples all firms rather than large enterprises.
+
+- label: Developers using or planning to use AI coding tools
+  value: 76
+  unit: "%"
+  asOf: 2024-07-01
+  source: Stack Overflow Developer Survey 2024
+  url: https://survey.stackoverflow.co/2024/ai
+  note: 62% reported actively using them; trust in output accuracy was markedly lower.
+
+- label: ChatGPT weekly active users
+  value: 800
+  unit: millions
+  asOf: 2025-10-06
+  source: OpenAI DevDay 2025
+  url: https://openai.com/devday/
+  note: Grew from roughly 100M weekly users in November 2023.
+
+- label: Share of US adults who have used a generative AI chatbot
+  value: 34
+  unit: "%"
+  asOf: 2025-06-01
+  source: Pew Research Center
+  url: https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/
+  note: Roughly double the 2023 share; usage skews strongly toward younger and higher-income adults.

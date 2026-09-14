@@ -1,0 +1,6250 @@
+{
+ "sourceId": "openrouter",
+ "label": "Served model catalogue & inference pricing",
+ "status": "ok",
+ "fetchedAt": "2026-09-14T14:56:43.001Z",
+ "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "attribution": {
+  "name": "OpenRouter",
+  "url": "https://openrouter.ai/docs/api-reference/list-available-models"
+ },
+ "data": {
+  "servedModels": [
+   {
+    "id": "inference-net/schematron-v2-turbo",
+    "name": "Inference.net: Schematron V2 Turbo",
+    "provider": "inference-net",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.03,
+    "completionUsdPerMTok": 0.15,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-09-12"
+   },
+   {
+    "id": "inference-net/schematron-v2-small",
+    "name": "Inference.net: Schematron V2 Small",
+    "provider": "inference-net",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.22999999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-09-12"
+   },
+   {
+    "id": "~openai/gpt-astra-latest",
+    "name": "OpenAI: GPT Astra Latest",
+    "provider": "~openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 50,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-11"
+   },
+   {
+    "id": "~openai/gpt-sol-latest",
+    "name": "OpenAI: GPT Sol Latest",
+    "provider": "~openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-11"
+   },
+   {
+    "id": "~openai/gpt-terra-latest",
+    "name": "OpenAI: GPT Terra Latest",
+    "provider": "~openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-11"
+   },
+   {
+    "id": "~openai/gpt-luna-latest",
+    "name": "OpenAI: GPT Luna Latest",
+    "provider": "~openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-11"
+   },
+   {
+    "id": "sakana/fugu-ultra-v2",
+    "name": "Sakana: Fugu Ultra v2",
+    "provider": "sakana",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 30,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-09-11"
+   },
+   {
+    "id": "sakana/fugu-max",
+    "name": "Sakana: Fugu Max",
+    "provider": "sakana",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-09-11"
+   },
+   {
+    "id": "inclusionai/ling-3.0-flash-vl",
+    "name": "inclusionAI: Ling 3.0 Flash VL",
+    "provider": "inclusionai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.06,
+    "completionUsdPerMTok": 0.18,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-09-10"
+   },
+   {
+    "id": "inclusionai/ling-3.0-flash-vl:free",
+    "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+    "provider": "inclusionai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-09-10"
+   },
+   {
+    "id": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-09-10"
+   },
+   {
+    "id": "inception/mercury-2.5",
+    "name": "Inception: Mercury 2.5",
+    "provider": "inception",
+    "contextLength": 260000,
+    "promptUsdPerMTok": 0.04,
+    "completionUsdPerMTok": 0.15,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-09-08"
+   },
+   {
+    "id": "nex-agi/nex-n2.5-mini:free",
+    "name": "Nex AGI: Nex-N2.5-Mini (free)",
+    "provider": "nex-agi",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-09-08"
+   },
+   {
+    "id": "nex-agi/nex-n2.5-pro:free",
+    "name": "Nex AGI: Nex-N2.5-Pro (free)",
+    "provider": "nex-agi",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-09-08"
+   },
+   {
+    "id": "openai/gpt-6-astra",
+    "name": "OpenAI: GPT-6 Astra",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 50,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-04"
+   },
+   {
+    "id": "openai/gpt-6-astra:batch",
+    "name": "OpenAI: GPT-6 Astra (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-04"
+   },
+   {
+    "id": "openai/gpt-6-astra-pro",
+    "name": "OpenAI: GPT-6 Astra Pro",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 50,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-04"
+   },
+   {
+    "id": "openai/gpt-6-astra-pro:batch",
+    "name": "OpenAI: GPT-6 Astra Pro (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-09-04"
+   },
+   {
+    "id": "inclusionai/ling-3.0-flash-sante:free",
+    "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+    "provider": "inclusionai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-09-04"
+   },
+   {
+    "id": "qwen/qwen3.8-max-0902",
+    "name": "Qwen: Qwen3.8 Max (0902)",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-09-03"
+   },
+   {
+    "id": "meta/muse-spark-1.3-contributor",
+    "name": "Meta: Muse Spark 1.3 Contributor",
+    "provider": "meta",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-09-02"
+   },
+   {
+    "id": "meta/muse-spark-1.3",
+    "name": "Meta: Muse Spark 1.3",
+    "provider": "meta",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 4.25,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-09-02"
+   },
+   {
+    "id": "google/gemini-3.8-flash",
+    "name": "Google: Gemini 3.8 Flash",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 3.75,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-09-02"
+   },
+   {
+    "id": "google/gemini-3.8-flash:batch",
+    "name": "Google: Gemini 3.8 Flash (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.375,
+    "completionUsdPerMTok": 1.875,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-09-02"
+   },
+   {
+    "id": "anthropic/claude-fable-5.1",
+    "name": "Anthropic: Claude Fable 5.1",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 50,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-09-01"
+   },
+   {
+    "id": "anthropic/claude-fable-5.1:batch",
+    "name": "Anthropic: Claude Fable 5.1 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-09-01"
+   },
+   {
+    "id": "ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B",
+    "provider": "ibm-granite",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.06,
+    "completionUsdPerMTok": 0.25,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-31"
+   },
+   {
+    "id": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "provider": "tencent",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.834,
+    "completionUsdPerMTok": 2.501,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-28"
+   },
+   {
+    "id": "inclusionai/ling-3.0-flash-fin",
+    "name": "inclusionAI: Ling 3.0 Flash Fin",
+    "provider": "inclusionai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.06,
+    "completionUsdPerMTok": 0.18,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-27"
+   },
+   {
+    "id": "inclusionai/ling-3.0-flash-fin:free",
+    "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+    "provider": "inclusionai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-27"
+   },
+   {
+    "id": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "provider": "~z-ai",
+    "contextLength": 1310720,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.25,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-08-27"
+   },
+   {
+    "id": "qwen/qwen3.8-flash",
+    "name": "Qwen: Qwen3.8 Flash",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.47,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-08-26"
+   },
+   {
+    "id": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "provider": "z-ai",
+    "contextLength": 1310720,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.5,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-08-26"
+   },
+   {
+    "id": "z-ai/glm-5.3-flash:batch",
+    "name": "Z.ai: GLM 5.3 Flash (batch)",
+    "provider": "z-ai",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.25,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-08-26"
+   },
+   {
+    "id": "meta/muse-spark-1.2-contributor",
+    "name": "Meta: Muse Spark 1.2 Contributor",
+    "provider": "meta",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-08-21"
+   },
+   {
+    "id": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.22,
+    "completionUsdPerMTok": 0.66,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-08-21"
+   },
+   {
+    "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.11,
+    "completionUsdPerMTok": 0.33,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-08-21"
+   },
+   {
+    "id": "tencent/hy-mt2-1.8b",
+    "name": "Tencent: Hy-MT2-1.8B",
+    "provider": "tencent",
+    "contextLength": 8192,
+    "promptUsdPerMTok": 0.044,
+    "completionUsdPerMTok": 0.17700000000000002,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-20"
+   },
+   {
+    "id": "tencent/hy-mt2-30b-a3b",
+    "name": "Tencent: Hy-MT2-30B-A3B",
+    "provider": "tencent",
+    "contextLength": 8192,
+    "promptUsdPerMTok": 0.074,
+    "completionUsdPerMTok": 0.295,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-20"
+   },
+   {
+    "id": "~z-ai/glm-latest",
+    "name": "Z.ai: GLM Latest",
+    "provider": "~z-ai",
+    "contextLength": 1310720,
+    "promptUsdPerMTok": 0.9199999999999999,
+    "completionUsdPerMTok": 3.1372,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-19"
+   },
+   {
+    "id": "tencent/hy-mt2-7b",
+    "name": "Tencent: Hy-MT2-7B",
+    "provider": "tencent",
+    "contextLength": 8192,
+    "promptUsdPerMTok": 0.074,
+    "completionUsdPerMTok": 0.295,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-19"
+   },
+   {
+    "id": "z-ai/glm-5.3",
+    "name": "Z.ai: GLM 5.3",
+    "provider": "z-ai",
+    "contextLength": 1310720,
+    "promptUsdPerMTok": 1.4,
+    "completionUsdPerMTok": 4.4,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-18"
+   },
+   {
+    "id": "z-ai/glm-5.3:batch",
+    "name": "Z.ai: GLM 5.3 (batch)",
+    "provider": "z-ai",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.7,
+    "completionUsdPerMTok": 2.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-18"
+   },
+   {
+    "id": "qwen/qwen3.8-27b",
+    "name": "Qwen: Qwen3.8 27B",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.21400000000000002,
+    "completionUsdPerMTok": 2.5500000000000003,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-08-14"
+   },
+   {
+    "id": "dots-studio/dots-3-note-preview:free",
+    "name": "Dots Studio: Dots3-Note Preview (free)",
+    "provider": "dots-studio",
+    "contextLength": 512000,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-08-14"
+   },
+   {
+    "id": "google/gemini-3.7-flash",
+    "name": "Google: Gemini 3.7 Flash",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 3.75,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-08-13"
+   },
+   {
+    "id": "google/gemini-3.7-flash:batch",
+    "name": "Google: Gemini 3.7 Flash (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.375,
+    "completionUsdPerMTok": 1.875,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-08-13"
+   },
+   {
+    "id": "bytedance-seed/seed-2-1-turbo",
+    "name": "ByteDance Seed: Seed 2.1 Turbo",
+    "provider": "bytedance-seed",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-08-12"
+   },
+   {
+    "id": "qwen/qwen3.8-2.4t-a95b",
+    "name": "Qwen: Qwen3.8 2.4T A95B",
+    "provider": "qwen",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-12"
+   },
+   {
+    "id": "qwen/qwen3.8-2.4t-a95b:batch",
+    "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+    "provider": "qwen",
+    "contextLength": 1010000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-12"
+   },
+   {
+    "id": "bytedance-seed/seed-2.0-code",
+    "name": "ByteDance Seed: Seed-2.0-Code",
+    "provider": "bytedance-seed",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 3,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-08-12"
+   },
+   {
+    "id": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.66,
+    "completionUsdPerMTok": 1.9800000000000002,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-12"
+   },
+   {
+    "id": "deepseek/deepseek-v4-pro-0813:batch",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.66,
+    "completionUsdPerMTok": 1.9800000000000002,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-12"
+   },
+   {
+    "id": "x-ai/grok-4.6",
+    "name": "SpaceXAI: Grok 4.6",
+    "provider": "x-ai",
+    "contextLength": 500000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-08-12"
+   },
+   {
+    "id": "liquid/lfm-2.5-2.6b:free",
+    "name": "LiquidAI: LFM2.5-2.6B (free)",
+    "provider": "liquid",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-11"
+   },
+   {
+    "id": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "provider": "nvidia",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.08,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-11"
+   },
+   {
+    "id": "nvidia/nemotron-3.5-lightning:free",
+    "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "provider": "nvidia",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-11"
+   },
+   {
+    "id": "sakana/sakana-namazu",
+    "name": "Sakana: Sakana Namazu",
+    "provider": "sakana",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.95,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-08-11"
+   },
+   {
+    "id": "upstage/solar-pro4",
+    "name": "Upstage: Solar Pro 4",
+    "provider": "upstage",
+    "contextLength": 524288,
+    "promptUsdPerMTok": 0.09,
+    "completionUsdPerMTok": 0.36,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-10"
+   },
+   {
+    "id": "meta/muse-glimmer-30b",
+    "name": "Meta: Muse Glimmer 30B",
+    "provider": "meta",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.35,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-08-09"
+   },
+   {
+    "id": "meta/muse-glimmer-30b:batch",
+    "name": "Meta: Muse Glimmer 30B (batch)",
+    "provider": "meta",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.175,
+    "completionUsdPerMTok": 0.75,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-08-09"
+   },
+   {
+    "id": "meta/muse-spark-1.2",
+    "name": "Meta: Muse Spark 1.2",
+    "provider": "meta",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 4.25,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-08-05"
+   },
+   {
+    "id": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
+    "provider": "~deepseek",
+    "contextLength": 1310720,
+    "promptUsdPerMTok": 0.04,
+    "completionUsdPerMTok": 0.09999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-08-01"
+   },
+   {
+    "id": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "provider": "deepseek",
+    "contextLength": 1310720,
+    "promptUsdPerMTok": 0.06,
+    "completionUsdPerMTok": 0.12,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-31"
+   },
+   {
+    "id": "deepseek/deepseek-v4-flash-0731:batch",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.11,
+    "completionUsdPerMTok": 0.33,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-31"
+   },
+   {
+    "id": "thinkingmachines/inkling-small",
+    "name": "Thinking Machines: Inkling Small",
+    "provider": "thinkingmachines",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.44999999999999996,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text",
+     "image",
+     "audio"
+    ],
+    "created": "2026-07-30"
+   },
+   {
+    "id": "thinkingmachines/inkling-small:batch",
+    "name": "Thinking Machines: Inkling Small (batch)",
+    "provider": "thinkingmachines",
+    "contextLength": 524288,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text",
+     "image",
+     "audio"
+    ],
+    "created": "2026-07-30"
+   },
+   {
+    "id": "thinkingmachines/inkling-small:free",
+    "name": "Thinking Machines: Inkling Small (free)",
+    "provider": "thinkingmachines",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image",
+     "audio"
+    ],
+    "created": "2026-07-30"
+   },
+   {
+    "id": "qwen/qwen3.7-flash",
+    "name": "Qwen: Qwen3.7 Flash",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.03,
+    "completionUsdPerMTok": 0.13,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-07-27"
+   },
+   {
+    "id": "anthropic/claude-opus-5",
+    "name": "Claude Opus 5",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-07-24"
+   },
+   {
+    "id": "anthropic/claude-opus-5:batch",
+    "name": "Claude Opus 5 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 12.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-07-24"
+   },
+   {
+    "id": "inclusionai/ling-3.0-flash",
+    "name": "inclusionAI: Ling 3.0 Flash",
+    "provider": "inclusionai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.020999999999999998,
+    "completionUsdPerMTok": 0.063,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-23"
+   },
+   {
+    "id": "poolside/laguna-s-2.1",
+    "name": "Poolside: Laguna S 2.1",
+    "provider": "poolside",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.09,
+    "completionUsdPerMTok": 0.18,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-21"
+   },
+   {
+    "id": "poolside/laguna-s-2.1:free",
+    "name": "Poolside: Laguna S 2.1 (free)",
+    "provider": "poolside",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-21"
+   },
+   {
+    "id": "google/gemini-3.6-flash",
+    "name": "Google: Gemini 3.6 Flash",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 3.75,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-07-21"
+   },
+   {
+    "id": "google/gemini-3.6-flash:batch",
+    "name": "Google: Gemini 3.6 Flash (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.375,
+    "completionUsdPerMTok": 1.875,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-07-21"
+   },
+   {
+    "id": "google/gemini-3.5-flash-lite",
+    "name": "Google: Gemini 3.5 Flash Lite",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-07-21"
+   },
+   {
+    "id": "google/gemini-3.5-flash-lite:batch",
+    "name": "Google: Gemini 3.5 Flash Lite (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 1.25,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-07-21"
+   },
+   {
+    "id": "meituan/longcat-2.0",
+    "name": "Meituan: LongCat 2.0",
+    "provider": "meituan",
+    "contextLength": 1048756,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-20"
+   },
+   {
+    "id": "thinkingmachines/inkling",
+    "name": "Thinking Machines: Inkling",
+    "provider": "thinkingmachines",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 4.05,
+    "modalities": [
+     "text",
+     "image",
+     "audio"
+    ],
+    "created": "2026-07-17"
+   },
+   {
+    "id": "thinkingmachines/inkling:batch",
+    "name": "Thinking Machines: Inkling (batch)",
+    "provider": "thinkingmachines",
+    "contextLength": 524288,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 4.05,
+    "modalities": [
+     "text",
+     "image",
+     "audio"
+    ],
+    "created": "2026-07-17"
+   },
+   {
+    "id": "thinkingmachines/inkling:free",
+    "name": "Thinking Machines: Inkling (free)",
+    "provider": "thinkingmachines",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image",
+     "audio"
+    ],
+    "created": "2026-07-17"
+   },
+   {
+    "id": "openrouter/auto-beta",
+    "name": "Auto Router (Beta)",
+    "provider": "openrouter",
+    "contextLength": 2000000,
+    "promptUsdPerMTok": null,
+    "completionUsdPerMTok": null,
+    "modalities": [
+     "text",
+     "image",
+     "audio",
+     "file",
+     "video"
+    ],
+    "created": "2026-07-17"
+   },
+   {
+    "id": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "provider": "moonshotai",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 2.6481380629999998,
+    "completionUsdPerMTok": 13.282724250000001,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-07-16"
+   },
+   {
+    "id": "moonshotai/kimi-k3:batch",
+    "name": "MoonshotAI: Kimi K3 (batch)",
+    "provider": "moonshotai",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-07-16"
+   },
+   {
+    "id": "meta/muse-spark-1.1",
+    "name": "Meta: Muse Spark 1.1",
+    "provider": "meta",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 4.25,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-07-16"
+   },
+   {
+    "id": "kwaipilot/kat-coder-pro-v2.5",
+    "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+    "provider": "kwaipilot",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.74,
+    "completionUsdPerMTok": 2.96,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-10"
+   },
+   {
+    "id": "openai/gpt-5.6-luna-pro",
+    "name": "OpenAI: GPT-5.6 Luna Pro",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-luna-pro:batch",
+    "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-luna",
+    "name": "OpenAI: GPT-5.6 Luna",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-luna:batch",
+    "name": "OpenAI: GPT-5.6 Luna (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-terra-pro",
+    "name": "OpenAI: GPT-5.6 Terra Pro",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-terra-pro:batch",
+    "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-terra",
+    "name": "OpenAI: GPT-5.6 Terra",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-terra:batch",
+    "name": "OpenAI: GPT-5.6 Terra (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-sol-pro",
+    "name": "OpenAI: GPT-5.6 Sol Pro",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-sol-pro:batch",
+    "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-sol",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "openai/gpt-5.6-sol:batch",
+    "name": "OpenAI: GPT-5.6 Sol (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-07-09"
+   },
+   {
+    "id": "x-ai/grok-4.5",
+    "name": "SpaceXAI: Grok 4.5",
+    "provider": "x-ai",
+    "contextLength": 500000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-07-08"
+   },
+   {
+    "id": "~x-ai/grok-latest",
+    "name": "xAI: Grok Latest",
+    "provider": "~x-ai",
+    "contextLength": 500000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-07-08"
+   },
+   {
+    "id": "aion-labs/aion-3.0-mini",
+    "name": "AionLabs: Aion-3.0-Mini",
+    "provider": "aion-labs",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.7,
+    "completionUsdPerMTok": 1.4,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-07"
+   },
+   {
+    "id": "aion-labs/aion-3.0",
+    "name": "AionLabs: Aion-3.0",
+    "provider": "aion-labs",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-07"
+   },
+   {
+    "id": "tencent/hy3",
+    "name": "Tencent: Hy3",
+    "provider": "tencent",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.13199999999999998,
+    "completionUsdPerMTok": 0.5279999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-06"
+   },
+   {
+    "id": "poolside/laguna-xs-2.1",
+    "name": "Poolside: Laguna XS 2.1",
+    "provider": "poolside",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.06,
+    "completionUsdPerMTok": 0.12,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-02"
+   },
+   {
+    "id": "poolside/laguna-xs-2.1:free",
+    "name": "Poolside: Laguna XS 2.1 (free)",
+    "provider": "poolside",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-07-02"
+   },
+   {
+    "id": "anthropic/claude-sonnet-5",
+    "name": "Anthropic: Claude Sonnet 5",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-06-30"
+   },
+   {
+    "id": "anthropic/claude-sonnet-5:batch",
+    "name": "Anthropic: Claude Sonnet 5 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-06-30"
+   },
+   {
+    "id": "google/gemini-3.1-flash-lite-image",
+    "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+    "provider": "google",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2026-06-30"
+   },
+   {
+    "id": "sakana/fugu-ultra",
+    "name": "Sakana: Fugu Ultra",
+    "provider": "sakana",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 30,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-06-24"
+   },
+   {
+    "id": "google/gemini-3.1-flash-image",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+    "provider": "google",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 3,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2026-06-18"
+   },
+   {
+    "id": "google/gemini-3-pro-image",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+    "provider": "google",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2026-06-18"
+   },
+   {
+    "id": "cohere/north-mini-code:free",
+    "name": "Cohere: North Mini Code (free)",
+    "provider": "cohere",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-06-17"
+   },
+   {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "provider": "z-ai",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.6832,
+    "completionUsdPerMTok": 2.1471999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-06-16"
+   },
+   {
+    "id": "z-ai/glm-5.2:batch",
+    "name": "Z.ai: GLM 5.2 (batch)",
+    "provider": "z-ai",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.7,
+    "completionUsdPerMTok": 2.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-06-16"
+   },
+   {
+    "id": "openrouter/fusion",
+    "name": "OpenRouter: Fusion",
+    "provider": "openrouter",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": null,
+    "completionUsdPerMTok": null,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-06-13"
+   },
+   {
+    "id": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "provider": "moonshotai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.71,
+    "completionUsdPerMTok": 3.5,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-06-12"
+   },
+   {
+    "id": "~anthropic/claude-fable-latest",
+    "name": "Anthropic: Claude Fable Latest",
+    "provider": "~anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 50,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-06-09"
+   },
+   {
+    "id": "anthropic/claude-fable-5",
+    "name": "Anthropic: Claude Fable 5",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 50,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-06-09"
+   },
+   {
+    "id": "anthropic/claude-fable-5:batch",
+    "name": "Anthropic: Claude Fable 5 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-06-09"
+   },
+   {
+    "id": "nvidia/nemotron-3.5-content-safety",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety",
+    "provider": "nvidia",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-06-04"
+   },
+   {
+    "id": "nvidia/nemotron-3.5-content-safety:free",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+    "provider": "nvidia",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-06-04"
+   },
+   {
+    "id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "provider": "nvidia",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 2.4,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-06-04"
+   },
+   {
+    "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "name": "NVIDIA: Nemotron 3 Ultra (free)",
+    "provider": "nvidia",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-06-04"
+   },
+   {
+    "id": "qwen/qwen3.7-plus",
+    "name": "Qwen: Qwen3.7 Plus",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.32,
+    "completionUsdPerMTok": 1.28,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-06-03"
+   },
+   {
+    "id": "minimax/minimax-m3",
+    "name": "MiniMax: MiniMax M3",
+    "provider": "minimax",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-05-31"
+   },
+   {
+    "id": "minimax/minimax-m3:batch",
+    "name": "MiniMax: MiniMax M3 (batch)",
+    "provider": "minimax",
+    "contextLength": 524288,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-05-31"
+   },
+   {
+    "id": "stepfun/step-3.7-flash",
+    "name": "StepFun: Step 3.7 Flash",
+    "provider": "stepfun",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 1.15,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-05-28"
+   },
+   {
+    "id": "anthropic/claude-opus-4.8",
+    "name": "Anthropic: Claude Opus 4.8",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-05-27"
+   },
+   {
+    "id": "anthropic/claude-opus-4.8:batch",
+    "name": "Anthropic: Claude Opus 4.8 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 12.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-05-27"
+   },
+   {
+    "id": "qwen/qwen3.7-max",
+    "name": "Qwen: Qwen3.7 Max",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 1.475,
+    "completionUsdPerMTok": 4.425,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-05-21"
+   },
+   {
+    "id": "x-ai/grok-build-0.1",
+    "name": "SpaceXAI: Grok Build 0.1",
+    "provider": "x-ai",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-05-20"
+   },
+   {
+    "id": "google/gemini-3.5-flash",
+    "name": "Google: Gemini 3.5 Flash",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.5,
+    "completionUsdPerMTok": 9,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-05-19"
+   },
+   {
+    "id": "google/gemini-3.5-flash:batch",
+    "name": "Google: Gemini 3.5 Flash (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 4.5,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-05-19"
+   },
+   {
+    "id": "perceptron/perceptron-mk1",
+    "name": "Perceptron: Perceptron Mk1",
+    "provider": "perceptron",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-05-12"
+   },
+   {
+    "id": "google/gemini-3.1-flash-lite",
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-05-07"
+   },
+   {
+    "id": "google/gemini-3.1-flash-lite:batch",
+    "name": "Google: Gemini 3.1 Flash Lite (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.125,
+    "completionUsdPerMTok": 0.75,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-05-07"
+   },
+   {
+    "id": "openai/gpt-chat-latest",
+    "name": "OpenAI: GPT Chat Latest",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 30,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-05-05"
+   },
+   {
+    "id": "x-ai/grok-4.3",
+    "name": "SpaceXAI: Grok 4.3",
+    "provider": "x-ai",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-30"
+   },
+   {
+    "id": "x-ai/grok-4.3:batch",
+    "name": "SpaceXAI: Grok 4.3 (batch)",
+    "provider": "x-ai",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-30"
+   },
+   {
+    "id": "mistralai/mistral-medium-3-5",
+    "name": "Mistral: Mistral Medium 3.5",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 1.5,
+    "completionUsdPerMTok": 7.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-30"
+   },
+   {
+    "id": "mistralai/mistral-medium-3-5:batch",
+    "name": "Mistral: Mistral Medium 3.5 (batch)",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 3.75,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-30"
+   },
+   {
+    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "provider": "nvidia",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "audio",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-28"
+   },
+   {
+    "id": "~anthropic/claude-haiku-latest",
+    "name": "Anthropic: Claude Haiku Latest",
+    "provider": "~anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "~openai/gpt-mini-latest",
+    "name": "OpenAI: GPT Mini Latest",
+    "provider": "~openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 4.5,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "~google/gemini-pro-latest",
+    "name": "Google: Gemini Pro Latest",
+    "provider": "~google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI: Kimi Latest",
+    "provider": "~moonshotai",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 2.0999999999999996,
+    "completionUsdPerMTok": 10.950000000000001,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "~google/gemini-flash-latest",
+    "name": "Google: Gemini Flash Latest",
+    "provider": "~google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 3.75,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "~anthropic/claude-sonnet-latest",
+    "name": "Anthropic: Claude Sonnet Latest",
+    "provider": "~anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "qwen/qwen3.5-plus-20260420",
+    "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.7999999999999998,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "qwen/qwen3.6-flash",
+    "name": "Qwen: Qwen3.6 Flash",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.1875,
+    "completionUsdPerMTok": 1.125,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.8999999999999999,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "qwen/qwen3.6-max-preview",
+    "name": "Qwen: Qwen3.6 Max Preview",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 1.0270000000000001,
+    "completionUsdPerMTok": 6.162,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-27"
+   },
+   {
+    "id": "openai/gpt-5.5-pro",
+    "name": "OpenAI: GPT-5.5 Pro",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 30,
+    "completionUsdPerMTok": 180,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-04-24"
+   },
+   {
+    "id": "openai/gpt-5.5-pro:batch",
+    "name": "OpenAI: GPT-5.5 Pro (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 15,
+    "completionUsdPerMTok": 90,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-04-24"
+   },
+   {
+    "id": "openai/gpt-5.5",
+    "name": "OpenAI: GPT-5.5",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 30,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-04-24"
+   },
+   {
+    "id": "openai/gpt-5.5:batch",
+    "name": "OpenAI: GPT-5.5 (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-04-24"
+   },
+   {
+    "id": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.5999999999999999,
+    "completionUsdPerMTok": 3.1999999999999997,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-24"
+   },
+   {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "provider": "deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.08553999999999999,
+    "completionUsdPerMTok": 0.17107999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-24"
+   },
+   {
+    "id": "tencent/hy3-preview",
+    "name": "Tencent: Hy3 preview",
+    "provider": "tencent",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.18,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-22"
+   },
+   {
+    "id": "xiaomi/mimo-v2.5-pro",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "provider": "xiaomi",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 0.435,
+    "completionUsdPerMTok": 0.87,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-22"
+   },
+   {
+    "id": "xiaomi/mimo-v2.5",
+    "name": "Xiaomi: MiMo-V2.5",
+    "provider": "xiaomi",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 0.14,
+    "completionUsdPerMTok": 0.28,
+    "modalities": [
+     "text",
+     "audio",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-22"
+   },
+   {
+    "id": "openai/gpt-5.4-image-2",
+    "name": "OpenAI: GPT-5.4 Image 2",
+    "provider": "openai",
+    "contextLength": 272000,
+    "promptUsdPerMTok": 8,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2026-04-21"
+   },
+   {
+    "id": "~anthropic/claude-opus-latest",
+    "name": "Anthropic: Claude Opus Latest",
+    "provider": "~anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-21"
+   },
+   {
+    "id": "openrouter/pareto-code",
+    "name": "Pareto Code Router",
+    "provider": "openrouter",
+    "contextLength": 2000000,
+    "promptUsdPerMTok": null,
+    "completionUsdPerMTok": null,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-21"
+   },
+   {
+    "id": "moonshotai/kimi-k2.6",
+    "name": "MoonshotAI: Kimi K2.6",
+    "provider": "moonshotai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.95,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-04-20"
+   },
+   {
+    "id": "anthropic/claude-opus-4.7",
+    "name": "Anthropic: Claude Opus 4.7",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-16"
+   },
+   {
+    "id": "anthropic/claude-opus-4.7:batch",
+    "name": "Anthropic: Claude Opus 4.7 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 12.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-04-16"
+   },
+   {
+    "id": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "provider": "z-ai",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.966,
+    "completionUsdPerMTok": 3.036,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-07"
+   },
+   {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "provider": "google",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.09,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-04-03"
+   },
+   {
+    "id": "google/gemma-4-26b-a4b-it:free",
+    "name": "Google: Gemma 4 26B A4B  (free)",
+    "provider": "google",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-04-03"
+   },
+   {
+    "id": "google/gemma-4-31b-it",
+    "name": "Google: Gemma 4 31B",
+    "provider": "google",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.09,
+    "completionUsdPerMTok": 0.33999999999999997,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-04-02"
+   },
+   {
+    "id": "google/gemma-4-31b-it:batch",
+    "name": "Google: Gemma 4 31B (batch)",
+    "provider": "google",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.39,
+    "completionUsdPerMTok": 0.9700000000000001,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-04-02"
+   },
+   {
+    "id": "google/gemma-4-31b-it:free",
+    "name": "Google: Gemma 4 31B (free)",
+    "provider": "google",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-04-02"
+   },
+   {
+    "id": "qwen/qwen3.6-plus",
+    "name": "Qwen: Qwen3.6 Plus",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.325,
+    "completionUsdPerMTok": 1.95,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-04-02"
+   },
+   {
+    "id": "z-ai/glm-5v-turbo",
+    "name": "Z.ai: GLM 5V Turbo",
+    "provider": "z-ai",
+    "contextLength": 202752,
+    "promptUsdPerMTok": 1.2,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-04-01"
+   },
+   {
+    "id": "arcee-ai/trinity-large-thinking",
+    "name": "Arcee AI: Trinity Large Thinking",
+    "provider": "arcee-ai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 0.7999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-04-01"
+   },
+   {
+    "id": "x-ai/grok-4.20-multi-agent",
+    "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+    "provider": "x-ai",
+    "contextLength": 2000000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-03-31"
+   },
+   {
+    "id": "x-ai/grok-4.20",
+    "name": "SpaceXAI: Grok 4.20",
+    "provider": "x-ai",
+    "contextLength": 2000000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-03-31"
+   },
+   {
+    "id": "google/lyria-3-pro-preview",
+    "name": "Google: Lyria 3 Pro Preview",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-03-30"
+   },
+   {
+    "id": "google/lyria-3-clip-preview",
+    "name": "Google: Lyria 3 Clip Preview",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-03-30"
+   },
+   {
+    "id": "kwaipilot/kat-coder-pro-v2",
+    "name": "Kwaipilot: KAT-Coder-Pro V2",
+    "provider": "kwaipilot",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-03-27"
+   },
+   {
+    "id": "rekaai/reka-edge",
+    "name": "Reka Edge",
+    "provider": "rekaai",
+    "contextLength": 16384,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.09999999999999999,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-03-20"
+   },
+   {
+    "id": "minimax/minimax-m2.7",
+    "name": "MiniMax: MiniMax M2.7",
+    "provider": "minimax",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-03-18"
+   },
+   {
+    "id": "openai/gpt-5.4-nano",
+    "name": "OpenAI: GPT-5.4 Nano",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 1.25,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-03-17"
+   },
+   {
+    "id": "openai/gpt-5.4-nano:batch",
+    "name": "OpenAI: GPT-5.4 Nano (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.625,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-03-17"
+   },
+   {
+    "id": "openai/gpt-5.4-mini",
+    "name": "OpenAI: GPT-5.4 Mini",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.75,
+    "completionUsdPerMTok": 4.5,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-03-17"
+   },
+   {
+    "id": "openai/gpt-5.4-mini:batch",
+    "name": "OpenAI: GPT-5.4 Mini (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.375,
+    "completionUsdPerMTok": 2.25,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2026-03-17"
+   },
+   {
+    "id": "mistralai/mistral-small-2603",
+    "name": "Mistral: Mistral Small 4",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-03-16"
+   },
+   {
+    "id": "mistralai/mistral-small-2603:batch",
+    "name": "Mistral: Mistral Small 4 (batch)",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-03-16"
+   },
+   {
+    "id": "z-ai/glm-5-turbo",
+    "name": "Z.ai: GLM 5 Turbo",
+    "provider": "z-ai",
+    "contextLength": 202752,
+    "promptUsdPerMTok": 1.2,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-03-15"
+   },
+   {
+    "id": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "provider": "nvidia",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.08,
+    "completionUsdPerMTok": 0.44999999999999996,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-03-11"
+   },
+   {
+    "id": "nvidia/nemotron-3-super-120b-a12b:free",
+    "name": "NVIDIA: Nemotron 3 Super (free)",
+    "provider": "nvidia",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-03-11"
+   },
+   {
+    "id": "bytedance-seed/seed-2.0-lite",
+    "name": "ByteDance Seed: Seed-2.0-Lite",
+    "provider": "bytedance-seed",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-03-10"
+   },
+   {
+    "id": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.15,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-03-10"
+   },
+   {
+    "id": "qwen/qwen3.5-9b:batch",
+    "name": "Qwen: Qwen3.5-9B (batch)",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.16999999999999998,
+    "completionUsdPerMTok": 0.25,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-03-10"
+   },
+   {
+    "id": "openai/gpt-5.4-pro",
+    "name": "OpenAI: GPT-5.4 Pro",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 30,
+    "completionUsdPerMTok": 180,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-03-05"
+   },
+   {
+    "id": "openai/gpt-5.4-pro:batch",
+    "name": "OpenAI: GPT-5.4 Pro (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 15,
+    "completionUsdPerMTok": 90,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-03-05"
+   },
+   {
+    "id": "openai/gpt-5.4",
+    "name": "OpenAI: GPT-5.4",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-03-05"
+   },
+   {
+    "id": "openai/gpt-5.4:batch",
+    "name": "OpenAI: GPT-5.4 (batch)",
+    "provider": "openai",
+    "contextLength": 1050000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 7.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-03-05"
+   },
+   {
+    "id": "inception/mercury-2",
+    "name": "Inception: Mercury 2",
+    "provider": "inception",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 0.75,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-03-04"
+   },
+   {
+    "id": "google/gemini-3.1-flash-lite-preview",
+    "name": "Google: Gemini 3.1 Flash Lite Preview",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "created": "2026-03-03"
+   },
+   {
+    "id": "bytedance-seed/seed-2.0-mini",
+    "name": "ByteDance Seed: Seed-2.0-Mini",
+    "provider": "bytedance-seed",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-02-26"
+   },
+   {
+    "id": "google/gemini-3.1-flash-image-preview",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "provider": "google",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 3,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2026-02-26"
+   },
+   {
+    "id": "qwen/qwen3.5-35b-a3b",
+    "name": "Qwen: Qwen3.5-35B-A3B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.3125,
+    "completionUsdPerMTok": 1.25,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-02-25"
+   },
+   {
+    "id": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.195,
+    "completionUsdPerMTok": 1.56,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-02-25"
+   },
+   {
+    "id": "qwen/qwen3.5-122b-a10b",
+    "name": "Qwen: Qwen3.5-122B-A10B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.26,
+    "completionUsdPerMTok": 2.08,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-02-25"
+   },
+   {
+    "id": "qwen/qwen3.5-flash-02-23",
+    "name": "Qwen: Qwen3.5-Flash",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.065,
+    "completionUsdPerMTok": 0.26,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-02-25"
+   },
+   {
+    "id": "google/gemini-3.1-pro-preview-customtools",
+    "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "text",
+     "audio",
+     "image",
+     "video",
+     "file"
+    ],
+    "created": "2026-02-25"
+   },
+   {
+    "id": "openai/gpt-5.3-codex",
+    "name": "OpenAI: GPT-5.3-Codex",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 1.75,
+    "completionUsdPerMTok": 14,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-02-24"
+   },
+   {
+    "id": "aion-labs/aion-2.0",
+    "name": "AionLabs: Aion-2.0",
+    "provider": "aion-labs",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.7999999999999999,
+    "completionUsdPerMTok": 1.5999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-02-23"
+   },
+   {
+    "id": "google/gemini-3.1-pro-preview",
+    "name": "Google: Gemini 3.1 Pro Preview",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-02-19"
+   },
+   {
+    "id": "google/gemini-3.1-pro-preview:batch",
+    "name": "Google: Gemini 3.1 Pro Preview (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2026-02-19"
+   },
+   {
+    "id": "anthropic/claude-sonnet-4.6",
+    "name": "Anthropic: Claude Sonnet 4.6",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-02-17"
+   },
+   {
+    "id": "anthropic/claude-sonnet-4.6:batch",
+    "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 1.5,
+    "completionUsdPerMTok": 7.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-02-17"
+   },
+   {
+    "id": "qwen/qwen3.5-plus-02-15",
+    "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.26,
+    "completionUsdPerMTok": 1.56,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-02-16"
+   },
+   {
+    "id": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.55,
+    "completionUsdPerMTok": 3.5,
+    "modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "created": "2026-02-16"
+   },
+   {
+    "id": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "provider": "minimax",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.27,
+    "completionUsdPerMTok": 1.08,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-02-12"
+   },
+   {
+    "id": "z-ai/glm-5",
+    "name": "Z.ai: GLM 5",
+    "provider": "z-ai",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 1.92,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-02-11"
+   },
+   {
+    "id": "qwen/qwen3-max-thinking",
+    "name": "Qwen: Qwen3 Max Thinking",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.78,
+    "completionUsdPerMTok": 3.9,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-02-09"
+   },
+   {
+    "id": "anthropic/claude-opus-4.6",
+    "name": "Anthropic: Claude Opus 4.6",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-02-04"
+   },
+   {
+    "id": "anthropic/claude-opus-4.6:batch",
+    "name": "Anthropic: Claude Opus 4.6 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 12.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2026-02-04"
+   },
+   {
+    "id": "qwen/qwen3-coder-next",
+    "name": "Qwen: Qwen3 Coder Next",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.12,
+    "completionUsdPerMTok": 0.7999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-02-04"
+   },
+   {
+    "id": "openrouter/free",
+    "name": "Free Models Router",
+    "provider": "openrouter",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 0,
+    "completionUsdPerMTok": 0,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-02-01"
+   },
+   {
+    "id": "stepfun/step-3.5-flash",
+    "name": "StepFun: Step 3.5 Flash",
+    "provider": "stepfun",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-01-29"
+   },
+   {
+    "id": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "provider": "moonshotai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.44999999999999996,
+    "completionUsdPerMTok": 2.25,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-01-27"
+   },
+   {
+    "id": "upstage/solar-pro-3",
+    "name": "Upstage: Solar Pro 3",
+    "provider": "upstage",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-01-27"
+   },
+   {
+    "id": "minimax/minimax-m2-her",
+    "name": "MiniMax: MiniMax M2-her",
+    "provider": "minimax",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-01-23"
+   },
+   {
+    "id": "writer/palmyra-x5",
+    "name": "Writer: Palmyra X5",
+    "provider": "writer",
+    "contextLength": 1040000,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-01-21"
+   },
+   {
+    "id": "openai/gpt-audio",
+    "name": "OpenAI: GPT Audio",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "audio"
+    ],
+    "created": "2026-01-19"
+   },
+   {
+    "id": "openai/gpt-audio-mini",
+    "name": "OpenAI: GPT Audio Mini",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 2.4,
+    "modalities": [
+     "text",
+     "audio"
+    ],
+    "created": "2026-01-19"
+   },
+   {
+    "id": "z-ai/glm-4.7-flash",
+    "name": "Z.ai: GLM 4.7 Flash",
+    "provider": "z-ai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 0.060500000000000005,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-01-19"
+   },
+   {
+    "id": "openai/gpt-5.2-codex",
+    "name": "OpenAI: GPT-5.2-Codex",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 1.75,
+    "completionUsdPerMTok": 14,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-01-14"
+   },
+   {
+    "id": "bytedance-seed/seed-1.6-flash",
+    "name": "ByteDance Seed: Seed 1.6 Flash",
+    "provider": "bytedance-seed",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2025-12-23"
+   },
+   {
+    "id": "bytedance-seed/seed-1.6",
+    "name": "ByteDance Seed: Seed 1.6",
+    "provider": "bytedance-seed",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2025-12-23"
+   },
+   {
+    "id": "minimax/minimax-m2.1",
+    "name": "MiniMax: MiniMax M2.1",
+    "provider": "minimax",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-12-23"
+   },
+   {
+    "id": "z-ai/glm-4.7",
+    "name": "Z.ai: GLM 4.7",
+    "provider": "z-ai",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 1.75,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-12-22"
+   },
+   {
+    "id": "google/gemini-3-flash-preview",
+    "name": "Google: Gemini 3 Flash Preview",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 3,
+    "modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "created": "2025-12-17"
+   },
+   {
+    "id": "google/gemini-3-flash-preview:batch",
+    "name": "Google: Gemini 3 Flash Preview (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "created": "2025-12-17"
+   },
+   {
+    "id": "nvidia/nemotron-3-nano-30b-a3b",
+    "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+    "provider": "nvidia",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-12-14"
+   },
+   {
+    "id": "openai/gpt-5.2-chat",
+    "name": "OpenAI: GPT-5.2 Chat",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 1.75,
+    "completionUsdPerMTok": 14,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2025-12-10"
+   },
+   {
+    "id": "openai/gpt-5.2-pro",
+    "name": "OpenAI: GPT-5.2 Pro",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 21,
+    "completionUsdPerMTok": 168,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-12-10"
+   },
+   {
+    "id": "openai/gpt-5.2-pro:batch",
+    "name": "OpenAI: GPT-5.2 Pro (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 10.5,
+    "completionUsdPerMTok": 84,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-12-10"
+   },
+   {
+    "id": "openai/gpt-5.2",
+    "name": "OpenAI: GPT-5.2",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 1.75,
+    "completionUsdPerMTok": 14,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2025-12-10"
+   },
+   {
+    "id": "openai/gpt-5.2:batch",
+    "name": "OpenAI: GPT-5.2 (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.875,
+    "completionUsdPerMTok": 7,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2025-12-10"
+   },
+   {
+    "id": "mistralai/devstral-2512",
+    "name": "Mistral: Devstral 2 2512",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2025-12-09"
+   },
+   {
+    "id": "relace/relace-search",
+    "name": "Relace: Relace Search",
+    "provider": "relace",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 3,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-12-08"
+   },
+   {
+    "id": "z-ai/glm-4.6v",
+    "name": "Z.ai: GLM 4.6V",
+    "provider": "z-ai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 0.8999999999999999,
+    "modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "created": "2025-12-08"
+   },
+   {
+    "id": "openrouter/bodybuilder",
+    "name": "Body Builder (beta)",
+    "provider": "openrouter",
+    "contextLength": 128000,
+    "promptUsdPerMTok": null,
+    "completionUsdPerMTok": null,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-12-05"
+   },
+   {
+    "id": "openai/gpt-5.1-codex-max",
+    "name": "OpenAI: GPT-5.1-Codex-Max",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-12-04"
+   },
+   {
+    "id": "amazon/nova-2-lite-v1",
+    "name": "Amazon: Nova 2 Lite",
+    "provider": "amazon",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text",
+     "image",
+     "video",
+     "file"
+    ],
+    "created": "2025-12-02"
+   },
+   {
+    "id": "mistralai/ministral-14b-2512",
+    "name": "Mistral: Ministral 3 14B 2512",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-12-02"
+   },
+   {
+    "id": "mistralai/ministral-8b-2512",
+    "name": "Mistral: Ministral 3 8B 2512",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.15,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-12-02"
+   },
+   {
+    "id": "mistralai/ministral-8b-2512:batch",
+    "name": "Mistral: Ministral 3 8B 2512 (batch)",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.075,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-12-02"
+   },
+   {
+    "id": "mistralai/ministral-3b-2512",
+    "name": "Mistral: Ministral 3 3B 2512",
+    "provider": "mistralai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.09999999999999999,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-12-02"
+   },
+   {
+    "id": "mistralai/mistral-large-2512",
+    "name": "Mistral: Mistral Large 3 2512",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-12-01"
+   },
+   {
+    "id": "mistralai/mistral-large-2512:batch",
+    "name": "Mistral: Mistral Large 3 2512 (batch)",
+    "provider": "mistralai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 0.75,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-12-01"
+   },
+   {
+    "id": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "provider": "deepseek",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.26899999999999996,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-12-01"
+   },
+   {
+    "id": "anthropic/claude-opus-4.5",
+    "name": "Anthropic: Claude Opus 4.5",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 25,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2025-11-24"
+   },
+   {
+    "id": "anthropic/claude-opus-4.5:batch",
+    "name": "Anthropic: Claude Opus 4.5 (batch)",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 12.5,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2025-11-24"
+   },
+   {
+    "id": "google/gemini-3-pro-image-preview",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+    "provider": "google",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 12,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-11-20"
+   },
+   {
+    "id": "openai/gpt-5.1",
+    "name": "OpenAI: GPT-5.1",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-11-13"
+   },
+   {
+    "id": "openai/gpt-5.1:batch",
+    "name": "OpenAI: GPT-5.1 (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.625,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-11-13"
+   },
+   {
+    "id": "openai/gpt-5.1-codex",
+    "name": "OpenAI: GPT-5.1-Codex",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-11-13"
+   },
+   {
+    "id": "openai/gpt-5.1-codex-mini",
+    "name": "OpenAI: GPT-5.1-Codex-Mini",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-11-13"
+   },
+   {
+    "id": "moonshotai/kimi-k2-thinking",
+    "name": "MoonshotAI: Kimi K2 Thinking",
+    "provider": "moonshotai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-11-06"
+   },
+   {
+    "id": "amazon/nova-premier-v1",
+    "name": "Amazon: Nova Premier 1.0",
+    "provider": "amazon",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 12.5,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-10-31"
+   },
+   {
+    "id": "perplexity/sonar-pro-search",
+    "name": "Perplexity: Sonar Pro Search",
+    "provider": "perplexity",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-10-30"
+   },
+   {
+    "id": "mistralai/voxtral-small-24b-2507",
+    "name": "Mistral: Voxtral Small 24B 2507",
+    "provider": "mistralai",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "text",
+     "audio",
+     "file"
+    ],
+    "created": "2025-10-30"
+   },
+   {
+    "id": "openai/gpt-oss-safeguard-20b",
+    "name": "OpenAI: gpt-oss-safeguard-20b",
+    "provider": "openai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-10-29"
+   },
+   {
+    "id": "minimax/minimax-m2",
+    "name": "MiniMax: MiniMax M2",
+    "provider": "minimax",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.255,
+    "completionUsdPerMTok": 1.02,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-10-23"
+   },
+   {
+    "id": "qwen/qwen3-vl-32b-instruct",
+    "name": "Qwen: Qwen3 VL 32B Instruct",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.10400000000000001,
+    "completionUsdPerMTok": 0.41600000000000004,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-10-23"
+   },
+   {
+    "id": "ibm-granite/granite-4.0-h-micro",
+    "name": "IBM: Granite 4.0 Micro",
+    "provider": "ibm-granite",
+    "contextLength": 131000,
+    "promptUsdPerMTok": 0.017,
+    "completionUsdPerMTok": 0.112,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-10-20"
+   },
+   {
+    "id": "openai/gpt-5-image-mini",
+    "name": "OpenAI: GPT-5 Image Mini",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "created": "2025-10-16"
+   },
+   {
+    "id": "anthropic/claude-haiku-4.5",
+    "name": "Anthropic: Claude Haiku 4.5",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-10-15"
+   },
+   {
+    "id": "anthropic/claude-haiku-4.5:batch",
+    "name": "Anthropic: Claude Haiku 4.5 (batch)",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-10-15"
+   },
+   {
+    "id": "qwen/qwen3-vl-8b-thinking",
+    "name": "Qwen: Qwen3 VL 8B Thinking",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.18,
+    "completionUsdPerMTok": 2.0999999999999996,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-10-14"
+   },
+   {
+    "id": "qwen/qwen3-vl-8b-instruct",
+    "name": "Qwen: Qwen3 VL 8B Instruct",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.117,
+    "completionUsdPerMTok": 0.45499999999999996,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-10-14"
+   },
+   {
+    "id": "openai/gpt-5-image",
+    "name": "OpenAI: GPT-5 Image",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-10-14"
+   },
+   {
+    "id": "google/gemini-2.5-flash-image",
+    "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "provider": "google",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-10-07"
+   },
+   {
+    "id": "qwen/qwen3-vl-30b-a3b-thinking",
+    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 2.4,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-10-06"
+   },
+   {
+    "id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-10-06"
+   },
+   {
+    "id": "openai/gpt-5-pro",
+    "name": "OpenAI: GPT-5 Pro",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 15,
+    "completionUsdPerMTok": 120,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-10-06"
+   },
+   {
+    "id": "openai/gpt-5-pro:batch",
+    "name": "OpenAI: GPT-5 Pro (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 7.5,
+    "completionUsdPerMTok": 60,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-10-06"
+   },
+   {
+    "id": "z-ai/glm-4.6",
+    "name": "Z.ai: GLM 4.6",
+    "provider": "z-ai",
+    "contextLength": 204800,
+    "promptUsdPerMTok": 0.43,
+    "completionUsdPerMTok": 1.75,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-30"
+   },
+   {
+    "id": "anthropic/claude-sonnet-4.5",
+    "name": "Anthropic: Claude Sonnet 4.5",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-09-29"
+   },
+   {
+    "id": "anthropic/claude-sonnet-4.5:batch",
+    "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 1.5,
+    "completionUsdPerMTok": 7.5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-09-29"
+   },
+   {
+    "id": "deepseek/deepseek-v3.2-exp",
+    "name": "DeepSeek: DeepSeek V3.2 Exp",
+    "provider": "deepseek",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.27,
+    "completionUsdPerMTok": 0.41,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-29"
+   },
+   {
+    "id": "thedrummer/cydonia-24b-v4.1",
+    "name": "TheDrummer: Cydonia 24B V4.1",
+    "provider": "thedrummer",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 0.5,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-27"
+   },
+   {
+    "id": "relace/relace-apply-3",
+    "name": "Relace: Relace Apply 3",
+    "provider": "relace",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 0.85,
+    "completionUsdPerMTok": 1.25,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-26"
+   },
+   {
+    "id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-09-23"
+   },
+   {
+    "id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.21,
+    "completionUsdPerMTok": 1.9,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-09-23"
+   },
+   {
+    "id": "qwen/qwen3-max",
+    "name": "Qwen: Qwen3 Max",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.78,
+    "completionUsdPerMTok": 3.9,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-23"
+   },
+   {
+    "id": "qwen/qwen3-coder-plus",
+    "name": "Qwen: Qwen3 Coder Plus",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.65,
+    "completionUsdPerMTok": 3.25,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-23"
+   },
+   {
+    "id": "deepseek/deepseek-v3.1-terminus",
+    "name": "DeepSeek: DeepSeek V3.1 Terminus",
+    "provider": "deepseek",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.27,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-22"
+   },
+   {
+    "id": "qwen/qwen3-coder-flash",
+    "name": "Qwen: Qwen3 Coder Flash",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.195,
+    "completionUsdPerMTok": 0.975,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-17"
+   },
+   {
+    "id": "qwen/qwen3-next-80b-a3b-thinking",
+    "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-11"
+   },
+   {
+    "id": "qwen/qwen3-next-80b-a3b-instruct",
+    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.09,
+    "completionUsdPerMTok": 1.1,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-11"
+   },
+   {
+    "id": "qwen/qwen-plus-2025-07-28",
+    "name": "Qwen: Qwen Plus 0728",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.26,
+    "completionUsdPerMTok": 0.78,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-08"
+   },
+   {
+    "id": "moonshotai/kimi-k2-0905",
+    "name": "MoonshotAI: Kimi K2 0905",
+    "provider": "moonshotai",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-09-04"
+   },
+   {
+    "id": "qwen/qwen3-30b-a3b-thinking-2507",
+    "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+    "provider": "qwen",
+    "contextLength": 81920,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 2.4,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-08-28"
+   },
+   {
+    "id": "nousresearch/hermes-4-405b",
+    "name": "Nous: Hermes 4 405B",
+    "provider": "nousresearch",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 3,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-08-26"
+   },
+   {
+    "id": "deepseek/deepseek-chat-v3.1",
+    "name": "DeepSeek: DeepSeek V3.1",
+    "provider": "deepseek",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 0.95,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-08-21"
+   },
+   {
+    "id": "mistralai/mistral-medium-3.1",
+    "name": "Mistral: Mistral Medium 3.1",
+    "provider": "mistralai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-13"
+   },
+   {
+    "id": "mistralai/mistral-medium-3.1:batch",
+    "name": "Mistral: Mistral Medium 3.1 (batch)",
+    "provider": "mistralai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-13"
+   },
+   {
+    "id": "z-ai/glm-4.5v",
+    "name": "Z.ai: GLM 4.5V",
+    "provider": "z-ai",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 1.7999999999999998,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-08-11"
+   },
+   {
+    "id": "openai/gpt-5",
+    "name": "OpenAI: GPT-5",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-07"
+   },
+   {
+    "id": "openai/gpt-5:batch",
+    "name": "OpenAI: GPT-5 (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.625,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-07"
+   },
+   {
+    "id": "openai/gpt-5-mini",
+    "name": "OpenAI: GPT-5 Mini",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-07"
+   },
+   {
+    "id": "openai/gpt-5-mini:batch",
+    "name": "OpenAI: GPT-5 Mini (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.125,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-07"
+   },
+   {
+    "id": "openai/gpt-5-nano",
+    "name": "OpenAI: GPT-5 Nano",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-07"
+   },
+   {
+    "id": "openai/gpt-5-nano:batch",
+    "name": "OpenAI: GPT-5 Nano (batch)",
+    "provider": "openai",
+    "contextLength": 400000,
+    "promptUsdPerMTok": 0.024999999999999998,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-08-07"
+   },
+   {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "provider": "openai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.037,
+    "completionUsdPerMTok": 0.16999999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-08-05"
+   },
+   {
+    "id": "openai/gpt-oss-120b:batch",
+    "name": "OpenAI: gpt-oss-120b (batch)",
+    "provider": "openai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-08-05"
+   },
+   {
+    "id": "openai/gpt-oss-20b",
+    "name": "OpenAI: gpt-oss-20b",
+    "provider": "openai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.03,
+    "completionUsdPerMTok": 0.13,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-08-05"
+   },
+   {
+    "id": "openai/gpt-oss-20b:batch",
+    "name": "OpenAI: gpt-oss-20b (batch)",
+    "provider": "openai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-08-05"
+   },
+   {
+    "id": "anthropic/claude-opus-4.1",
+    "name": "Anthropic: Claude Opus 4.1",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 15,
+    "completionUsdPerMTok": 75,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-08-05"
+   },
+   {
+    "id": "anthropic/claude-opus-4.1:batch",
+    "name": "Anthropic: Claude Opus 4.1 (batch)",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 7.5,
+    "completionUsdPerMTok": 37.5,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-08-05"
+   },
+   {
+    "id": "mistralai/codestral-2508",
+    "name": "Mistral: Codestral 2508",
+    "provider": "mistralai",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 0.8999999999999999,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2025-08-01"
+   },
+   {
+    "id": "mistralai/codestral-2508:batch",
+    "name": "Mistral: Codestral 2508 (batch)",
+    "provider": "mistralai",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.44999999999999996,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2025-08-01"
+   },
+   {
+    "id": "qwen/qwen3-coder-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.07,
+    "completionUsdPerMTok": 0.28,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-31"
+   },
+   {
+    "id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.04815,
+    "completionUsdPerMTok": 0.19305,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-29"
+   },
+   {
+    "id": "z-ai/glm-4.5",
+    "name": "Z.ai: GLM 4.5",
+    "provider": "z-ai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.6,
+    "completionUsdPerMTok": 2.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-25"
+   },
+   {
+    "id": "z-ai/glm-4.5-air",
+    "name": "Z.ai: GLM 4.5 Air",
+    "provider": "z-ai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.13,
+    "completionUsdPerMTok": 0.85,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-25"
+   },
+   {
+    "id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.22999999999999998,
+    "completionUsdPerMTok": 2.3,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-25"
+   },
+   {
+    "id": "qwen/qwen3-coder",
+    "name": "Qwen: Qwen3 Coder 480B A35B",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-23"
+   },
+   {
+    "id": "bytedance/ui-tars-1.5-7b",
+    "name": "ByteDance: UI-TARS 7B ",
+    "provider": "bytedance",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-07-22"
+   },
+   {
+    "id": "google/gemini-2.5-flash-lite",
+    "name": "Google: Gemini 2.5 Flash Lite",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "created": "2025-07-22"
+   },
+   {
+    "id": "google/gemini-2.5-flash-lite:batch",
+    "name": "Google: Gemini 2.5 Flash Lite (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "created": "2025-07-22"
+   },
+   {
+    "id": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "provider": "qwen",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.0875,
+    "completionUsdPerMTok": 0.35,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-21"
+   },
+   {
+    "id": "moonshotai/kimi-k2",
+    "name": "MoonshotAI: Kimi K2 0711",
+    "provider": "moonshotai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.5700000000000001,
+    "completionUsdPerMTok": 2.3,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-11"
+   },
+   {
+    "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "name": "Venice: Uncensored",
+    "provider": "cognitivecomputations",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 0.8999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-09"
+   },
+   {
+    "id": "tencent/hunyuan-a13b-instruct",
+    "name": "Tencent: Hunyuan A13B Instruct",
+    "provider": "tencent",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.14,
+    "completionUsdPerMTok": 0.5700000000000001,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-08"
+   },
+   {
+    "id": "morph/morph-v3-large",
+    "name": "Morph: Morph V3 Large",
+    "provider": "morph",
+    "contextLength": 262144,
+    "promptUsdPerMTok": 0.8999999999999999,
+    "completionUsdPerMTok": 1.9,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-07"
+   },
+   {
+    "id": "morph/morph-v3-fast",
+    "name": "Morph: Morph V3 Fast",
+    "provider": "morph",
+    "contextLength": 81920,
+    "promptUsdPerMTok": 0.7999999999999999,
+    "completionUsdPerMTok": 1.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-07-07"
+   },
+   {
+    "id": "baidu/ernie-4.5-vl-424b-a47b",
+    "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
+    "provider": "baidu",
+    "contextLength": 123000,
+    "promptUsdPerMTok": 0.42,
+    "completionUsdPerMTok": 1.25,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-06-30"
+   },
+   {
+    "id": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "provider": "mistralai",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-06-20"
+   },
+   {
+    "id": "minimax/minimax-m1",
+    "name": "MiniMax: MiniMax M1",
+    "provider": "minimax",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.55,
+    "completionUsdPerMTok": 2.2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-06-17"
+   },
+   {
+    "id": "google/gemini-2.5-flash",
+    "name": "Google: Gemini 2.5 Flash",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.3,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "file",
+     "image",
+     "text",
+     "audio",
+     "video"
+    ],
+    "created": "2025-06-17"
+   },
+   {
+    "id": "google/gemini-2.5-flash:batch",
+    "name": "Google: Gemini 2.5 Flash (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 1.25,
+    "modalities": [
+     "file",
+     "image",
+     "text",
+     "audio",
+     "video"
+    ],
+    "created": "2025-06-17"
+   },
+   {
+    "id": "google/gemini-2.5-pro",
+    "name": "Google: Gemini 2.5 Pro",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "created": "2025-06-17"
+   },
+   {
+    "id": "google/gemini-2.5-pro:batch",
+    "name": "Google: Gemini 2.5 Pro (batch)",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.625,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "created": "2025-06-17"
+   },
+   {
+    "id": "openai/o3-pro",
+    "name": "OpenAI: o3 Pro",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 20,
+    "completionUsdPerMTok": 80,
+    "modalities": [
+     "text",
+     "file",
+     "image"
+    ],
+    "created": "2025-06-10"
+   },
+   {
+    "id": "google/gemini-2.5-pro-preview",
+    "name": "Google: Gemini 2.5 Pro Preview 06-05",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "file",
+     "image",
+     "text",
+     "audio"
+    ],
+    "created": "2025-06-05"
+   },
+   {
+    "id": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "provider": "deepseek",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 2.1500000000000004,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-05-28"
+   },
+   {
+    "id": "anthropic/claude-opus-4",
+    "name": "Anthropic: Claude Opus 4",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 15,
+    "completionUsdPerMTok": 75,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-05-22"
+   },
+   {
+    "id": "anthropic/claude-sonnet-4",
+    "name": "Anthropic: Claude Sonnet 4",
+    "provider": "anthropic",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-05-22"
+   },
+   {
+    "id": "mistralai/mistral-medium-3",
+    "name": "Mistral: Mistral Medium 3",
+    "provider": "mistralai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-05-07"
+   },
+   {
+    "id": "google/gemini-2.5-pro-preview-05-06",
+    "name": "Google: Gemini 2.5 Pro Preview 05-06",
+    "provider": "google",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file",
+     "audio",
+     "video"
+    ],
+    "created": "2025-05-07"
+   },
+   {
+    "id": "meta-llama/llama-guard-4-12b",
+    "name": "Meta: Llama Guard 4 12B",
+    "provider": "meta-llama",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.18,
+    "completionUsdPerMTok": 0.18,
+    "modalities": [
+     "image",
+     "text"
+    ],
+    "created": "2025-04-30"
+   },
+   {
+    "id": "qwen/qwen3-30b-a3b",
+    "name": "Qwen: Qwen3 30B A3B",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.12,
+    "completionUsdPerMTok": 0.5,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-04-28"
+   },
+   {
+    "id": "qwen/qwen3-8b",
+    "name": "Qwen: Qwen3 8B",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.117,
+    "completionUsdPerMTok": 0.45499999999999996,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-04-28"
+   },
+   {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.12,
+    "completionUsdPerMTok": 0.24,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-04-28"
+   },
+   {
+    "id": "qwen/qwen3-32b",
+    "name": "Qwen: Qwen3 32B",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.08,
+    "completionUsdPerMTok": 0.28,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-04-28"
+   },
+   {
+    "id": "qwen/qwen3-235b-a22b",
+    "name": "Qwen: Qwen3 235B A22B",
+    "provider": "qwen",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.45499999999999996,
+    "completionUsdPerMTok": 1.8199999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-04-28"
+   },
+   {
+    "id": "openai/o4-mini-high",
+    "name": "OpenAI: o4 Mini High",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 1.1,
+    "completionUsdPerMTok": 4.4,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-16"
+   },
+   {
+    "id": "openai/o3",
+    "name": "OpenAI: o3",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 8,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-16"
+   },
+   {
+    "id": "openai/o3:batch",
+    "name": "OpenAI: o3 (batch)",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-16"
+   },
+   {
+    "id": "openai/o4-mini",
+    "name": "OpenAI: o4 Mini",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 1.1,
+    "completionUsdPerMTok": 4.4,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-16"
+   },
+   {
+    "id": "openai/o4-mini:batch",
+    "name": "OpenAI: o4 Mini (batch)",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 0.55,
+    "completionUsdPerMTok": 2.2,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-16"
+   },
+   {
+    "id": "openai/gpt-4.1",
+    "name": "OpenAI: GPT-4.1",
+    "provider": "openai",
+    "contextLength": 1047576,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 8,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-14"
+   },
+   {
+    "id": "openai/gpt-4.1:batch",
+    "name": "OpenAI: GPT-4.1 (batch)",
+    "provider": "openai",
+    "contextLength": 1047576,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-14"
+   },
+   {
+    "id": "openai/gpt-4.1-mini",
+    "name": "OpenAI: GPT-4.1 Mini",
+    "provider": "openai",
+    "contextLength": 1047576,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 1.5999999999999999,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-14"
+   },
+   {
+    "id": "openai/gpt-4.1-mini:batch",
+    "name": "OpenAI: GPT-4.1 Mini (batch)",
+    "provider": "openai",
+    "contextLength": 1047576,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 0.7999999999999999,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-14"
+   },
+   {
+    "id": "openai/gpt-4.1-nano",
+    "name": "OpenAI: GPT-4.1 Nano",
+    "provider": "openai",
+    "contextLength": 1047576,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-14"
+   },
+   {
+    "id": "openai/gpt-4.1-nano:batch",
+    "name": "OpenAI: GPT-4.1 Nano (batch)",
+    "provider": "openai",
+    "contextLength": 1047576,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "image",
+     "text",
+     "file"
+    ],
+    "created": "2025-04-14"
+   },
+   {
+    "id": "meta-llama/llama-4-maverick",
+    "name": "Meta: Llama 4 Maverick",
+    "provider": "meta-llama",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 0.696,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-04-05"
+   },
+   {
+    "id": "meta-llama/llama-4-scout",
+    "name": "Meta: Llama 4 Scout",
+    "provider": "meta-llama",
+    "contextLength": 1310720,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-04-05"
+   },
+   {
+    "id": "deepseek/deepseek-chat-v3-0324",
+    "name": "DeepSeek: DeepSeek V3 0324",
+    "provider": "deepseek",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-03-24"
+   },
+   {
+    "id": "openai/o1-pro",
+    "name": "OpenAI: o1-pro",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 150,
+    "completionUsdPerMTok": 600,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2025-03-19"
+   },
+   {
+    "id": "mistralai/mistral-small-3.1-24b-instruct",
+    "name": "Mistral: Mistral Small 3.1 24B",
+    "provider": "mistralai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.351,
+    "completionUsdPerMTok": 0.5549999999999999,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-03-17"
+   },
+   {
+    "id": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "provider": "google",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.09999999999999999,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-03-13"
+   },
+   {
+    "id": "google/gemma-3-12b-it",
+    "name": "Google: Gemma 3 12B",
+    "provider": "google",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.15,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-03-13"
+   },
+   {
+    "id": "cohere/command-a",
+    "name": "Cohere: Command A",
+    "provider": "cohere",
+    "contextLength": 256000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-03-13"
+   },
+   {
+    "id": "rekaai/reka-flash-3",
+    "name": "Reka Flash 3",
+    "provider": "rekaai",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-03-12"
+   },
+   {
+    "id": "google/gemma-3-27b-it",
+    "name": "Google: Gemma 3 27B",
+    "provider": "google",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.08,
+    "completionUsdPerMTok": 0.44999999999999996,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-03-12"
+   },
+   {
+    "id": "thedrummer/skyfall-36b-v2",
+    "name": "TheDrummer: Skyfall 36B V2",
+    "provider": "thedrummer",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.55,
+    "completionUsdPerMTok": 0.7999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-03-10"
+   },
+   {
+    "id": "perplexity/sonar-reasoning-pro",
+    "name": "Perplexity: Sonar Reasoning Pro",
+    "provider": "perplexity",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 8,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-03-07"
+   },
+   {
+    "id": "perplexity/sonar-pro",
+    "name": "Perplexity: Sonar Pro",
+    "provider": "perplexity",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-03-07"
+   },
+   {
+    "id": "perplexity/sonar-deep-research",
+    "name": "Perplexity: Sonar Deep Research",
+    "provider": "perplexity",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 8,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-03-07"
+   },
+   {
+    "id": "mistralai/mistral-saba",
+    "name": "Mistral: Saba",
+    "provider": "mistralai",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2025-02-17"
+   },
+   {
+    "id": "openai/o3-mini-high",
+    "name": "OpenAI: o3 Mini High",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 1.1,
+    "completionUsdPerMTok": 4.4,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2025-02-12"
+   },
+   {
+    "id": "aion-labs/aion-rp-llama-3.1-8b",
+    "name": "AionLabs: Aion-RP 1.0 (8B)",
+    "provider": "aion-labs",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.7999999999999999,
+    "completionUsdPerMTok": 1.5999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-02-04"
+   },
+   {
+    "id": "qwen/qwen2.5-vl-72b-instruct",
+    "name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "provider": "qwen",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.7999999999999999,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-02-01"
+   },
+   {
+    "id": "qwen/qwen-plus",
+    "name": "Qwen: Qwen-Plus",
+    "provider": "qwen",
+    "contextLength": 1000000,
+    "promptUsdPerMTok": 0.26,
+    "completionUsdPerMTok": 0.78,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-02-01"
+   },
+   {
+    "id": "openai/o3-mini",
+    "name": "OpenAI: o3 Mini",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 1.1,
+    "completionUsdPerMTok": 4.4,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2025-01-31"
+   },
+   {
+    "id": "openai/o3-mini:batch",
+    "name": "OpenAI: o3 Mini (batch)",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 0.55,
+    "completionUsdPerMTok": 2.2,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2025-01-31"
+   },
+   {
+    "id": "mistralai/mistral-small-24b-instruct-2501",
+    "name": "Mistral: Mistral Small 3",
+    "provider": "mistralai",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.08,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-01-30"
+   },
+   {
+    "id": "perplexity/sonar",
+    "name": "Perplexity: Sonar",
+    "provider": "perplexity",
+    "contextLength": 127072,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-01-27"
+   },
+   {
+    "id": "deepseek/deepseek-r1-distill-llama-70b",
+    "name": "DeepSeek: R1 Distill Llama 70B",
+    "provider": "deepseek",
+    "contextLength": 8192,
+    "promptUsdPerMTok": 0.7999999999999999,
+    "completionUsdPerMTok": 0.7999999999999999,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-01-23"
+   },
+   {
+    "id": "deepseek/deepseek-r1",
+    "name": "DeepSeek: R1",
+    "provider": "deepseek",
+    "contextLength": 64000,
+    "promptUsdPerMTok": 0.7,
+    "completionUsdPerMTok": 2.5,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-01-20"
+   },
+   {
+    "id": "minimax/minimax-01",
+    "name": "MiniMax: MiniMax-01",
+    "provider": "minimax",
+    "contextLength": 1000192,
+    "promptUsdPerMTok": 0.19999999999999998,
+    "completionUsdPerMTok": 1.1,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2025-01-15"
+   },
+   {
+    "id": "microsoft/phi-4",
+    "name": "Microsoft: Phi 4",
+    "provider": "microsoft",
+    "contextLength": 16384,
+    "promptUsdPerMTok": 0.07,
+    "completionUsdPerMTok": 0.14,
+    "modalities": [
+     "text"
+    ],
+    "created": "2025-01-10"
+   },
+   {
+    "id": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "provider": "deepseek",
+    "contextLength": 163840,
+    "promptUsdPerMTok": 0.2574,
+    "completionUsdPerMTok": 1.0287,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-12-26"
+   },
+   {
+    "id": "sao10k/l3.3-euryale-70b",
+    "name": "Sao10K: Llama 3.3 Euryale 70B",
+    "provider": "sao10k",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.65,
+    "completionUsdPerMTok": 0.75,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-12-18"
+   },
+   {
+    "id": "openai/o1",
+    "name": "OpenAI: o1",
+    "provider": "openai",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 15,
+    "completionUsdPerMTok": 60,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-12-17"
+   },
+   {
+    "id": "cohere/command-r7b-12-2024",
+    "name": "Cohere: Command R7B (12-2024)",
+    "provider": "cohere",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.0375,
+    "completionUsdPerMTok": 0.15,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-12-14"
+   },
+   {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "provider": "meta-llama",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.32,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-12-06"
+   },
+   {
+    "id": "amazon/nova-lite-v1",
+    "name": "Amazon: Nova Lite 1.0",
+    "provider": "amazon",
+    "contextLength": 300000,
+    "promptUsdPerMTok": 0.06,
+    "completionUsdPerMTok": 0.24,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2024-12-05"
+   },
+   {
+    "id": "amazon/nova-micro-v1",
+    "name": "Amazon: Nova Micro 1.0",
+    "provider": "amazon",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.035,
+    "completionUsdPerMTok": 0.14,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-12-05"
+   },
+   {
+    "id": "amazon/nova-pro-v1",
+    "name": "Amazon: Nova Pro 1.0",
+    "provider": "amazon",
+    "contextLength": 300000,
+    "promptUsdPerMTok": 0.7999999999999999,
+    "completionUsdPerMTok": 3.1999999999999997,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2024-12-05"
+   },
+   {
+    "id": "openai/gpt-4o-2024-11-20",
+    "name": "OpenAI: GPT-4o (2024-11-20)",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-11-20"
+   },
+   {
+    "id": "mistralai/mistral-large-2407",
+    "name": "Mistral Large 2407",
+    "provider": "mistralai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2024-11-19"
+   },
+   {
+    "id": "qwen/qwen-2.5-coder-32b-instruct",
+    "name": "Qwen2.5 Coder 32B Instruct",
+    "provider": "qwen",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.66,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-11-11"
+   },
+   {
+    "id": "thedrummer/unslopnemo-12b",
+    "name": "TheDrummer: UnslopNemo 12B",
+    "provider": "thedrummer",
+    "contextLength": 1024000,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-11-08"
+   },
+   {
+    "id": "anthracite-org/magnum-v4-72b",
+    "name": "Magnum v4 72B",
+    "provider": "anthracite-org",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-10-22"
+   },
+   {
+    "id": "qwen/qwen-2.5-7b-instruct",
+    "name": "Qwen: Qwen2.5 7B Instruct",
+    "provider": "qwen",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.09999999999999999,
+    "completionUsdPerMTok": 0.19999999999999998,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-10-16"
+   },
+   {
+    "id": "meta-llama/llama-3.2-1b-instruct",
+    "name": "Meta: Llama 3.2 1B Instruct",
+    "provider": "meta-llama",
+    "contextLength": 60000,
+    "promptUsdPerMTok": 0.027,
+    "completionUsdPerMTok": 0.201,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-09-25"
+   },
+   {
+    "id": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "provider": "meta-llama",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.33,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-09-25"
+   },
+   {
+    "id": "qwen/qwen-2.5-72b-instruct",
+    "name": "Qwen2.5 72B Instruct",
+    "provider": "qwen",
+    "contextLength": 32768,
+    "promptUsdPerMTok": 0.36,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-09-19"
+   },
+   {
+    "id": "cohere/command-r-08-2024",
+    "name": "Cohere: Command R (08-2024)",
+    "provider": "cohere",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-08-30"
+   },
+   {
+    "id": "cohere/command-r-plus-08-2024",
+    "name": "Cohere: Command R+ (08-2024)",
+    "provider": "cohere",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-08-30"
+   },
+   {
+    "id": "sao10k/l3.1-euryale-70b",
+    "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+    "provider": "sao10k",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.85,
+    "completionUsdPerMTok": 0.85,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-08-28"
+   },
+   {
+    "id": "nousresearch/hermes-3-llama-3.1-70b",
+    "name": "Nous: Hermes 3 70B Instruct",
+    "provider": "nousresearch",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.7,
+    "completionUsdPerMTok": 0.7,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-08-18"
+   },
+   {
+    "id": "nousresearch/hermes-3-llama-3.1-405b",
+    "name": "Nous: Hermes 3 405B Instruct",
+    "provider": "nousresearch",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 1,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-08-16"
+   },
+   {
+    "id": "sao10k/l3-lunaris-8b",
+    "name": "Sao10K: Llama 3 8B Lunaris",
+    "provider": "sao10k",
+    "contextLength": 8192,
+    "promptUsdPerMTok": 0.04,
+    "completionUsdPerMTok": 0.049999999999999996,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-08-13"
+   },
+   {
+    "id": "openai/gpt-4o-2024-08-06",
+    "name": "OpenAI: GPT-4o (2024-08-06)",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-08-06"
+   },
+   {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "provider": "meta-llama",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 0.39999999999999997,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-07-23"
+   },
+   {
+    "id": "meta-llama/llama-3.1-8b-instruct",
+    "name": "Meta: Llama 3.1 8B Instruct",
+    "provider": "meta-llama",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.049999999999999996,
+    "completionUsdPerMTok": 0.08,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-07-23"
+   },
+   {
+    "id": "mistralai/mistral-nemo",
+    "name": "Mistral: Mistral Nemo",
+    "provider": "mistralai",
+    "contextLength": 131072,
+    "promptUsdPerMTok": 0.019000000000000003,
+    "completionUsdPerMTok": 0.03,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-07-19"
+   },
+   {
+    "id": "openai/gpt-4o-mini",
+    "name": "OpenAI: GPT-4o-mini",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-07-18"
+   },
+   {
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-07-18"
+   },
+   {
+    "id": "openai/gpt-4o-mini:batch",
+    "name": "OpenAI: GPT-4o-mini (batch)",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 0.075,
+    "completionUsdPerMTok": 0.3,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-07-18"
+   },
+   {
+    "id": "google/gemma-2-27b-it",
+    "name": "Google: Gemma 2 27B",
+    "provider": "google",
+    "contextLength": 8192,
+    "promptUsdPerMTok": 0.65,
+    "completionUsdPerMTok": 0.65,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-07-13"
+   },
+   {
+    "id": "openai/gpt-4o",
+    "name": "OpenAI: GPT-4o",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2.5,
+    "completionUsdPerMTok": 10,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-05-13"
+   },
+   {
+    "id": "openai/gpt-4o-2024-05-13",
+    "name": "OpenAI: GPT-4o (2024-05-13)",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-05-13"
+   },
+   {
+    "id": "openai/gpt-4o:batch",
+    "name": "OpenAI: GPT-4o (batch)",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 1.25,
+    "completionUsdPerMTok": 5,
+    "modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "created": "2024-05-13"
+   },
+   {
+    "id": "mistralai/mixtral-8x22b-instruct",
+    "name": "Mistral: Mixtral 8x22B Instruct",
+    "provider": "mistralai",
+    "contextLength": 65536,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2024-04-17"
+   },
+   {
+    "id": "microsoft/wizardlm-2-8x22b",
+    "name": "WizardLM-2 8x22B",
+    "provider": "microsoft",
+    "contextLength": 65535,
+    "promptUsdPerMTok": 0.62,
+    "completionUsdPerMTok": 0.62,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-04-16"
+   },
+   {
+    "id": "openai/gpt-4-turbo",
+    "name": "OpenAI: GPT-4 Turbo",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 30,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2024-04-09"
+   },
+   {
+    "id": "openai/gpt-4-turbo:batch",
+    "name": "OpenAI: GPT-4 Turbo (batch)",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 5,
+    "completionUsdPerMTok": 15,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2024-04-09"
+   },
+   {
+    "id": "anthropic/claude-3-haiku",
+    "name": "Anthropic: Claude 3 Haiku",
+    "provider": "anthropic",
+    "contextLength": 200000,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 1.25,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2024-03-13"
+   },
+   {
+    "id": "mistralai/mistral-large",
+    "name": "Mistral Large",
+    "provider": "mistralai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 2,
+    "completionUsdPerMTok": 6,
+    "modalities": [
+     "text",
+     "file"
+    ],
+    "created": "2024-02-26"
+   },
+   {
+    "id": "openai/gpt-3.5-turbo-0613",
+    "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+    "provider": "openai",
+    "contextLength": 4095,
+    "promptUsdPerMTok": 1,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-01-25"
+   },
+   {
+    "id": "openai/gpt-4-turbo-preview",
+    "name": "OpenAI: GPT-4 Turbo Preview",
+    "provider": "openai",
+    "contextLength": 128000,
+    "promptUsdPerMTok": 10,
+    "completionUsdPerMTok": 30,
+    "modalities": [
+     "text"
+    ],
+    "created": "2024-01-25"
+   },
+   {
+    "id": "openrouter/auto",
+    "name": "Auto Router",
+    "provider": "openrouter",
+    "contextLength": 2000000,
+    "promptUsdPerMTok": null,
+    "completionUsdPerMTok": null,
+    "modalities": [
+     "text",
+     "image",
+     "audio",
+     "file",
+     "video"
+    ],
+    "created": "2023-11-08"
+   },
+   {
+    "id": "openai/gpt-3.5-turbo-instruct",
+    "name": "OpenAI: GPT-3.5 Turbo Instruct",
+    "provider": "openai",
+    "contextLength": 4095,
+    "promptUsdPerMTok": 1.5,
+    "completionUsdPerMTok": 2,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-09-28"
+   },
+   {
+    "id": "openai/gpt-3.5-turbo-16k",
+    "name": "OpenAI: GPT-3.5 Turbo 16k",
+    "provider": "openai",
+    "contextLength": 16385,
+    "promptUsdPerMTok": 3,
+    "completionUsdPerMTok": 4,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-08-28"
+   },
+   {
+    "id": "mancer/weaver",
+    "name": "Mancer: Weaver (alpha)",
+    "provider": "mancer",
+    "contextLength": 8000,
+    "promptUsdPerMTok": 0.39999999999999997,
+    "completionUsdPerMTok": 0.75,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-08-02"
+   },
+   {
+    "id": "undi95/remm-slerp-l2-13b",
+    "name": "ReMM SLERP 13B",
+    "provider": "undi95",
+    "contextLength": 6144,
+    "promptUsdPerMTok": 0.35,
+    "completionUsdPerMTok": 0.65,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-07-22"
+   },
+   {
+    "id": "gryphe/mythomax-l2-13b",
+    "name": "MythoMax 13B",
+    "provider": "gryphe",
+    "contextLength": 8192,
+    "promptUsdPerMTok": 0.06,
+    "completionUsdPerMTok": 0.06,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-07-02"
+   },
+   {
+    "id": "openai/gpt-3.5-turbo",
+    "name": "OpenAI: GPT-3.5 Turbo",
+    "provider": "openai",
+    "contextLength": 16385,
+    "promptUsdPerMTok": 0.5,
+    "completionUsdPerMTok": 1.5,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-05-28"
+   },
+   {
+    "id": "openai/gpt-3.5-turbo:batch",
+    "name": "OpenAI: GPT-3.5 Turbo (batch)",
+    "provider": "openai",
+    "contextLength": 16385,
+    "promptUsdPerMTok": 0.25,
+    "completionUsdPerMTok": 0.75,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-05-28"
+   },
+   {
+    "id": "openai/gpt-4",
+    "name": "OpenAI: GPT-4",
+    "provider": "openai",
+    "contextLength": 8191,
+    "promptUsdPerMTok": 30,
+    "completionUsdPerMTok": 60,
+    "modalities": [
+     "text"
+    ],
+    "created": "2023-05-28"
+   }
+  ],
+  "providerCount": 59,
+  "priceStats": {
+   "medianPromptUsdPerMTok": 0.5,
+   "minPromptUsdPerMTok": 0.017,
+   "medianCompletionUsdPerMTok": 2
+  },
+  "byProvider": [
+   {
+    "provider": "openai",
+    "count": 93,
+    "medianPromptUsdPerMTok": 1.25
+   },
+   {
+    "provider": "qwen",
+    "count": 53,
+    "medianPromptUsdPerMTok": 0.21
+   },
+   {
+    "provider": "google",
+    "count": 43,
+    "medianPromptUsdPerMTok": 0.375
+   },
+   {
+    "provider": "anthropic",
+    "count": 27,
+    "medianPromptUsdPerMTok": 3
+   },
+   {
+    "provider": "mistralai",
+    "count": 25,
+    "medianPromptUsdPerMTok": 0.19999999999999998
+   },
+   {
+    "provider": "deepseek",
+    "count": 18,
+    "medianPromptUsdPerMTok": 0.2632
+   },
+   {
+    "provider": "z-ai",
+    "count": 17,
+    "medianPromptUsdPerMTok": 0.6
+   },
+   {
+    "provider": "nvidia",
+    "count": 10,
+    "medianPromptUsdPerMTok": 0.08
+   },
+   {
+    "provider": "minimax",
+    "count": 9,
+    "medianPromptUsdPerMTok": 0.3
+   },
+   {
+    "provider": "moonshotai",
+    "count": 8,
+    "medianPromptUsdPerMTok": 0.655
+   },
+   {
+    "provider": "meta-llama",
+    "count": 8,
+    "medianPromptUsdPerMTok": 0.09999999999999999
+   },
+   {
+    "provider": "meta",
+    "count": 7,
+    "medianPromptUsdPerMTok": 0.35
+   },
+   {
+    "provider": "tencent",
+    "count": 7,
+    "medianPromptUsdPerMTok": 0.13199999999999998
+   },
+   {
+    "provider": "x-ai",
+    "count": 7,
+    "medianPromptUsdPerMTok": 1.25
+   },
+   {
+    "provider": "inclusionai",
+    "count": 6,
+    "medianPromptUsdPerMTok": 0.06
+   },
+   {
+    "provider": "bytedance-seed",
+    "count": 6,
+    "medianPromptUsdPerMTok": 0.25
+   },
+   {
+    "provider": "thinkingmachines",
+    "count": 6,
+    "medianPromptUsdPerMTok": 0.75
+   },
+   {
+    "provider": "openrouter",
+    "count": 6,
+    "medianPromptUsdPerMTok": null
+   },
+   {
+    "provider": "~openai",
+    "count": 5,
+    "medianPromptUsdPerMTok": 2
+   },
+   {
+    "provider": "cohere",
+    "count": 5,
+    "medianPromptUsdPerMTok": 1.325
+   },
+   {
+    "provider": "amazon",
+    "count": 5,
+    "medianPromptUsdPerMTok": 0.3
+   },
+   {
+    "provider": "perplexity",
+    "count": 5,
+    "medianPromptUsdPerMTok": 2
+   },
+   {
+    "provider": "sakana",
+    "count": 4,
+    "medianPromptUsdPerMTok": 3.5
+   },
+   {
+    "provider": "poolside",
+    "count": 4,
+    "medianPromptUsdPerMTok": 0.075
+   },
+   {
+    "provider": "aion-labs",
+    "count": 4,
+    "medianPromptUsdPerMTok": 0.7999999999999999
+   },
+   {
+    "provider": "~anthropic",
+    "count": 4,
+    "medianPromptUsdPerMTok": 3.5
+   },
+   {
+    "provider": "thedrummer",
+    "count": 3,
+    "medianPromptUsdPerMTok": 0.39999999999999997
+   },
+   {
+    "provider": "nousresearch",
+    "count": 3,
+    "medianPromptUsdPerMTok": 1
+   },
+   {
+    "provider": "sao10k",
+    "count": 3,
+    "medianPromptUsdPerMTok": 0.65
+   },
+   {
+    "provider": "inference-net",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.039999999999999994
+   },
+   {
+    "provider": "inception",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.145
+   },
+   {
+    "provider": "nex-agi",
+    "count": 2,
+    "medianPromptUsdPerMTok": null
+   },
+   {
+    "provider": "ibm-granite",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.0385
+   },
+   {
+    "provider": "~z-ai",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.49749999999999994
+   },
+   {
+    "provider": "upstage",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.12
+   },
+   {
+    "provider": "kwaipilot",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.52
+   },
+   {
+    "provider": "stepfun",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.15
+   },
+   {
+    "provider": "~google",
+    "count": 2,
+    "medianPromptUsdPerMTok": 1.375
+   },
+   {
+    "provider": "xiaomi",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.2875
+   },
+   {
+    "provider": "rekaai",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.09999999999999999
+   },
+   {
+    "provider": "relace",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.925
+   },
+   {
+    "provider": "morph",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.8499999999999999
+   },
+   {
+    "provider": "microsoft",
+    "count": 2,
+    "medianPromptUsdPerMTok": 0.345
+   },
+   {
+    "provider": "dots-studio",
+    "count": 1,
+    "medianPromptUsdPerMTok": null
+   },
+   {
+    "provider": "liquid",
+    "count": 1,
+    "medianPromptUsdPerMTok": null
+   },
+   {
+    "provider": "~deepseek",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.04
+   },
+   {
+    "provider": "meituan",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.3
+   },
+   {
+    "provider": "~x-ai",
+    "count": 1,
+    "medianPromptUsdPerMTok": 2
+   },
+   {
+    "provider": "perceptron",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.15
+   },
+   {
+    "provider": "~moonshotai",
+    "count": 1,
+    "medianPromptUsdPerMTok": 2.0999999999999996
+   },
+   {
+    "provider": "arcee-ai",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.25
+   },
+   {
+    "provider": "writer",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.6
+   },
+   {
+    "provider": "bytedance",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.09999999999999999
+   },
+   {
+    "provider": "cognitivecomputations",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.19999999999999998
+   },
+   {
+    "provider": "baidu",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.42
+   },
+   {
+    "provider": "anthracite-org",
+    "count": 1,
+    "medianPromptUsdPerMTok": 2.5
+   },
+   {
+    "provider": "mancer",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.39999999999999997
+   },
+   {
+    "provider": "undi95",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.35
+   },
+   {
+    "provider": "gryphe",
+    "count": 1,
+    "medianPromptUsdPerMTok": 0.06
+   }
+  ],
+  "contextLengthBuckets": [
+   {
+    "bucket": "<32K",
+    "count": 17
+   },
+   {
+    "bucket": "32K–128K",
+    "count": 26
+   },
+   {
+    "bucket": "128K–256K",
+    "count": 122
+   },
+   {
+    "bucket": "256K–1M",
+    "count": 120
+   },
+   {
+    "bucket": "≥1M",
+    "count": 160
+   }
+  ]
+ }
+}

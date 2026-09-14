@@ -1,0 +1,258 @@
+# Organizations that materially shape the AI ecosystem.
+# category: frontier | bigtech | open | research | chips | infra
+
+- id: openai
+  name: OpenAI
+  country: United States
+  founded: 2015
+  category: frontier
+  notes: GPT model family and ChatGPT; restructured to a capped-profit model under a nonprofit parent in 2019.
+  url: https://openai.com
+
+- id: anthropic
+  name: Anthropic
+  country: United States
+  founded: 2021
+  category: frontier
+  notes: Claude model family; originated the Responsible Scaling Policy and the Model Context Protocol.
+  url: https://anthropic.com
+
+- id: google-deepmind
+  name: Google DeepMind
+  country: United Kingdom
+  founded: 2010
+  category: frontier
+  notes: Formed in 2023 by merging DeepMind with Google Brain; Gemini model family, AlphaFold.
+  url: https://deepmind.google
+
+- id: meta-ai
+  name: Meta AI (FAIR)
+  country: United States
+  founded: 2013
+  category: open
+  notes: Llama family; the single largest driver of open-weight model adoption.
+  url: https://ai.meta.com
+
+- id: xai
+  name: xAI
+  country: United States
+  founded: 2023
+  category: frontier
+  notes: Grok model family; operates the Colossus cluster in Memphis, Tennessee.
+  url: https://x.ai
+
+- id: mistral
+  name: Mistral AI
+  country: France
+  founded: 2023
+  category: open
+  notes: Europe's leading independent lab; mixes open-weight and commercial releases.
+  url: https://mistral.ai
+
+- id: deepseek
+  name: DeepSeek
+  country: China
+  founded: 2023
+  category: open
+  notes: R1 and V3 releases demonstrated frontier-adjacent capability at markedly lower reported training cost.
+  url: https://deepseek.com
+
+- id: alibaba-qwen
+  name: Alibaba (Qwen)
+  country: China
+  founded: 1999
+  category: open
+  notes: Qwen family is among the most-downloaded and most-finetuned open-weight model lines.
+  url: https://qwenlm.github.io
+
+- id: moonshot
+  name: Moonshot AI
+  country: China
+  founded: 2023
+  category: frontier
+  notes: Kimi model family, noted for long-context and agentic releases.
+  url: https://moonshot.cn
+
+- id: zhipu
+  name: Zhipu AI (Z.ai)
+  country: China
+  founded: 2019
+  category: open
+  notes: GLM model family; spun out of Tsinghua University.
+  url: https://z.ai
+
+- id: bytedance
+  name: ByteDance
+  country: China
+  founded: 2012
+  category: bigtech
+  notes: Doubao model family and large-scale consumer AI deployment.
+  url: https://www.bytedance.com
+
+- id: baidu
+  name: Baidu
+  country: China
+  founded: 2000
+  category: bigtech
+  notes: ERNIE model family; among the earliest large-scale Chinese LLM efforts.
+  url: https://research.baidu.com
+
+- id: tencent
+  name: Tencent
+  country: China
+  founded: 1998
+  category: bigtech
+  notes: Hunyuan model family, including open-weight video and 3D generation releases.
+  url: https://hunyuan.tencent.com
+
+- id: microsoft
+  name: Microsoft
+  country: United States
+  founded: 1975
+  category: bigtech
+  notes: Principal OpenAI partner and Azure AI host; Phi small-model family and Copilot product line.
+  url: https://www.microsoft.com/ai
+
+- id: amazon
+  name: Amazon / AWS
+  country: United States
+  founded: 1994
+  category: bigtech
+  notes: Major Anthropic investor; Bedrock model marketplace, Nova models, and Trainium accelerators.
+  url: https://aws.amazon.com/ai
+
+- id: apple
+  name: Apple
+  country: United States
+  founded: 1976
+  category: bigtech
+  notes: On-device foundation models under Apple Intelligence; a distinctly edge-first strategy.
+  url: https://machinelearning.apple.com
+
+- id: nvidia
+  name: NVIDIA
+  country: United States
+  founded: 1993
+  category: chips
+  notes: Supplies the dominant share of AI training accelerators; CUDA remains the default software substrate.
+  url: https://www.nvidia.com
+
+- id: amd
+  name: AMD
+  country: United States
+  founded: 1969
+  category: chips
+  notes: Instinct MI accelerator line and the ROCm software stack; the principal merchant-silicon alternative.
+  url: https://www.amd.com
+
+- id: broadcom
+  name: Broadcom
+  country: United States
+  founded: 1961
+  category: chips
+  notes: Co-designs custom AI accelerators (including Google TPUs) and supplies AI networking silicon.
+  url: https://www.broadcom.com
+
+- id: tsmc
+  name: TSMC
+  country: Taiwan
+  founded: 1987
+  category: chips
+  notes: Fabricates essentially all leading-edge AI accelerators; the ecosystem's tightest physical bottleneck.
+  url: https://www.tsmc.com
+
+- id: asml
+  name: ASML
+  country: Netherlands
+  founded: 1984
+  category: chips
+  notes: Sole supplier of EUV lithography; a central instrument of semiconductor export control.
+  url: https://www.asml.com
+
+- id: cerebras
+  name: Cerebras Systems
+  country: United States
+  founded: 2016
+  category: chips
+  notes: Wafer-scale engine architecture; competes on high-throughput inference.
+  url: https://cerebras.ai
+
+- id: groq
+  name: Groq
+  country: United States
+  founded: 2016
+  category: chips
+  notes: LPU inference accelerators built for low-latency token generation.
+  url: https://groq.com
+
+- id: coreweave
+  name: CoreWeave
+  country: United States
+  founded: 2017
+  category: infra
+  notes: GPU-specialised cloud provider; listed publicly in 2025 as a pure-play AI infrastructure company.
+  url: https://coreweave.com
+
+- id: huggingface
+  name: Hugging Face
+  country: United States
+  founded: 2016
+  category: open
+  notes: Operates the Hub, the de facto public registry for open models and datasets.
+  url: https://huggingface.co
+
+- id: ai2
+  name: Allen Institute for AI (Ai2)
+  country: United States
+  founded: 2014
+  category: research
+  notes: OLMo and Molmo lines; among the few genuinely open efforts publishing data and training recipes.
+  url: https://allenai.org
+
+- id: eleutherai
+  name: EleutherAI
+  country: United States
+  founded: 2020
+  category: open
+  notes: Grassroots collective behind GPT-NeoX, the Pile, and the LM Evaluation Harness.
+  url: https://www.eleuther.ai
+
+- id: ssi
+  name: Safe Superintelligence (SSI)
+  country: United States
+  founded: 2024
+  category: frontier
+  notes: Founded by Ilya Sutskever; single-product research lab with no interim commercial releases.
+  url: https://ssi.inc
+
+- id: thinking-machines
+  name: Thinking Machines Lab
+  country: United States
+  founded: 2025
+  category: frontier
+  notes: Founded by Mira Murati with a cohort of former OpenAI researchers.
+  url: https://thinkingmachines.ai
+
+- id: cohere
+  name: Cohere
+  country: Canada
+  founded: 2019
+  category: frontier
+  notes: Enterprise-focused models with an emphasis on retrieval and private deployment.
+  url: https://cohere.com
+
+- id: ai21
+  name: AI21 Labs
+  country: Israel
+  founded: 2017
+  category: frontier
+  notes: Jurassic and Jamba families; early work on hybrid state-space/transformer architectures.
+  url: https://www.ai21.com
+
+- id: blackforest
+  name: Black Forest Labs
+  country: Germany
+  founded: 2024
+  category: open
+  notes: FLUX image models, from the team behind the original Stable Diffusion work.
+  url: https://blackforestlabs.ai

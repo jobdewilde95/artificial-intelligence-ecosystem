@@ -1,0 +1,95 @@
+[
+ {
+  "sourceId": "discourse",
+  "label": "Developer discourse (Hacker News)",
+  "pillar": "adoption",
+  "status": "ok",
+  "fetchedAt": "2026-09-14T14:56:43.001Z",
+  "lastSuccess": "2026-09-14T14:56:43.001Z",
+  "recordCount": 19,
+  "attribution": {
+   "name": "Hacker News API",
+   "url": "https://github.com/HackerNews/API"
+  }
+ },
+ {
+  "sourceId": "epoch-compute",
+  "label": "AI supercomputers & GPU clusters",
+  "pillar": "compute",
+  "status": "ok",
+  "fetchedAt": "2026-09-14T14:56:43.001Z",
+  "lastSuccess": "2026-09-14T14:56:43.001Z",
+  "recordCount": 482,
+  "attribution": {
+   "name": "Epoch AI — AI Supercomputers",
+   "url": "https://epoch.ai/data/ai-supercomputers",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "sourceId": "epoch-models",
+  "label": "Notable AI models",
+  "pillar": "capability",
+  "status": "ok",
+  "fetchedAt": "2026-09-14T14:56:43.001Z",
+  "lastSuccess": "2026-09-14T14:56:43.001Z",
+  "recordCount": 1065,
+  "attribution": {
+   "name": "Epoch AI — Notable AI Models",
+   "url": "https://epoch.ai/data/notable-ai-models",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "sourceId": "openrouter",
+  "label": "Served model catalogue & inference pricing",
+  "pillar": "capital",
+  "status": "ok",
+  "fetchedAt": "2026-09-14T14:56:43.001Z",
+  "lastSuccess": "2026-09-14T14:56:43.001Z",
+  "recordCount": 445,
+  "attribution": {
+   "name": "OpenRouter",
+   "url": "https://openrouter.ai/docs/api-reference/list-available-models"
+  }
+ },
+ {
+  "sourceId": "opensource",
+  "label": "Open-source AI projects & Hugging Face Hub",
+  "pillar": "opensource",
+  "status": "ok",
+  "fetchedAt": "2026-09-14T14:56:43.001Z",
+  "lastSuccess": "2026-09-14T14:56:43.001Z",
+  "recordCount": 20,
+  "attribution": {
+   "name": "GitHub API & Hugging Face Hub API",
+   "url": "https://huggingface.co/docs/hub/api"
+  }
+ },
+ {
+  "sourceId": "policy",
+  "label": "US Federal Register AI actions",
+  "pillar": "policy",
+  "status": "ok",
+  "fetchedAt": "2026-09-14T14:56:43.001Z",
+  "lastSuccess": "2026-09-14T14:56:43.001Z",
+  "recordCount": 127,
+  "attribution": {
+   "name": "Federal Register API",
+   "url": "https://www.federalregister.gov/developers/documentation/api/v1"
+  }
+ },
+ {
+  "sourceId": "research",
+  "label": "AI research publication volume",
+  "pillar": "research",
+  "status": "ok",
+  "fetchedAt": "2026-09-14T14:56:43.001Z",
+  "lastSuccess": "2026-09-14T14:56:43.001Z",
+  "recordCount": 37,
+  "attribution": {
+   "name": "Crossref REST API & arXiv",
+   "url": "https://api.crossref.org"
+  }
+ }
+]

@@ -1,0 +1,217 @@
+{
+ "sourceId": "research",
+ "label": "AI research publication volume",
+ "status": "ok",
+ "fetchedAt": "2026-09-14T14:56:43.001Z",
+ "lastSuccess": "2026-09-14T14:56:43.001Z",
+ "attribution": {
+  "name": "Crossref REST API & arXiv",
+  "url": "https://api.crossref.org"
+ },
+ "data": {
+  "byYear": [
+   {
+    "year": 2015,
+    "count": 229621
+   },
+   {
+    "year": 2016,
+    "count": 251832
+   },
+   {
+    "year": 2017,
+    "count": 282172
+   },
+   {
+    "year": 2018,
+    "count": 325351
+   },
+   {
+    "year": 2019,
+    "count": 380591
+   },
+   {
+    "year": 2020,
+    "count": 443422
+   },
+   {
+    "year": 2021,
+    "count": 519828
+   },
+   {
+    "year": 2022,
+    "count": 583303
+   },
+   {
+    "year": 2023,
+    "count": 683924
+   },
+   {
+    "year": 2024,
+    "count": 763631
+   },
+   {
+    "year": 2025,
+    "count": 919601
+   },
+   {
+    "year": 2026,
+    "count": 689657
+   }
+  ],
+  "totalMatching": 9330430,
+  "recent": [
+   {
+    "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
+    "date": "2121-02-01",
+    "doi": "10.32598/jccnc.7.1.350.1",
+    "venue": "Journal of Client-Centered Nursing Care"
+   },
+   {
+    "title": "Learner profiles and the process of Learning in the Higher Educational Context",
+    "date": "2115-03-05",
+    "doi": "10.15556/ijiim.02.01.003",
+    "venue": "International Journal on Integrated Information Management"
+   },
+   {
+    "title": "Introducing a conceptual model of brand orientation within the context of Social Entrepreneurial Businesses",
+    "date": "2114-12-10",
+    "doi": "10.15556/ijsim.01.01.004",
+    "venue": "International Journal of Strategic Innovative Marketing"
+   },
+   {
+    "title": "WEB-BASED COLLABORATIVE LEARNING AND KNOWLEDGE SHARING IN INFORMAL BUSINESS NETWORKS",
+    "date": "2114-12-10",
+    "doi": "10.15556/ijiim.01.02.002",
+    "venue": "International Journal on Integrated Information Management"
+   },
+   {
+    "title": "Barriers to Adaptation of Information and Communication Technologies : An Ecological Model Perspective",
+    "date": "2108-04-01",
+    "doi": "10.29070/27/57485",
+    "venue": "Contemporary Social Sciences"
+   },
+   {
+    "title": "Growth plate extracellular matrix-derived scaffolds for large bone defect healing",
+    "date": "2107-02-14",
+    "doi": "10.22203/ecm.v033a10",
+    "venue": "European Cells and Materials"
+   },
+   {
+    "title": "Comparison of Locus of Control Behaviour Scores in Normal and Individuals with stuttering – A new way to Approach Stuttering Disorder for Speech – Language Pathologists",
+    "date": "2106-06-20",
+    "doi": "10.21276/ijchmr.2016.2.2.07",
+    "venue": "International Journal Of Community Health And Medical Research"
+   },
+   {
+    "title": "Availability and Utilization of Tools and Equipment for Teaching and Learning Garment Making Trade in the Senior Secondary Schools in Edo State",
+    "date": "2106-01-01",
+    "doi": "10.20431/2349-0381.0303002",
+    "venue": "International Journal of Humanities, Social Sciences and Education"
+   },
+   {
+    "title": "Structural Identification of Large Finite Element Models Using Commodity Computing Clusters for Parallel Genetic Algorithms",
+    "date": "2105-01-01",
+    "doi": "10.12783/shm2015/112",
+    "venue": "Structural Health Monitoring 2015"
+   },
+   {
+    "title": "Translation of a C. difficile Treatment Clinical Pathway Into Machine-Readable Clinical Decision Support Artifacts Prototyped for Electronic Health Record Integration",
+    "date": "2091-11-21",
+    "doi": "10.23970/ahrqepcmethqualimprcdiff",
+    "venue": null
+   },
+   {
+    "title": "We Cannot Cede Control of Weapons to Artificial Intelligence",
+    "date": "2077-07-01",
+    "doi": "10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+    "venue": "Scientific American"
+   },
+   {
+    "title": "27. Des navires sentinelles au large",
+    "date": "2037-01-01",
+    "doi": "10.1051/978-2-7598-2652-3.c028",
+    "venue": "Urgences climatiques et écologiques : les solutions de l'Océan"
+   },
+   {
+    "title": "Title Pending 8122",
+    "date": "2036-05-11",
+    "doi": "10.3998/mjcsl.8122",
+    "venue": "Michigan Journal of Community Service Learning"
+   },
+   {
+    "title": "Title Pending 94702",
+    "date": "2035-05-18",
+    "doi": "10.21825/ewopinpractice.94702",
+    "venue": "EWOP in Practice"
+   },
+   {
+    "title": "Title Pending 94703",
+    "date": "2035-05-18",
+    "doi": "10.21825/ewopinpractice.94703",
+    "venue": "EWOP in Practice"
+   },
+   {
+    "title": "Title Pending 6294",
+    "date": "2034-12-20",
+    "doi": "10.3998/mjcsl.6294",
+    "venue": "Michigan Journal of Community Service Learning"
+   },
+   {
+    "title": "Title Pending 5730",
+    "date": "2034-11-18",
+    "doi": "10.3998/mjcsl.5730",
+    "venue": "Michigan Journal of Community Service Learning"
+   },
+   {
+    "title": "Title Pending 3643",
+    "date": "2033-09-06",
+    "doi": "10.3998/mjcsl.3643",
+    "venue": "Michigan Journal of Community Service Learning"
+   },
+   {
+    "title": "Title Pending 4120",
+    "date": "2033-03-28",
+    "doi": "10.3998/mjcsl.4120",
+    "venue": "Michigan Journal of Community Service Learning"
+   },
+   {
+    "title": "Title Pending 2741",
+    "date": "2032-09-28",
+    "doi": "10.3998/mjcsl.2741",
+    "venue": "Michigan Journal of Community Service Learning"
+   },
+   {
+    "title": "USING OF LAB ANIMALS AS A MODEL TO STUDY THE DRUG TOXICITY IN COVID-19",
+    "date": "2031-08-01",
+    "doi": "10.23975/bjvetr.2031.175853",
+    "venue": "Basrah Journal of Veterinary Research"
+   },
+   {
+    "title": "The changes in the sub-system of the present time forms in the Chalkan language from the middle of the XX century to the present",
+    "date": "2031-01-01",
+    "doi": "10.17223/18137083/55/23",
+    "venue": "Sibirskiy filologicheskiy zhurnal"
+   },
+   {
+    "title": "On the study of the phraseological units of the Buryat language as elements of lingvoсulture",
+    "date": "2031-01-01",
+    "doi": "10.17223/18137083/55/25",
+    "venue": "Sibirskiy filologicheskiy zhurnal"
+   },
+   {
+    "title": "Machine Learning Application for SAIs",
+    "date": "2030-10-20",
+    "doi": "10.56251/watu4873",
+    "venue": "International Journal of Government Auditing"
+   },
+   {
+    "title": "Evolution and Applications of Artificial Intelligence in SAIs",
+    "date": "2030-10-20",
+    "doi": "10.56251/yxek7242",
+    "venue": "International Journal of Government Auditing"
+   }
+  ],
+  "byCategory": []
+ }
+}
