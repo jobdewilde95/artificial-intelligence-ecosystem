@@ -131,10 +131,18 @@ quality; and the curated files are a documented seed, not a survey.
 
 ## Deployment
 
-Requires two repository settings:
+One repository setting is still required:
 
-1. **Settings → General → Change visibility → Public**
-2. **Settings → Pages → Source: GitHub Actions**
+**Settings → Pages → Source: GitHub Actions**
+
+Until that is set, the workflows run and the build succeeds, but there is
+nowhere to publish to.
+
+The deploy workflow builds on a push to the repository's **default branch**,
+whatever it is named — it reads `github.event.repository.default_branch`
+rather than assuming `main`, and the refresh job pushes back to the branch it
+ran on. So the pipeline works whether the default stays as-is or the work is
+later merged into `main`.
 
 ## Data sources & licences
 

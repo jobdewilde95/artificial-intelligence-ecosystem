@@ -4,8 +4,11 @@ name: Build & deploy
 # with the default GITHUB_TOKEN does NOT trigger other workflows, so a cron
 # refresh would otherwise update the data and never redeploy the site.
 on:
+  # Fires on any branch but the job below runs only for the repository's
+  # default branch, whatever it is called. Hardcoding `main` silently breaks
+  # the moment the default is something else — which is exactly what happened
+  # here, where the first pushed branch became the default.
   push:
-    branches: [main]
     paths-ignore:
       - '**.md'
       - 'LICENSE'
@@ -25,6 +28,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # workflow_call/dispatch always build; a plain push only from the default branch.
+    if: >-
+      github.event_name != 'push' ||
+      github.ref_name == github.event.repository.default_branch
     steps:
       - uses: actions/checkout@v4
 
