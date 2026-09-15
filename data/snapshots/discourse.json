@@ -2,8 +2,8 @@
  "sourceId": "discourse",
  "label": "Developer discourse (Hacker News)",
  "status": "ok",
- "fetchedAt": "2026-09-14T15:05:57.757Z",
- "lastSuccess": "2026-09-14T15:05:57.757Z",
+ "fetchedAt": "2026-09-15T11:13:53.573Z",
+ "lastSuccess": "2026-09-15T11:13:53.573Z",
  "attribution": {
   "name": "Hacker News API",
   "url": "https://github.com/HackerNews/API"
@@ -12,120 +12,108 @@
   "topStories": [
    {
     "title": "Why are AI agents lying, cheating and coordinating?",
-    "score": 634,
+    "score": 649,
     "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
     "date": "2026-09-13"
    },
    {
-    "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
-    "score": 397,
-    "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-    "date": "2026-09-13"
-   },
-   {
-    "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
-    "score": 314,
-    "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
-    "date": "2026-09-13"
-   },
-   {
-    "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
-    "score": 155,
-    "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "Open-source AI and open models reading list",
-    "score": 138,
-    "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "OpenArch – PyTorch implementations of modern LLM architectures",
-    "score": 101,
-    "url": "https://github.com/anuj0456/OpenArch",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
-    "score": 90,
+    "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+    "score": 470,
     "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
     "date": "2026-09-14"
    },
    {
+    "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+    "score": 222,
+    "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
+    "score": 175,
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+    "date": "2026-09-15"
+   },
+   {
+    "title": "Open-source AI and open models reading list",
+    "score": 154,
+    "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+    "score": 147,
+    "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+    "score": 138,
+    "url": "https://github.com/anuj0456/OpenArch",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Why don't machine learning research agents overfit?",
+    "score": 130,
+    "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Claude is a Contrarian",
+    "score": 125,
+    "url": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
+    "date": "2026-09-14"
+   },
+   {
+    "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+    "score": 124,
+    "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+    "date": "2026-09-14"
+   },
+   {
     "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
-    "score": 80,
+    "score": 116,
     "url": "https://github.com/callbacked/kinesis",
     "date": "2026-09-14"
    },
    {
-    "title": "Big AI sets out its terms for regulatory capture",
-    "score": 79,
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+    "title": "Adversarial Fashion Makes a Statement on AI Panopticon",
+    "score": 102,
+    "url": "https://spectrum.ieee.org/adversarial-fashion",
     "date": "2026-09-14"
    },
    {
-    "title": "Who gets to define the rules for AI?",
-    "score": 46,
-    "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+    "title": "Anthropic is in regulatory-capture financial loop",
+    "score": 70,
+    "url": "https://twitter.com/kevinnbass/status/2099626156660043891",
     "date": "2026-09-14"
    },
    {
-    "title": "The AI job market in 2026",
-    "score": 24,
-    "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
-    "date": "2026-09-14"
+    "title": "Israeli Effective Altruism Firm Behind OpenAI, Anthropic, and Meta Cyberattacks",
+    "score": 49,
+    "url": "https://twitter.com/brianchau57/status/2099580981271318606",
+    "date": "2026-09-15"
    },
    {
-    "title": "D-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
-    "score": 12,
-    "url": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
-    "date": "2026-09-14"
+    "title": "How much of F-Droid is LLM generated?",
+    "score": 43,
+    "url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
+    "date": "2026-09-15"
    },
    {
-    "title": "RubyGems Open Source Supply Chain Security and OpenAI",
-    "score": 8,
-    "url": "https://rietta.com/blog/rubygems-supply-chain-openai/",
-    "date": "2026-09-14"
+    "title": "I worked at Google DeepMind. You should listen to the warnings about AI",
+    "score": 36,
+    "url": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
+    "date": "2026-09-15"
    },
    {
-    "title": "Intelligence per Watt: Measuring Intelligence Efficiency of Local AI",
-    "score": 8,
-    "url": "https://arxiv.org/abs/2511.07885",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "Do the AI Studio test NOW to prove Google doesn't delete chats",
-    "score": 7,
-    "url": "https://lemmy.world/post/51905600",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "Show HN: I built Otis, a minimal AI agent that runs local models out of the box",
-    "score": 6,
-    "url": "https://triangllabs.ai/otis",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "Ask HN: Are 80s high school hobby programmers overwhelmingly pro-AI?",
-    "score": 5,
-    "url": null,
-    "date": "2026-09-14"
-   },
-   {
-    "title": "A list of 1,325 AI assisted repositories, mined from GitHub",
-    "score": 4,
-    "url": "https://github.com/ActuallyTaylor/strata/blob/main/paper/data/large/datasets/ai-assisted-repositories.csv",
-    "date": "2026-09-14"
-   },
-   {
-    "title": "Show HN: Authorize MCP tool calls without giving agents the credentials",
-    "score": 3,
-    "url": "https://github.com/keydrisLabs/mcp-auth-keydris-template",
+    "title": "Fitting Neural Textures and PBR Material Maps with ES (No Backprop)",
+    "score": 13,
+    "url": "http://richg42.blogspot.com/2026/09/fitting-neural-texture-and-pbr-material.html",
     "date": "2026-09-14"
    }
   ],
-  "aiShareOfFrontPage": 0.1919191919191919,
+  "aiShareOfFrontPage": 0.1717171717171717,
   "sampled": 99
  }
 }

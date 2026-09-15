@@ -2,8 +2,8 @@
  "sourceId": "research",
  "label": "AI research publication volume",
  "status": "ok",
- "fetchedAt": "2026-09-14T15:05:57.757Z",
- "lastSuccess": "2026-09-14T15:05:57.757Z",
+ "fetchedAt": "2026-09-15T11:13:53.573Z",
+ "lastSuccess": "2026-09-15T11:13:53.573Z",
  "attribution": {
   "name": "Crossref REST API & arXiv",
   "url": "https://api.crossref.org"
@@ -12,54 +12,54 @@
   "byYear": [
    {
     "year": 2015,
-    "count": 229621
+    "count": 229622
    },
    {
     "year": 2016,
-    "count": 251832
+    "count": 251834
    },
    {
     "year": 2017,
-    "count": 282172
+    "count": 282174
    },
    {
     "year": 2018,
-    "count": 325351
+    "count": 325356
    },
    {
     "year": 2019,
-    "count": 380591
+    "count": 380590
    },
    {
     "year": 2020,
-    "count": 443422
+    "count": 443430
    },
    {
     "year": 2021,
-    "count": 519828
+    "count": 519837
    },
    {
     "year": 2022,
-    "count": 583303
+    "count": 583309
    },
    {
     "year": 2023,
-    "count": 683924
+    "count": 683931
    },
    {
     "year": 2024,
-    "count": 763631
+    "count": 763657
    },
    {
     "year": 2025,
-    "count": 919601
+    "count": 919637
    },
    {
     "year": 2026,
-    "count": 689741
+    "count": 693176
    }
   ],
-  "totalMatching": 9330514,
+  "totalMatching": 9334084,
   "recent": [
    {
     "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",

@@ -2,14 +2,39 @@
  "sourceId": "openrouter",
  "label": "Served model catalogue & inference pricing",
  "status": "ok",
- "fetchedAt": "2026-09-14T15:05:57.757Z",
- "lastSuccess": "2026-09-14T15:05:57.757Z",
+ "fetchedAt": "2026-09-15T11:13:53.573Z",
+ "lastSuccess": "2026-09-15T11:13:53.573Z",
  "attribution": {
   "name": "OpenRouter",
   "url": "https://openrouter.ai/docs/api-reference/list-available-models"
  },
  "data": {
   "servedModels": [
+   {
+    "id": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "provider": "~deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.66,
+    "completionUsdPerMTok": 1.9800000000000002,
+    "modalities": [
+     "text"
+    ],
+    "created": "2026-09-14"
+   },
+   {
+    "id": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "provider": "~deepseek",
+    "contextLength": 1048576,
+    "promptUsdPerMTok": 0.15,
+    "completionUsdPerMTok": 0.6,
+    "modalities": [
+     "text",
+     "image"
+    ],
+    "created": "2026-09-14"
+   },
    {
     "id": "inference-net/schematron-v2-turbo",
     "name": "Inference.net: Schematron V2 Turbo",
@@ -546,8 +571,8 @@
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
     "contextLength": 1310720,
-    "promptUsdPerMTok": 0.9199999999999999,
-    "completionUsdPerMTok": 3.1372,
+    "promptUsdPerMTok": 0.8775,
+    "completionUsdPerMTok": 2.9699999999999998,
     "modalities": [
      "text"
     ],
@@ -705,8 +730,8 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
     "contextLength": 1048576,
-    "promptUsdPerMTok": 0.66,
-    "completionUsdPerMTok": 1.9800000000000002,
+    "promptUsdPerMTok": 0.9833999999999999,
+    "completionUsdPerMTok": 2.9502,
     "modalities": [
      "text"
     ],
@@ -1541,8 +1566,8 @@
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
     "contextLength": 1048576,
-    "promptUsdPerMTok": 0.6832,
-    "completionUsdPerMTok": 2.1471999999999998,
+    "promptUsdPerMTok": 1.4,
+    "completionUsdPerMTok": 4.4,
     "modalities": [
      "text"
     ],
@@ -2178,8 +2203,8 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
     "contextLength": 1048576,
-    "promptUsdPerMTok": 0.08399999999999999,
-    "completionUsdPerMTok": 0.16799999999999998,
+    "promptUsdPerMTok": 0.088606,
+    "completionUsdPerMTok": 0.177212,
     "modalities": [
      "text"
     ],
@@ -2795,8 +2820,8 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "provider": "qwen",
     "contextLength": 262144,
-    "promptUsdPerMTok": 0.3125,
-    "completionUsdPerMTok": 1.25,
+    "promptUsdPerMTok": 0.1625,
+    "completionUsdPerMTok": 1.3,
     "modalities": [
      "text",
      "image",
@@ -4695,22 +4720,6 @@
     "created": "2025-05-07"
    },
    {
-    "id": "google/gemini-2.5-pro-preview-05-06",
-    "name": "Google: Gemini 2.5 Pro Preview 05-06",
-    "provider": "google",
-    "contextLength": 1048576,
-    "promptUsdPerMTok": 1.25,
-    "completionUsdPerMTok": 10,
-    "modalities": [
-     "text",
-     "image",
-     "file",
-     "audio",
-     "video"
-    ],
-    "created": "2025-05-07"
-   },
-   {
     "id": "meta-llama/llama-guard-4-12b",
     "name": "Meta: Llama Guard 4 12B",
     "provider": "meta-llama",
@@ -4942,8 +4951,8 @@
     "name": "Meta: Llama 4 Maverick",
     "provider": "meta-llama",
     "contextLength": 1048576,
-    "promptUsdPerMTok": 0.19999999999999998,
-    "completionUsdPerMTok": 0.696,
+    "promptUsdPerMTok": 0.1875,
+    "completionUsdPerMTok": 0.6525,
     "modalities": [
      "text",
      "image"
@@ -5797,18 +5806,6 @@
     "created": "2024-01-25"
    },
    {
-    "id": "openai/gpt-4-turbo-preview",
-    "name": "OpenAI: GPT-4 Turbo Preview",
-    "provider": "openai",
-    "contextLength": 128000,
-    "promptUsdPerMTok": 10,
-    "completionUsdPerMTok": 30,
-    "modalities": [
-     "text"
-    ],
-    "created": "2024-01-25"
-   },
-   {
     "id": "openrouter/auto",
     "name": "Auto Router",
     "provider": "openrouter",
@@ -5930,17 +5927,17 @@
   "byProvider": [
    {
     "provider": "openai",
-    "count": 93,
+    "count": 92,
     "medianPromptUsdPerMTok": 1.25
    },
    {
     "provider": "qwen",
     "count": 53,
-    "medianPromptUsdPerMTok": 0.21
+    "medianPromptUsdPerMTok": 0.19999999999999998
    },
    {
     "provider": "google",
-    "count": 43,
+    "count": 42,
     "medianPromptUsdPerMTok": 0.375
    },
    {
@@ -6059,6 +6056,11 @@
     "medianPromptUsdPerMTok": 3.5
    },
    {
+    "provider": "~deepseek",
+    "count": 3,
+    "medianPromptUsdPerMTok": 0.15
+   },
+   {
     "provider": "thedrummer",
     "count": 3,
     "medianPromptUsdPerMTok": 0.39999999999999997
@@ -6096,7 +6098,7 @@
    {
     "provider": "~z-ai",
     "count": 2,
-    "medianPromptUsdPerMTok": 0.49749999999999994
+    "medianPromptUsdPerMTok": 0.47624999999999995
    },
    {
     "provider": "upstage",
@@ -6152,11 +6154,6 @@
     "provider": "liquid",
     "count": 1,
     "medianPromptUsdPerMTok": null
-   },
-   {
-    "provider": "~deepseek",
-    "count": 1,
-    "medianPromptUsdPerMTok": 0.04
    },
    {
     "provider": "meituan",
@@ -6235,7 +6232,7 @@
    },
    {
     "bucket": "128K–256K",
-    "count": 122
+    "count": 121
    },
    {
     "bucket": "256K–1M",
@@ -6243,7 +6240,7 @@
    },
    {
     "bucket": "≥1M",
-    "count": 160
+    "count": 161
    }
   ]
  }
